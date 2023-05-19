@@ -60,8 +60,8 @@ def test_prompt(model, tokenizer, prompt, max_tokens=50, min_tokens=3):
     return decoded_output
 
 
-def test_model_scan(model, data_path, output_path, cot=False, demonstrations=False, n=4,
-                    demo_cat=False, cot_sentence="Let's think step by step. \n", min=3, max=50):
+def test_model_rev(model, data_path, output_path, cot=False, demonstrations=False, n=4,
+                    demo_cat=False, cot_sentence="Let's think step by step. \n", min=3, max=50, alt=True):
 
     # Dictionary in which to store results
     result_dictionary = dict()
@@ -106,29 +106,102 @@ def test_model_scan(model, data_path, output_path, cot=False, demonstrations=Fal
         prompt1_dict["prompt"] = prompt1
         prompt2_dict["prompt"] = prompt2
 
-        correct1 = [src_word]
-
-        if type(row["alternatives"]) == str:
-            correct1 += row["alternatives"].split(", ")
-
-        prompt1_dict["label"] = correct1
-        prompt2_dict["label"] = targ_word
-
         output1 = test_prompt(model, tokenizer, prompt1, max, min)
         output2 = test_prompt(model, tokenizer, prompt2, max, min)
 
         prompt1_dict["output"] = output1
         prompt2_dict["output"] = output2
 
-        for word in correct1:
-            if word in output1.split("like ")[2 * (n+1)].split(".")[0]:
-                prompt1_dict["pred"] = True
-                break
-            prompt1_dict["pred"] = False
+        if alt:
+            correct1 = [src_word]
+            if type(row["alternatives"]) == str:
+                correct1 += row["alternatives"].split(", ")
 
+            prompt1_dict["label"] = correct1
+
+            for word in correct1:
+                if word in output1.split("like ")[2 * (n+1)].split(".")[0]:
+                    prompt1_dict["pred"] = True
+                    break
+                prompt1_dict["pred"] = False
+        else:
+            prompt1_dict["label"] = src_word
+            prompt1_dict["pred"] = True if src_word in output2.split("like ")[2 * (n + 1)].split(".")[0] else False
+
+        prompt2_dict["label"] = targ_word
         prompt2_dict["pred"] = True if targ_word in output2.split("like ")[2 * (n + 1)].split(".")[0] else False
 
         index_dict = {"normal":prompt1_dict, "reversed":prompt2_dict}
+
+        result_dictionary[index] = index_dict
+
+    with open(output_path, "wb") as f:
+        pickle.dump(result_dictionary, f, protocol=pickle.HIGHEST_PROTOCOL)
+
+    print(f"SAVED RESULTS AT: {output_path}")
+
+    return
+
+def test_model(model, data_path, output_path, cot=False, demonstrations=False, n=4,
+                    demo_cat=False, cot_sentence="Let's think step by step. \n", min=3, max=50, alt=True):
+
+    # Dictionary in which to store results
+    result_dictionary = dict()
+
+    model, tokenizer = load_model(model)
+
+    df = pd.read_csv(data_path)
+
+    for index, row in tqdm.tqdm(df.iterrows()):
+
+        analogy_type = index["analogy_type"]
+
+        index_dict = {"category":analogy_type}
+
+        target = row["target"]
+        source = row["source"]
+        targ_word = row["targ_word"]
+        src_word = row["src_word"]
+
+        prompt1 = f"If {target} is like {source}, then {targ_word} is like"
+        if cot:
+            prompt = cot_sentence + prompt
+            n = 0
+
+        elif demonstrations:
+            if demo_cat:
+                demo_df = df[df["analogy_type"] == analogy_type][~df.index.isin([index])].sample(n=n)
+            else:
+                demo_df = df[~df.index.isin([index])].sample(n=n)
+
+            for _, demo_row in demo_df.iterrows():
+                demo_first = f"If {demo_row['target']} is like {demo_row['source']} , "
+                demo_second = f"then {demo_row['targ_word']} is like {demo_row['src_word']} . \n"
+                prompt = demo_first + demo_second + prompt
+        else:
+            n = 0
+
+        index_dict["prompt"] = prompt
+
+        output = test_prompt(model, tokenizer, prompt, max, min)
+
+        index_dict["output"] = output
+
+        if alt:
+            correct = [src_word]
+            if type(row["alternatives"]) == str:
+                correct += row["alternatives"].split(", ")
+
+            index_dict["label"] = correct
+
+            for word in correct:
+                if word in output.split("like ")[2 * (n+1)].split(".")[0]:
+                    index_dict["pred"] = True
+                    break
+                index_dict["pred"] = False
+        else:
+            index_dict["label"] = src_word
+            index_dict["pred"] = True if src_word in output.split("like ")[2 * (n + 1)].split(".")[0] else False
 
         result_dictionary[index] = index_dict
 
@@ -159,9 +232,18 @@ if __name__ == "__main__":
                            type=int, default=3)
     argParser.add_argument("-max", help="Maximum number of new tokens to generate",
                            type=int, default=50)
+    argParser.add_argument("-alt", help="use the alternatives or not", action="store_true")
+    argParser.add_argument("-rev", help="Use function to analyse difference on reversed prompts on SCAN",
+                           action="store_true")
 
     args = argParser.parse_args()
 
-    if "/SCAN/" in args.dataset:
-        test_model_scan(args.model, args.dataset, args.output, cot=args.c, demonstrations=args.d,
-                        n=args.n, demo_cat=args.cat, cot_sentence=args.cot_sent, min=args.min, max=args.max)
+    if args.rev:
+        test_model_rev(args.model, args.dataset, args.output, cot=args.c, demonstrations=args.d,
+                       n=args.n, demo_cat=args.cat, cot_sentence=args.cot_sent,
+                       min=args.min, max=args.max, alt=args.alt)
+
+    else:
+        test_model(args.model, args.dataset, args.output, cot=args.c, demonstrations=args.d,
+                   n=args.n, demo_cat=args.cat, cot_sentence=args.cot_sent,
+                   min=args.min, max=args.max, alt=args.alt)
