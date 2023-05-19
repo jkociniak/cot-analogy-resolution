@@ -1,0 +1,452 @@
+,target,source,targ_word,src_word,alternatives,analogy_type
+0,atom,solar system,nucleus,sun,,science
+1,atom,solar system,electron,planet,,science
+2,atom,solar system,charge,mass,,science
+3,atom,solar system,attracts,attracts,,science
+4,atom,solar system,revolves,revolves,,science
+5,atom,solar system,electromagnetism,gravity,,science
+6,heat transfer,water flow,transfers,flows,,science
+7,heat transfer,water flow,temperature,pressure,,science
+8,heat transfer,water flow,burner,water tower,,science
+9,heat transfer,water flow,kettle,bucket,,science
+10,heat transfer,water flow,heating,filling,,science
+11,heat transfer,water flow,cooling,emptying,,science
+12,heat transfer,water flow,thermodynamics,hydrodynamics,,science
+13,sounds,waves,wall,shore,,science
+14,sounds,waves,echoes,reflects,,science
+15,sounds,waves,air,water,,science
+16,sounds,waves,insulation,breakwater,,science
+17,sounds,waves,loud,rough,,science
+18,sounds,waves,quiet,calm,,science
+19,sounds,waves,vibrating,crashing,,science
+20,respiration,combustion,animal,fire,,science
+21,respiration,combustion,food,fuel,,science
+22,respiration,combustion,breathing,burning,,science
+23,respiration,combustion,living,hot,,science
+24,respiration,combustion,vigorous,intense,,science
+25,respiration,combustion,oxygen,oxygen,,science
+26,respiration,combustion,carbon dioxide,carbon dioxide,,science
+27,light,sound,red,low,,science
+28,light,sound,violet,high,,science
+29,light,sound,reflects,echoes,,science
+30,light,sound,bright,loud,,science
+31,light,sound,dim,quiet,,science
+32,light,sound,lens,horn,,science
+33,planet,projectile,orbit,trajectory,,science
+34,planet,projectile,sun,earth,,science
+35,planet,projectile,elliptical,parabolic,,science
+36,planet,projectile,space,air,,science
+37,planet,projectile,gravity,gravity,,science
+38,planet,projectile,attracts,attracts,,science
+39,natural selection,artificial selection,species,breeds,,science
+40,natural selection,artificial selection,competition,selection,,science
+41,natural selection,artificial selection,adaptation,conformance,,science
+42,natural selection,artificial selection,natural,artificial,,science
+43,natural selection,artificial selection,fitness,popularity,,science
+44,natural selection,artificial selection,mating,breeding,,science
+45,natural selection,artificial selection,wild,domesticated,,science
+46,gas molecules,billiard balls,molecules,balls,,science
+47,gas molecules,billiard balls,gas,billiards,,science
+48,gas molecules,billiard balls,temperature,speed,,science
+49,gas molecules,billiard balls,container,table,,science
+50,gas molecules,billiard balls,pressing,bouncing,,science
+51,gas molecules,billiard balls,moving,moving,,science
+52,gas molecules,billiard balls,cold,slow,,science
+53,gas molecules,billiard balls,hot,fast,,science
+54,mind,computer,thinking,processing,,science
+55,mind,computer,forgetting,erasing,,science
+56,mind,computer,memorize,write,,science
+57,mind,computer,remember,read,,science
+58,mind,computer,memory,memory,,science
+59,mind,computer,muscles,outputs,,science
+60,mind,computer,senses,inputs,,science
+61,mind,computer,mistake,bug,,science
+62,bacterial mutation,slot machine,bacteria,slot machines,,science
+63,bacterial mutation,slot machine,genes,reels,,science
+64,bacterial mutation,slot machine,mutating,spinning,,science
+65,bacterial mutation,slot machine,reproducing,winning,,science
+66,bacterial mutation,slot machine,dying,losing,,science
+67,argument,war,debater,soldier,,metaphor
+68,argument,war,refute,destroy,,metaphor
+69,argument,war,arguing,fighting,,metaphor
+70,argument,war,acceptance,defeat,,metaphor
+71,argument,war,criticizes,attacks,,metaphor
+72,argument,war,logic,weapon,,metaphor
+73,accepting a belief,buying an item,believer,buyer,,metaphor
+74,accepting a belief,buying an item,belief,merchandise,,metaphor
+75,accepting a belief,buying an item,accepting,buying,,metaphor
+76,accepting a belief,buying an item,advocating,selling,,metaphor
+77,accepting a belief,buying an item,rejecting,returning,,metaphor
+78,accepting a belief,buying an item,true,valuable,,metaphor
+79,accepting a belief,buying an item,false,worthless,,metaphor
+80,reasons for a theory,grounds for a building,reasons,foundations,,metaphor
+81,reasons for a theory,grounds for a building,theories,buildings,,metaphor
+82,reasons for a theory,grounds for a building,confirming,supporting,,metaphor
+83,reasons for a theory,grounds for a building,rational,solid,,metaphor
+84,reasons for a theory,grounds for a building,dubious,weak,,metaphor
+85,reasons for a theory,grounds for a building,flaw,crack,,metaphor
+86,difficulties,impediments to travel,difficulties,obstructions,,metaphor
+87,difficulties,impediments to travel,goal,destination,,metaphor
+88,difficulties,impediments to travel,plan,route,,metaphor
+89,difficulties,impediments to travel,person,traveller,,metaphor
+90,difficulties,impediments to travel,problem solving,travelling,,metaphor
+91,difficulties,impediments to travel,partner,companion,,metaphor
+92,difficulties,impediments to travel,succeeding,arriving,,metaphor
+93,time,money,invest,allocate,,metaphor
+94,time,money,schedule,budget,,metaphor
+95,time,money,efficient,effective,,metaphor
+96,time,money,quick,cheap,,metaphor
+97,time,money,slow,expensive,,metaphor
+98,ideas,seeds,inspired,planted,,metaphor
+99,ideas,seeds,productive,fruitful,,metaphor
+100,ideas,seeds,product,fruit,,metaphor
+101,ideas,seeds,develop,grow,,metaphor
+102,ideas,seeds,fail,wither,,metaphor
+103,ideas,seeds,succeed,blossom,,metaphor
+104,mind,machine,thinking,working,,metaphor
+105,mind,machine,awake,turned on,,metaphor
+106,mind,machine,asleep,turned off,,metaphor
+107,mind,machine,confused,broken,,metaphor
+108,mind,machine,intelligence,power,,metaphor
+109,mind,machine,therapy,repair,,metaphor
+110,idea,object,understand,hold,,metaphor
+111,idea,object,analyze,weigh,,metaphor
+112,idea,object,important,heavy,,metaphor
+113,idea,object,trivial,light,,metaphor
+114,understanding,following,understand,follow,,metaphor
+115,understanding,following,speaker,leader,,metaphor
+116,understanding,following,argument,path,,metaphor
+117,understanding,following,listener,follower,,metaphor
+118,understanding,following,misunderstood,lost,,metaphor
+119,understanding,following,digresses,wanders,,metaphor
+120,understanding,following,complicated,twisted,,metaphor
+121,understanding,following,simple,straight,,metaphor
+122,understanding,seeing,knowledge,light,,metaphor
+123,understanding,seeing,explaining,illuminating,,metaphor
+124,understanding,seeing,confusion,darkness,,metaphor
+125,understanding,seeing,interpretation,view,,metaphor
+126,understanding,seeing,secret,hidden,,metaphor
+127,life,theatre,world,stage,,metaphor
+128,life,theatre,people,actors,,metaphor
+129,life,theatre,person,actor,,metaphor
+130,life,theatre,history,script,,metaphor
+131,life,theatre,event,act,,metaphor
+132,life,theatre,age,act,,metaphor
+133,life,theatre,fate,role,script,metaphor
+134,life,theatre,surroundings,decoration,,metaphor
+135,life,theatre,society,stage,,metaphor
+136,innovation,bloom,funding,water,fertiliser,metaphor
+137,innovation,bloom,research,stem,,metaphor
+138,innovation,bloom,laboratory,soil,,metaphor
+139,innovation,bloom,experiment,planting,,metaphor
+140,innovation,bloom,idea,blossom,flower,metaphor
+141,innovation,bloom,conference,greenhouse,,metaphor
+142,innovation,bloom,collaboration,symbiosis,,metaphor
+143,innovation,blossom,funding,water,fertiliser,metaphor
+144,innovation,blossom,research,stem,,metaphor
+145,innovation,blossom,laboratory,soil,,metaphor
+146,innovation,blossom,experiment,planting,,metaphor
+147,innovation,blossom,idea,blossom,flower,metaphor
+148,innovation,blossom,conference,greenhouse,,metaphor
+149,innovation,blossom,collaboration,symbiosis,,metaphor
+150,innovation,flower,funding,water,fertiliser,metaphor
+151,innovation,flower,research,stem,,metaphor
+152,innovation,flower,laboratory,soil,,metaphor
+153,innovation,flower,experiment,planting,,metaphor
+154,innovation,flower,idea,blossom,flower,metaphor
+155,innovation,flower,conference,greenhouse,,metaphor
+156,innovation,flower,collaboration,symbiosis,,metaphor
+157,career,mountain,success,ascent,,metaphor
+158,career,mountain,failure,descent,"fall, abyss",metaphor
+159,career,mountain,work,climb,,metaphor
+160,career,mountain,job,lift,,metaphor
+161,career,mountain,boss,guide,instructor,metaphor
+162,career,mountain,worker,climber,,metaphor
+163,career,hill,success,ascent,,metaphor
+164,career,hill,failure,descent,"fall, abyss",metaphor
+165,career,hill,work,climb,,metaphor
+166,career,hill,job,lift,,metaphor
+167,career,hill,boss,guide,instructor,metaphor
+168,career,hill,worker,climber,,metaphor
+169,career,slope,success,ascent,,metaphor
+170,career,slope,failure,descent,fall,metaphor
+171,career,slope,work,climb,,metaphor
+172,career,slope,worker,climber,,metaphor
+173,society,organism,person,cell,,metaphor
+174,society,organism,citizen,cell,,metaphor
+175,society,organism,organisation,organ,,metaphor
+176,society,organism,people,tissue,,metaphor
+177,society,organism,communication,vein,,metaphor
+178,government,household,parliament,house,,metaphor
+179,government,household,president,father,,metaphor
+180,government,household,politician,servant,,metaphor
+181,government,household,governor,father,,metaphor
+182,government,household,mayor,father,,metaphor
+183,government,household,secretary,housekeeper,,metaphor
+184,poverty,disease,politician,doctor,,metaphor
+185,poverty,disease,benefactor,doctor,,metaphor
+186,poverty,disease,citizen,patient,,metaphor
+187,poverty,disease,state,hospital,,metaphor
+188,poverty,disease,subsidy,medicine,,metaphor
+189,poverty,disease,payment,medicine,,metaphor
+190,poverty,disease,money,cure,,metaphor
+191,education,journey,exam,stop,,metaphor
+192,education,journey,class,station,trip,metaphor
+193,education,journey,lecture,vehicle,,metaphor
+194,education,journey,reading,vehicle,,metaphor
+195,education,journey,textbook,vehicle,,metaphor
+196,education,journey,book,vehicle,,metaphor
+197,education,journey,knowledge,landscape,destination,metaphor
+198,education,journey,skill,destination,,metaphor
+199,education,journey,student,traveller,passenger,metaphor
+200,education,journey,teacher,guide,driver,metaphor
+201,education,journey,professor,driver,,metaphor
+202,education,journey,scholarship,fuel,,metaphor
+203,education,journey,examiner,conductor,,metaphor
+204,idea,food,understanding,eating,"consumption, digestion",metaphor
+205,idea,food,comprehension,digestion,ingestion,metaphor
+206,idea,food,teaching,feeding,,metaphor
+207,idea,food,persuading,feeding,,metaphor
+208,idea,food,theory,food,,metaphor
+209,idea,food,creativity,cooking,,metaphor
+210,theory,building,conjecture,construction,,metaphor
+211,theory,building,idea,construction,"pillar, foundation",metaphor
+212,theory,building,data,foundation,,metaphor
+213,theory,building,evidence,foundation,support,metaphor
+214,theory,building,relation,cement,,metaphor
+215,theory,building,concept,block,,metaphor
+216,family,building,love,foundation,"pillar, cement",metaphor
+217,family,building,understanding,cement,,metaphor
+218,debate,battle,opponent,soldier,"fighter, enemy",metaphor
+219,debate,battle,opinion,ground,,metaphor
+220,debate,battle,stance,ground,,metaphor
+221,debate,battle,argument,weapon,,metaphor
+222,debate,battle,knowledge,weapon,,metaphor
+223,debate,battle,intellect,weapon,,metaphor
+224,debate,battle,topic,battlefield,,metaphor
+225,debate,battle,issue,battlefield,,metaphor
+226,debate,battle,convincing,victorious,,metaphor
+227,debate,battle,argumentation,tactic,,metaphor
+228,money,weapon,person,fighter,,metaphor
+229,money,weapon,businessman,fighter,,metaphor
+230,money,weapon,trade,war,,metaphor
+231,money,weapon,business,war,,metaphor
+232,skill,possession,person,owner,,metaphor
+233,skill,possession,learning,acquisition,,metaphor
+234,skill,possession,education,acquisition,,metaphor
+235,skill,possession,practice,acquisition,,metaphor
+236,competition,race,competitor,racer,,metaphor
+237,competition,race,business,racer,,metaphor
+238,competition,race,market,track,,metaphor
+239,competition,race,success,speed,finish,metaphor
+240,competition,race,failure,setback,lag,metaphor
+241,sport,war,team,army,,metaphor
+242,sport,war,coach,general,,metaphor
+243,sport,war,match,battle,,metaphor
+244,sport,war,game,battle,,metaphor
+245,sport,war,race,battle,,metaphor
+246,sport,war,sportsman,soldier,,metaphor
+247,sport,war,footballer,soldier,,metaphor
+248,sport,war,player,soldier,,metaphor
+249,sport,war,field,frontline,,metaphor
+250,sport,war,ball,weapon,,metaphor
+251,money,liquid,investing,pouring,,metaphor
+252,money,liquid,transfer,flow,,metaphor
+253,money,liquid,income,flux,"influx, inflow",metaphor
+254,money,liquid,profit,flux,"influx, inflow",metaphor
+255,money,liquid,loss,outflow,,metaphor
+256,money,liquid,spending,outflow,,metaphor
+257,money,liquid,bank,container,,metaphor
+258,money,liquid,account,container,container,metaphor
+259,money,liquid,wealth,sea,,metaphor
+260,money,liquid,salary,source,,metaphor
+261,money,liquid,capital,pool,,metaphor
+262,knowledge,liquid,mind,container,,metaphor
+263,knowledge,liquid,memory,container,"glass, cup",metaphor
+264,knowledge,liquid,conversation,river,,metaphor
+265,knowledge,liquid,forgetting,emptiness,desert,metaphor
+266,knowledge,liquid,repository,pool,,metaphor
+267,knowledge,liquid,book,pool,,metaphor
+268,research,hunt,idea,prey,animal,metaphor
+269,research,hunt,information,prey,animal,metaphor
+270,research,hunt,find,slay,,metaphor
+271,research,hunt,laboratory,field,,metaphor
+272,research,hunt,researcher,hunter,,metaphor
+273,research,hunt,instrument,weapon,,metaphor
+274,business,hunt,client,prey,,metaphor
+275,business,hunt,money,prey,,metaphor
+276,business,hunt,profit,prey,,metaphor
+277,business,hunt,market,field,,metaphor
+278,business,hunt,businessman,hunter,,metaphor
+279,business,hunt,product,weapon,,metaphor
+280,marriage,boat,spouse,passenger,"sailor, captain",metaphor
+281,marriage,boat,divorce,shipwreck,,metaphor
+282,marriage,boat,quarrel,storm,,metaphor
+283,marriage,boat,anger,storm,,metaphor
+284,marriage,boat,happiness,sail,wind,metaphor
+285,marriage,boat,love,sail,wind,metaphor
+286,marriage,boat,affair,rock,,metaphor
+287,marriage,boat,problem,rock,,metaphor
+288,marriage,boat,home,anchor,"dock, harbor",metaphor
+289,argument,war,topic,battleground,,metaphor
+290,argument,war,debater,combatant,warrior,metaphor
+291,argument,war,claim,position,,metaphor
+292,argument,war,criticize,attack,,metaphor
+293,argument,war,rhetoric,maneuver,,metaphor
+294,argument,war,retraction,retreat,,metaphor
+295,argument,war,loss,surrender,,metaphor
+296,argument,war,win,victory,,metaphor
+297,nation,ship,nation,ship,,metaphor
+298,nation,ship,president,captain,,metaphor
+299,nation,ship,congress,crew,,metaphor
+300,nation,ship,citizen,passenger,,metaphor
+301,nation,ship,problem,storm,,metaphor
+302,nation,ship,outlook,forecast,,metaphor
+303,nation,family,law,father,rule,metaphor
+304,nation,family,public ,children,,metaphor
+305,nation,family,crime,disobedience,,metaphor
+306,nation,family,imprisonment,punishment,,metaphor
+307,nation,family,aid,nurture,,metaphor
+308,faith,husbandry,pope,herder,,metaphor
+309,faith,husbandry,follower,sheep,,metaphor
+310,faith,husbandry,omniscience,mastery,,metaphor
+311,faith,husbandry,atonement,slaughter,,metaphor
+312,faith,husbandry,congregation,herd,,metaphor
+313,crime,beast,criminal,beast,,metaphor
+314,crime,beast,victim,prey,,metaphor
+315,crime,beast,arrest,capture,,metaphor
+316,crime,beast,jail,cage,,metaphor
+317,crime,beast,investigation,hunt,,metaphor
+318,crime,beast,execution,killing,,metaphor
+319,crime,virus,spree,outbreak,infection,metaphor
+320,crime,virus,spread,epidemic,,metaphor
+321,crime,virus,information,inoculation,,metaphor
+322,crime,virus,education,prevention,,metaphor
+323,crime,virus,poverty,precursor,,metaphor
+324,illness,battle,patient,warrior,,metaphor
+325,illness,battle,disease,enemy,,metaphor
+326,illness,battle,medicine,weapon,,metaphor
+327,illness,battle,health,victory,,metaphor
+328,illness,battle,death,surrender,,metaphor
+329,illness,journey,patient,traveler,,metaphor
+330,illness,journey,virus,vehicle,,metaphor
+331,illness,journey,disease,vehicle,,metaphor
+332,illness,journey,diagnosis,station,,metaphor
+333,illness,journey,remission,station,stop,metaphor
+334,illness,journey,course,path,,metaphor
+335,illness,journey,stage,milestone,,metaphor
+336,illness,journey,death,destination,,metaphor
+337,illness,journey,health,destination,,metaphor
+338,illness,journey,infection,fuel,,metaphor
+339,theory,building,axiom,foundation,,metaphor
+340,theory,building,proposition,framework,,metaphor
+341,theory,building,logic,framework,buttress,metaphor
+342,theory,building,scientist,architect,,metaphor
+343,love,journey,lover,traveler,,metaphor
+344,love,journey,relationship,road,vehicle,metaphor
+345,love,journey,happiness,destination,,metaphor
+346,love,journey,separation,destination,station,metaphor
+347,love,journey,improvement,progress,,metaphor
+348,love,journey,stage,milestone,,metaphor
+349,love,journey,difficulty,obstacle,,metaphor
+350,mind,computer,brain,hardware,,science
+351,mind,computer,neuron,hardware,wire,science
+352,mind,computer,function,software,,science
+353,mind,computer,consciousness,CPU,,science
+354,mind,computer,memory,RAM,,science
+355,mind,computer,input,data,,science
+356,idea,food,curiosity,appetite,hunger,metaphor
+357,idea,food,interestingness,flavor,,metaphor
+358,idea,food,thinking,cooking,,metaphor
+359,idea,food,originality,freshness,,metaphor
+360,idea,food,irrelevance,staleness,,metaphor
+361,idea,food,provocation,seasoning,,metaphor
+362,idea,food,learning,nutrition,,metaphor
+363,ambition,hunger,recognition,food,nourishment,metaphor
+364,ambition,hunger,nourishment,food,,metaphor
+365,ambition,hunger,achievement,satiation,,metaphor
+366,ambition,hunger,complacency,satiation,,metaphor
+367,ambition,hunger,competition,scarcity,,metaphor
+368,ambition,hunger,failure,starvation,,metaphor
+369,politics,courtship,incumbent,suitor,,metaphor
+370,politics,courtship,politician,suitor,,metaphor
+371,politics,courtship,public,woman,,metaphor
+372,politics,courtship,challenger,rival,,metaphor
+373,politics,courtship,campaigning,wooing,,metaphor
+374,code,virus,malware,virus,,science
+375,code,virus,replication,reproduction,,science
+376,code,virus,installation,infection,,science
+377,code,virus,removal,eradication,,science
+378,code,virus,antivirus,vaccine,,science
+379,love,commerce,person,buyer,seller,metaphor
+380,love,commerce,attributes,goods,currency,metaphor
+381,love,commerce,commitment,terms,,metaphor
+382,society,train,citizen,passenger,,metaphor
+383,society,train,people,passengers,,metaphor
+384,society,train,law,tracks,,metaphor
+385,society,train,constitution,tracks,,metaphor
+386,society,train,history,route,itinerary,metaphor
+387,society,train,class,coach,car,metaphor
+388,society,train,leader,driver,,metaphor
+389,society,train,passport,ticket,,metaphor
+390,society,train,future,destination,,metaphor
+391,society,train,budget,fuel,,metaphor
+392,career,journey,education,fuel,,metaphor
+393,career,journey,skill,fuel,,metaphor
+394,career,journey,job,transport,station,metaphor
+395,career,journey,experience,baggage,,metaphor
+396,career,journey,colleague,traveller,,metaphor
+397,career,journey,worker,traveller,,metaphor
+398,career,journey,retirement,destination,arrival,metaphor
+399,career,journey,office,car,coach,metaphor
+400,career,journey,boss,guide ,,metaphor
+401,career,journey,funding,ticket,,metaphor
+402,state,family,president,father,,metaphor
+403,state,family,governor,father,,metaphor
+404,state,family,citizen,child,"brother, relative",metaphor
+405,state,family,law,rule,,metaphor
+406,state,family,government,parent,,metaphor
+407,state,family,subsidies,food,nourishment,metaphor
+408,state,family,nation,home,,metaphor
+409,politics,game,politician,player,,metaphor
+410,politics,game,election,bet,betting,metaphor
+411,politics,game,law,rules,,metaphor
+412,politics,game,parliament,playground,,metaphor
+413,politics,game,press,ball,,metaphor
+414,politics,game,citizen,toy,,metaphor
+415,politics,theatre,politician,actor,,metaphor
+416,politics,theatre,campaign,performance,show,metaphor
+417,politics,theatre,parliament,stage,,metaphor
+418,politics,theatre,press,critic,playbill,metaphor
+419,politics,theatre,people,audience,,metaphor
+420,politics,theatre,citizens,audience,,metaphor
+421,politics,machine,politician,politician,"cog, part",metaphor
+422,politics,machine,law,algorithm,"procedure, instruction",metaphor
+423,politics,machine,president,operator,,metaphor
+424,politics,machine,press,oil,fuel,metaphor
+425,politics,machine,campaign,oil,fuel,metaphor
+426,politics,machine,money,oil,fuel,metaphor
+427,politics,machine,crisis,breakdown,,metaphor
+428,politics,machine,corruption,rust,,metaphor
+429,marriage,game,spouse,player,,metaphor
+430,marriage,game,home,playground,,metaphor
+431,marriage,game,argument,match,,metaphor
+432,marriage,game,divorce,defeat,loss,metaphor
+433,business,war,competitor,enemy,,metaphor
+434,business,war,market,battlefield,,metaphor
+435,business,war,money,weapon,,metaphor
+436,business,war,product,weapon,,metaphor
+437,business,war,lawyer,weapon,soldier,metaphor
+438,business,war,employee,soldier,,metaphor
+439,business,war,income,trophy,,metaphor
+440,business,war,profit,trophy,,metaphor
+441,business,war,client,trophy,,metaphor
+442,business,war,ceo,general,,metaphor
+443,business,war,company,army,,metaphor
+444,business,war,workers,army,,metaphor
+445,crime,disease,criminal,virus,"bacteria, parasite, sick",metaphor
+446,crime,disease,trial,assessment,,metaphor
+447,crime,disease,prison,quarantine,,metaphor
+448,crime,disease,sentence,diagnosis,,metaphor
+449,crime,disease,punishment,surgery,"cure, remedy, medicine",metaphor
+450,crime,disease,society,patient,,metaphor

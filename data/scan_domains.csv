@@ -1,0 +1,2973 @@
+,target,source,targ_word,src_word,alternatives,analogy_type
+0,accepting a belief,buying an item,ambition,hunger,,metaphor
+1,accepting a belief,buying an item,argument,war,,metaphor
+2,accepting a belief,buying an item,business,hunt,,metaphor
+3,accepting a belief,buying an item,business,war,,metaphor
+4,accepting a belief,buying an item,career,hill,,metaphor
+5,accepting a belief,buying an item,career,journey,,metaphor
+6,accepting a belief,buying an item,career,mountain,,metaphor
+7,accepting a belief,buying an item,career,slope,,metaphor
+8,accepting a belief,buying an item,competition,race,,metaphor
+9,accepting a belief,buying an item,crime,beast,,metaphor
+10,accepting a belief,buying an item,crime,disease,,metaphor
+11,accepting a belief,buying an item,crime,virus,,metaphor
+12,accepting a belief,buying an item,debate,battle,,metaphor
+13,accepting a belief,buying an item,difficulties,impediments to travel,,metaphor
+14,accepting a belief,buying an item,education,journey,,metaphor
+15,accepting a belief,buying an item,faith,husbandry,,metaphor
+16,accepting a belief,buying an item,family,building,,metaphor
+17,accepting a belief,buying an item,government,household,,metaphor
+18,accepting a belief,buying an item,idea,food,,metaphor
+19,accepting a belief,buying an item,idea,object,,metaphor
+20,accepting a belief,buying an item,ideas,seeds,,metaphor
+21,accepting a belief,buying an item,illness,battle,,metaphor
+22,accepting a belief,buying an item,illness,journey,,metaphor
+23,accepting a belief,buying an item,innovation,bloom,,metaphor
+24,accepting a belief,buying an item,innovation,blossom,,metaphor
+25,accepting a belief,buying an item,innovation,flower,,metaphor
+26,accepting a belief,buying an item,knowledge,liquid,,metaphor
+27,accepting a belief,buying an item,life,theatre,,metaphor
+28,accepting a belief,buying an item,love,commerce,,metaphor
+29,accepting a belief,buying an item,love,journey,,metaphor
+30,accepting a belief,buying an item,marriage,boat,,metaphor
+31,accepting a belief,buying an item,marriage,game,,metaphor
+32,accepting a belief,buying an item,mind,machine,,metaphor
+33,accepting a belief,buying an item,money,liquid,,metaphor
+34,accepting a belief,buying an item,money,weapon,,metaphor
+35,accepting a belief,buying an item,nation,family,,metaphor
+36,accepting a belief,buying an item,nation,ship,,metaphor
+37,accepting a belief,buying an item,politics,courtship,,metaphor
+38,accepting a belief,buying an item,politics,game,,metaphor
+39,accepting a belief,buying an item,politics,machine,,metaphor
+40,accepting a belief,buying an item,politics,theatre,,metaphor
+41,accepting a belief,buying an item,poverty,disease,,metaphor
+42,accepting a belief,buying an item,reasons for a theory,grounds for a building,,metaphor
+43,accepting a belief,buying an item,research,hunt,,metaphor
+44,accepting a belief,buying an item,skill,possession,,metaphor
+45,accepting a belief,buying an item,society,organism,,metaphor
+46,accepting a belief,buying an item,society,train,,metaphor
+47,accepting a belief,buying an item,sport,war,,metaphor
+48,accepting a belief,buying an item,state,family,,metaphor
+49,accepting a belief,buying an item,theory,building,,metaphor
+50,accepting a belief,buying an item,time,money,,metaphor
+51,accepting a belief,buying an item,understanding,following,,metaphor
+52,accepting a belief,buying an item,understanding,seeing,,metaphor
+53,ambition,hunger,accepting a belief,buying an item,,metaphor
+54,ambition,hunger,argument,war,,metaphor
+55,ambition,hunger,business,hunt,,metaphor
+56,ambition,hunger,business,war,,metaphor
+57,ambition,hunger,career,hill,,metaphor
+58,ambition,hunger,career,journey,,metaphor
+59,ambition,hunger,career,mountain,,metaphor
+60,ambition,hunger,career,slope,,metaphor
+61,ambition,hunger,competition,race,,metaphor
+62,ambition,hunger,crime,beast,,metaphor
+63,ambition,hunger,crime,disease,,metaphor
+64,ambition,hunger,crime,virus,,metaphor
+65,ambition,hunger,debate,battle,,metaphor
+66,ambition,hunger,difficulties,impediments to travel,,metaphor
+67,ambition,hunger,education,journey,,metaphor
+68,ambition,hunger,faith,husbandry,,metaphor
+69,ambition,hunger,family,building,,metaphor
+70,ambition,hunger,government,household,,metaphor
+71,ambition,hunger,idea,food,,metaphor
+72,ambition,hunger,idea,object,,metaphor
+73,ambition,hunger,ideas,seeds,,metaphor
+74,ambition,hunger,illness,battle,,metaphor
+75,ambition,hunger,illness,journey,,metaphor
+76,ambition,hunger,innovation,bloom,,metaphor
+77,ambition,hunger,innovation,blossom,,metaphor
+78,ambition,hunger,innovation,flower,,metaphor
+79,ambition,hunger,knowledge,liquid,,metaphor
+80,ambition,hunger,life,theatre,,metaphor
+81,ambition,hunger,love,commerce,,metaphor
+82,ambition,hunger,love,journey,,metaphor
+83,ambition,hunger,marriage,boat,,metaphor
+84,ambition,hunger,marriage,game,,metaphor
+85,ambition,hunger,mind,machine,,metaphor
+86,ambition,hunger,money,liquid,,metaphor
+87,ambition,hunger,money,weapon,,metaphor
+88,ambition,hunger,nation,family,,metaphor
+89,ambition,hunger,nation,ship,,metaphor
+90,ambition,hunger,politics,courtship,,metaphor
+91,ambition,hunger,politics,game,,metaphor
+92,ambition,hunger,politics,machine,,metaphor
+93,ambition,hunger,politics,theatre,,metaphor
+94,ambition,hunger,poverty,disease,,metaphor
+95,ambition,hunger,reasons for a theory,grounds for a building,,metaphor
+96,ambition,hunger,research,hunt,,metaphor
+97,ambition,hunger,skill,possession,,metaphor
+98,ambition,hunger,society,organism,,metaphor
+99,ambition,hunger,society,train,,metaphor
+100,ambition,hunger,sport,war,,metaphor
+101,ambition,hunger,state,family,,metaphor
+102,ambition,hunger,theory,building,,metaphor
+103,ambition,hunger,time,money,,metaphor
+104,ambition,hunger,understanding,following,,metaphor
+105,ambition,hunger,understanding,seeing,,metaphor
+106,argument,war,accepting a belief,buying an item,,metaphor
+107,argument,war,ambition,hunger,,metaphor
+108,argument,war,business,hunt,,metaphor
+109,argument,war,business,war,,metaphor
+110,argument,war,career,hill,,metaphor
+111,argument,war,career,journey,,metaphor
+112,argument,war,career,mountain,,metaphor
+113,argument,war,career,slope,,metaphor
+114,argument,war,competition,race,,metaphor
+115,argument,war,crime,beast,,metaphor
+116,argument,war,crime,disease,,metaphor
+117,argument,war,crime,virus,,metaphor
+118,argument,war,debate,battle,,metaphor
+119,argument,war,difficulties,impediments to travel,,metaphor
+120,argument,war,education,journey,,metaphor
+121,argument,war,faith,husbandry,,metaphor
+122,argument,war,family,building,,metaphor
+123,argument,war,government,household,,metaphor
+124,argument,war,idea,food,,metaphor
+125,argument,war,idea,object,,metaphor
+126,argument,war,ideas,seeds,,metaphor
+127,argument,war,illness,battle,,metaphor
+128,argument,war,illness,journey,,metaphor
+129,argument,war,innovation,bloom,,metaphor
+130,argument,war,innovation,blossom,,metaphor
+131,argument,war,innovation,flower,,metaphor
+132,argument,war,knowledge,liquid,,metaphor
+133,argument,war,life,theatre,,metaphor
+134,argument,war,love,commerce,,metaphor
+135,argument,war,love,journey,,metaphor
+136,argument,war,marriage,boat,,metaphor
+137,argument,war,marriage,game,,metaphor
+138,argument,war,mind,machine,,metaphor
+139,argument,war,money,liquid,,metaphor
+140,argument,war,money,weapon,,metaphor
+141,argument,war,nation,family,,metaphor
+142,argument,war,nation,ship,,metaphor
+143,argument,war,politics,courtship,,metaphor
+144,argument,war,politics,game,,metaphor
+145,argument,war,politics,machine,,metaphor
+146,argument,war,politics,theatre,,metaphor
+147,argument,war,poverty,disease,,metaphor
+148,argument,war,reasons for a theory,grounds for a building,,metaphor
+149,argument,war,research,hunt,,metaphor
+150,argument,war,skill,possession,,metaphor
+151,argument,war,society,organism,,metaphor
+152,argument,war,society,train,,metaphor
+153,argument,war,sport,war,,metaphor
+154,argument,war,state,family,,metaphor
+155,argument,war,theory,building,,metaphor
+156,argument,war,time,money,,metaphor
+157,argument,war,understanding,following,,metaphor
+158,argument,war,understanding,seeing,,metaphor
+159,atom,solar system,bacterial mutation,slot machine,,science
+160,atom,solar system,code,virus,,science
+161,atom,solar system,gas molecules,billiard balls,,science
+162,atom,solar system,heat transfer,water flow,,science
+163,atom,solar system,light,sound,,science
+164,atom,solar system,mind,computer,,science
+165,atom,solar system,natural selection,artificial selection,,science
+166,atom,solar system,planet,projectile,,science
+167,atom,solar system,respiration,combustion,,science
+168,atom,solar system,sounds,waves,,science
+169,bacterial mutation,slot machine,atom,solar system,,science
+170,bacterial mutation,slot machine,code,virus,,science
+171,bacterial mutation,slot machine,gas molecules,billiard balls,,science
+172,bacterial mutation,slot machine,heat transfer,water flow,,science
+173,bacterial mutation,slot machine,light,sound,,science
+174,bacterial mutation,slot machine,mind,computer,,science
+175,bacterial mutation,slot machine,natural selection,artificial selection,,science
+176,bacterial mutation,slot machine,planet,projectile,,science
+177,bacterial mutation,slot machine,respiration,combustion,,science
+178,bacterial mutation,slot machine,sounds,waves,,science
+179,business,hunt,accepting a belief,buying an item,,metaphor
+180,business,hunt,ambition,hunger,,metaphor
+181,business,hunt,argument,war,,metaphor
+182,business,hunt,business,war,,metaphor
+183,business,hunt,career,hill,,metaphor
+184,business,hunt,career,journey,,metaphor
+185,business,hunt,career,mountain,,metaphor
+186,business,hunt,career,slope,,metaphor
+187,business,hunt,competition,race,,metaphor
+188,business,hunt,crime,beast,,metaphor
+189,business,hunt,crime,disease,,metaphor
+190,business,hunt,crime,virus,,metaphor
+191,business,hunt,debate,battle,,metaphor
+192,business,hunt,difficulties,impediments to travel,,metaphor
+193,business,hunt,education,journey,,metaphor
+194,business,hunt,faith,husbandry,,metaphor
+195,business,hunt,family,building,,metaphor
+196,business,hunt,government,household,,metaphor
+197,business,hunt,idea,food,,metaphor
+198,business,hunt,idea,object,,metaphor
+199,business,hunt,ideas,seeds,,metaphor
+200,business,hunt,illness,battle,,metaphor
+201,business,hunt,illness,journey,,metaphor
+202,business,hunt,innovation,bloom,,metaphor
+203,business,hunt,innovation,blossom,,metaphor
+204,business,hunt,innovation,flower,,metaphor
+205,business,hunt,knowledge,liquid,,metaphor
+206,business,hunt,life,theatre,,metaphor
+207,business,hunt,love,commerce,,metaphor
+208,business,hunt,love,journey,,metaphor
+209,business,hunt,marriage,boat,,metaphor
+210,business,hunt,marriage,game,,metaphor
+211,business,hunt,mind,machine,,metaphor
+212,business,hunt,money,liquid,,metaphor
+213,business,hunt,money,weapon,,metaphor
+214,business,hunt,nation,family,,metaphor
+215,business,hunt,nation,ship,,metaphor
+216,business,hunt,politics,courtship,,metaphor
+217,business,hunt,politics,game,,metaphor
+218,business,hunt,politics,machine,,metaphor
+219,business,hunt,politics,theatre,,metaphor
+220,business,hunt,poverty,disease,,metaphor
+221,business,hunt,reasons for a theory,grounds for a building,,metaphor
+222,business,hunt,research,hunt,,metaphor
+223,business,hunt,skill,possession,,metaphor
+224,business,hunt,society,organism,,metaphor
+225,business,hunt,society,train,,metaphor
+226,business,hunt,sport,war,,metaphor
+227,business,hunt,state,family,,metaphor
+228,business,hunt,theory,building,,metaphor
+229,business,hunt,time,money,,metaphor
+230,business,hunt,understanding,following,,metaphor
+231,business,hunt,understanding,seeing,,metaphor
+232,business,war,accepting a belief,buying an item,,metaphor
+233,business,war,ambition,hunger,,metaphor
+234,business,war,argument,war,,metaphor
+235,business,war,business,hunt,,metaphor
+236,business,war,career,hill,,metaphor
+237,business,war,career,journey,,metaphor
+238,business,war,career,mountain,,metaphor
+239,business,war,career,slope,,metaphor
+240,business,war,competition,race,,metaphor
+241,business,war,crime,beast,,metaphor
+242,business,war,crime,disease,,metaphor
+243,business,war,crime,virus,,metaphor
+244,business,war,debate,battle,,metaphor
+245,business,war,difficulties,impediments to travel,,metaphor
+246,business,war,education,journey,,metaphor
+247,business,war,faith,husbandry,,metaphor
+248,business,war,family,building,,metaphor
+249,business,war,government,household,,metaphor
+250,business,war,idea,food,,metaphor
+251,business,war,idea,object,,metaphor
+252,business,war,ideas,seeds,,metaphor
+253,business,war,illness,battle,,metaphor
+254,business,war,illness,journey,,metaphor
+255,business,war,innovation,bloom,,metaphor
+256,business,war,innovation,blossom,,metaphor
+257,business,war,innovation,flower,,metaphor
+258,business,war,knowledge,liquid,,metaphor
+259,business,war,life,theatre,,metaphor
+260,business,war,love,commerce,,metaphor
+261,business,war,love,journey,,metaphor
+262,business,war,marriage,boat,,metaphor
+263,business,war,marriage,game,,metaphor
+264,business,war,mind,machine,,metaphor
+265,business,war,money,liquid,,metaphor
+266,business,war,money,weapon,,metaphor
+267,business,war,nation,family,,metaphor
+268,business,war,nation,ship,,metaphor
+269,business,war,politics,courtship,,metaphor
+270,business,war,politics,game,,metaphor
+271,business,war,politics,machine,,metaphor
+272,business,war,politics,theatre,,metaphor
+273,business,war,poverty,disease,,metaphor
+274,business,war,reasons for a theory,grounds for a building,,metaphor
+275,business,war,research,hunt,,metaphor
+276,business,war,skill,possession,,metaphor
+277,business,war,society,organism,,metaphor
+278,business,war,society,train,,metaphor
+279,business,war,sport,war,,metaphor
+280,business,war,state,family,,metaphor
+281,business,war,theory,building,,metaphor
+282,business,war,time,money,,metaphor
+283,business,war,understanding,following,,metaphor
+284,business,war,understanding,seeing,,metaphor
+285,career,hill,accepting a belief,buying an item,,metaphor
+286,career,hill,ambition,hunger,,metaphor
+287,career,hill,argument,war,,metaphor
+288,career,hill,business,hunt,,metaphor
+289,career,hill,business,war,,metaphor
+290,career,hill,career,journey,,metaphor
+291,career,hill,career,mountain,,metaphor
+292,career,hill,career,slope,,metaphor
+293,career,hill,competition,race,,metaphor
+294,career,hill,crime,beast,,metaphor
+295,career,hill,crime,disease,,metaphor
+296,career,hill,crime,virus,,metaphor
+297,career,hill,debate,battle,,metaphor
+298,career,hill,difficulties,impediments to travel,,metaphor
+299,career,hill,education,journey,,metaphor
+300,career,hill,faith,husbandry,,metaphor
+301,career,hill,family,building,,metaphor
+302,career,hill,government,household,,metaphor
+303,career,hill,idea,food,,metaphor
+304,career,hill,idea,object,,metaphor
+305,career,hill,ideas,seeds,,metaphor
+306,career,hill,illness,battle,,metaphor
+307,career,hill,illness,journey,,metaphor
+308,career,hill,innovation,bloom,,metaphor
+309,career,hill,innovation,blossom,,metaphor
+310,career,hill,innovation,flower,,metaphor
+311,career,hill,knowledge,liquid,,metaphor
+312,career,hill,life,theatre,,metaphor
+313,career,hill,love,commerce,,metaphor
+314,career,hill,love,journey,,metaphor
+315,career,hill,marriage,boat,,metaphor
+316,career,hill,marriage,game,,metaphor
+317,career,hill,mind,machine,,metaphor
+318,career,hill,money,liquid,,metaphor
+319,career,hill,money,weapon,,metaphor
+320,career,hill,nation,family,,metaphor
+321,career,hill,nation,ship,,metaphor
+322,career,hill,politics,courtship,,metaphor
+323,career,hill,politics,game,,metaphor
+324,career,hill,politics,machine,,metaphor
+325,career,hill,politics,theatre,,metaphor
+326,career,hill,poverty,disease,,metaphor
+327,career,hill,reasons for a theory,grounds for a building,,metaphor
+328,career,hill,research,hunt,,metaphor
+329,career,hill,skill,possession,,metaphor
+330,career,hill,society,organism,,metaphor
+331,career,hill,society,train,,metaphor
+332,career,hill,sport,war,,metaphor
+333,career,hill,state,family,,metaphor
+334,career,hill,theory,building,,metaphor
+335,career,hill,time,money,,metaphor
+336,career,hill,understanding,following,,metaphor
+337,career,hill,understanding,seeing,,metaphor
+338,career,journey,accepting a belief,buying an item,,metaphor
+339,career,journey,ambition,hunger,,metaphor
+340,career,journey,argument,war,,metaphor
+341,career,journey,business,hunt,,metaphor
+342,career,journey,business,war,,metaphor
+343,career,journey,career,hill,,metaphor
+344,career,journey,career,mountain,,metaphor
+345,career,journey,career,slope,,metaphor
+346,career,journey,competition,race,,metaphor
+347,career,journey,crime,beast,,metaphor
+348,career,journey,crime,disease,,metaphor
+349,career,journey,crime,virus,,metaphor
+350,career,journey,debate,battle,,metaphor
+351,career,journey,difficulties,impediments to travel,,metaphor
+352,career,journey,education,journey,,metaphor
+353,career,journey,faith,husbandry,,metaphor
+354,career,journey,family,building,,metaphor
+355,career,journey,government,household,,metaphor
+356,career,journey,idea,food,,metaphor
+357,career,journey,idea,object,,metaphor
+358,career,journey,ideas,seeds,,metaphor
+359,career,journey,illness,battle,,metaphor
+360,career,journey,illness,journey,,metaphor
+361,career,journey,innovation,bloom,,metaphor
+362,career,journey,innovation,blossom,,metaphor
+363,career,journey,innovation,flower,,metaphor
+364,career,journey,knowledge,liquid,,metaphor
+365,career,journey,life,theatre,,metaphor
+366,career,journey,love,commerce,,metaphor
+367,career,journey,love,journey,,metaphor
+368,career,journey,marriage,boat,,metaphor
+369,career,journey,marriage,game,,metaphor
+370,career,journey,mind,machine,,metaphor
+371,career,journey,money,liquid,,metaphor
+372,career,journey,money,weapon,,metaphor
+373,career,journey,nation,family,,metaphor
+374,career,journey,nation,ship,,metaphor
+375,career,journey,politics,courtship,,metaphor
+376,career,journey,politics,game,,metaphor
+377,career,journey,politics,machine,,metaphor
+378,career,journey,politics,theatre,,metaphor
+379,career,journey,poverty,disease,,metaphor
+380,career,journey,reasons for a theory,grounds for a building,,metaphor
+381,career,journey,research,hunt,,metaphor
+382,career,journey,skill,possession,,metaphor
+383,career,journey,society,organism,,metaphor
+384,career,journey,society,train,,metaphor
+385,career,journey,sport,war,,metaphor
+386,career,journey,state,family,,metaphor
+387,career,journey,theory,building,,metaphor
+388,career,journey,time,money,,metaphor
+389,career,journey,understanding,following,,metaphor
+390,career,journey,understanding,seeing,,metaphor
+391,career,mountain,accepting a belief,buying an item,,metaphor
+392,career,mountain,ambition,hunger,,metaphor
+393,career,mountain,argument,war,,metaphor
+394,career,mountain,business,hunt,,metaphor
+395,career,mountain,business,war,,metaphor
+396,career,mountain,career,hill,,metaphor
+397,career,mountain,career,journey,,metaphor
+398,career,mountain,career,slope,,metaphor
+399,career,mountain,competition,race,,metaphor
+400,career,mountain,crime,beast,,metaphor
+401,career,mountain,crime,disease,,metaphor
+402,career,mountain,crime,virus,,metaphor
+403,career,mountain,debate,battle,,metaphor
+404,career,mountain,difficulties,impediments to travel,,metaphor
+405,career,mountain,education,journey,,metaphor
+406,career,mountain,faith,husbandry,,metaphor
+407,career,mountain,family,building,,metaphor
+408,career,mountain,government,household,,metaphor
+409,career,mountain,idea,food,,metaphor
+410,career,mountain,idea,object,,metaphor
+411,career,mountain,ideas,seeds,,metaphor
+412,career,mountain,illness,battle,,metaphor
+413,career,mountain,illness,journey,,metaphor
+414,career,mountain,innovation,bloom,,metaphor
+415,career,mountain,innovation,blossom,,metaphor
+416,career,mountain,innovation,flower,,metaphor
+417,career,mountain,knowledge,liquid,,metaphor
+418,career,mountain,life,theatre,,metaphor
+419,career,mountain,love,commerce,,metaphor
+420,career,mountain,love,journey,,metaphor
+421,career,mountain,marriage,boat,,metaphor
+422,career,mountain,marriage,game,,metaphor
+423,career,mountain,mind,machine,,metaphor
+424,career,mountain,money,liquid,,metaphor
+425,career,mountain,money,weapon,,metaphor
+426,career,mountain,nation,family,,metaphor
+427,career,mountain,nation,ship,,metaphor
+428,career,mountain,politics,courtship,,metaphor
+429,career,mountain,politics,game,,metaphor
+430,career,mountain,politics,machine,,metaphor
+431,career,mountain,politics,theatre,,metaphor
+432,career,mountain,poverty,disease,,metaphor
+433,career,mountain,reasons for a theory,grounds for a building,,metaphor
+434,career,mountain,research,hunt,,metaphor
+435,career,mountain,skill,possession,,metaphor
+436,career,mountain,society,organism,,metaphor
+437,career,mountain,society,train,,metaphor
+438,career,mountain,sport,war,,metaphor
+439,career,mountain,state,family,,metaphor
+440,career,mountain,theory,building,,metaphor
+441,career,mountain,time,money,,metaphor
+442,career,mountain,understanding,following,,metaphor
+443,career,mountain,understanding,seeing,,metaphor
+444,career,slope,accepting a belief,buying an item,,metaphor
+445,career,slope,ambition,hunger,,metaphor
+446,career,slope,argument,war,,metaphor
+447,career,slope,business,hunt,,metaphor
+448,career,slope,business,war,,metaphor
+449,career,slope,career,hill,,metaphor
+450,career,slope,career,journey,,metaphor
+451,career,slope,career,mountain,,metaphor
+452,career,slope,competition,race,,metaphor
+453,career,slope,crime,beast,,metaphor
+454,career,slope,crime,disease,,metaphor
+455,career,slope,crime,virus,,metaphor
+456,career,slope,debate,battle,,metaphor
+457,career,slope,difficulties,impediments to travel,,metaphor
+458,career,slope,education,journey,,metaphor
+459,career,slope,faith,husbandry,,metaphor
+460,career,slope,family,building,,metaphor
+461,career,slope,government,household,,metaphor
+462,career,slope,idea,food,,metaphor
+463,career,slope,idea,object,,metaphor
+464,career,slope,ideas,seeds,,metaphor
+465,career,slope,illness,battle,,metaphor
+466,career,slope,illness,journey,,metaphor
+467,career,slope,innovation,bloom,,metaphor
+468,career,slope,innovation,blossom,,metaphor
+469,career,slope,innovation,flower,,metaphor
+470,career,slope,knowledge,liquid,,metaphor
+471,career,slope,life,theatre,,metaphor
+472,career,slope,love,commerce,,metaphor
+473,career,slope,love,journey,,metaphor
+474,career,slope,marriage,boat,,metaphor
+475,career,slope,marriage,game,,metaphor
+476,career,slope,mind,machine,,metaphor
+477,career,slope,money,liquid,,metaphor
+478,career,slope,money,weapon,,metaphor
+479,career,slope,nation,family,,metaphor
+480,career,slope,nation,ship,,metaphor
+481,career,slope,politics,courtship,,metaphor
+482,career,slope,politics,game,,metaphor
+483,career,slope,politics,machine,,metaphor
+484,career,slope,politics,theatre,,metaphor
+485,career,slope,poverty,disease,,metaphor
+486,career,slope,reasons for a theory,grounds for a building,,metaphor
+487,career,slope,research,hunt,,metaphor
+488,career,slope,skill,possession,,metaphor
+489,career,slope,society,organism,,metaphor
+490,career,slope,society,train,,metaphor
+491,career,slope,sport,war,,metaphor
+492,career,slope,state,family,,metaphor
+493,career,slope,theory,building,,metaphor
+494,career,slope,time,money,,metaphor
+495,career,slope,understanding,following,,metaphor
+496,career,slope,understanding,seeing,,metaphor
+497,code,virus,atom,solar system,,science
+498,code,virus,bacterial mutation,slot machine,,science
+499,code,virus,gas molecules,billiard balls,,science
+500,code,virus,heat transfer,water flow,,science
+501,code,virus,light,sound,,science
+502,code,virus,mind,computer,,science
+503,code,virus,natural selection,artificial selection,,science
+504,code,virus,planet,projectile,,science
+505,code,virus,respiration,combustion,,science
+506,code,virus,sounds,waves,,science
+507,competition,race,accepting a belief,buying an item,,metaphor
+508,competition,race,ambition,hunger,,metaphor
+509,competition,race,argument,war,,metaphor
+510,competition,race,business,hunt,,metaphor
+511,competition,race,business,war,,metaphor
+512,competition,race,career,hill,,metaphor
+513,competition,race,career,journey,,metaphor
+514,competition,race,career,mountain,,metaphor
+515,competition,race,career,slope,,metaphor
+516,competition,race,crime,beast,,metaphor
+517,competition,race,crime,disease,,metaphor
+518,competition,race,crime,virus,,metaphor
+519,competition,race,debate,battle,,metaphor
+520,competition,race,difficulties,impediments to travel,,metaphor
+521,competition,race,education,journey,,metaphor
+522,competition,race,faith,husbandry,,metaphor
+523,competition,race,family,building,,metaphor
+524,competition,race,government,household,,metaphor
+525,competition,race,idea,food,,metaphor
+526,competition,race,idea,object,,metaphor
+527,competition,race,ideas,seeds,,metaphor
+528,competition,race,illness,battle,,metaphor
+529,competition,race,illness,journey,,metaphor
+530,competition,race,innovation,bloom,,metaphor
+531,competition,race,innovation,blossom,,metaphor
+532,competition,race,innovation,flower,,metaphor
+533,competition,race,knowledge,liquid,,metaphor
+534,competition,race,life,theatre,,metaphor
+535,competition,race,love,commerce,,metaphor
+536,competition,race,love,journey,,metaphor
+537,competition,race,marriage,boat,,metaphor
+538,competition,race,marriage,game,,metaphor
+539,competition,race,mind,machine,,metaphor
+540,competition,race,money,liquid,,metaphor
+541,competition,race,money,weapon,,metaphor
+542,competition,race,nation,family,,metaphor
+543,competition,race,nation,ship,,metaphor
+544,competition,race,politics,courtship,,metaphor
+545,competition,race,politics,game,,metaphor
+546,competition,race,politics,machine,,metaphor
+547,competition,race,politics,theatre,,metaphor
+548,competition,race,poverty,disease,,metaphor
+549,competition,race,reasons for a theory,grounds for a building,,metaphor
+550,competition,race,research,hunt,,metaphor
+551,competition,race,skill,possession,,metaphor
+552,competition,race,society,organism,,metaphor
+553,competition,race,society,train,,metaphor
+554,competition,race,sport,war,,metaphor
+555,competition,race,state,family,,metaphor
+556,competition,race,theory,building,,metaphor
+557,competition,race,time,money,,metaphor
+558,competition,race,understanding,following,,metaphor
+559,competition,race,understanding,seeing,,metaphor
+560,crime,beast,accepting a belief,buying an item,,metaphor
+561,crime,beast,ambition,hunger,,metaphor
+562,crime,beast,argument,war,,metaphor
+563,crime,beast,business,hunt,,metaphor
+564,crime,beast,business,war,,metaphor
+565,crime,beast,career,hill,,metaphor
+566,crime,beast,career,journey,,metaphor
+567,crime,beast,career,mountain,,metaphor
+568,crime,beast,career,slope,,metaphor
+569,crime,beast,competition,race,,metaphor
+570,crime,beast,crime,disease,,metaphor
+571,crime,beast,crime,virus,,metaphor
+572,crime,beast,debate,battle,,metaphor
+573,crime,beast,difficulties,impediments to travel,,metaphor
+574,crime,beast,education,journey,,metaphor
+575,crime,beast,faith,husbandry,,metaphor
+576,crime,beast,family,building,,metaphor
+577,crime,beast,government,household,,metaphor
+578,crime,beast,idea,food,,metaphor
+579,crime,beast,idea,object,,metaphor
+580,crime,beast,ideas,seeds,,metaphor
+581,crime,beast,illness,battle,,metaphor
+582,crime,beast,illness,journey,,metaphor
+583,crime,beast,innovation,bloom,,metaphor
+584,crime,beast,innovation,blossom,,metaphor
+585,crime,beast,innovation,flower,,metaphor
+586,crime,beast,knowledge,liquid,,metaphor
+587,crime,beast,life,theatre,,metaphor
+588,crime,beast,love,commerce,,metaphor
+589,crime,beast,love,journey,,metaphor
+590,crime,beast,marriage,boat,,metaphor
+591,crime,beast,marriage,game,,metaphor
+592,crime,beast,mind,machine,,metaphor
+593,crime,beast,money,liquid,,metaphor
+594,crime,beast,money,weapon,,metaphor
+595,crime,beast,nation,family,,metaphor
+596,crime,beast,nation,ship,,metaphor
+597,crime,beast,politics,courtship,,metaphor
+598,crime,beast,politics,game,,metaphor
+599,crime,beast,politics,machine,,metaphor
+600,crime,beast,politics,theatre,,metaphor
+601,crime,beast,poverty,disease,,metaphor
+602,crime,beast,reasons for a theory,grounds for a building,,metaphor
+603,crime,beast,research,hunt,,metaphor
+604,crime,beast,skill,possession,,metaphor
+605,crime,beast,society,organism,,metaphor
+606,crime,beast,society,train,,metaphor
+607,crime,beast,sport,war,,metaphor
+608,crime,beast,state,family,,metaphor
+609,crime,beast,theory,building,,metaphor
+610,crime,beast,time,money,,metaphor
+611,crime,beast,understanding,following,,metaphor
+612,crime,beast,understanding,seeing,,metaphor
+613,crime,disease,accepting a belief,buying an item,,metaphor
+614,crime,disease,ambition,hunger,,metaphor
+615,crime,disease,argument,war,,metaphor
+616,crime,disease,business,hunt,,metaphor
+617,crime,disease,business,war,,metaphor
+618,crime,disease,career,hill,,metaphor
+619,crime,disease,career,journey,,metaphor
+620,crime,disease,career,mountain,,metaphor
+621,crime,disease,career,slope,,metaphor
+622,crime,disease,competition,race,,metaphor
+623,crime,disease,crime,beast,,metaphor
+624,crime,disease,crime,virus,,metaphor
+625,crime,disease,debate,battle,,metaphor
+626,crime,disease,difficulties,impediments to travel,,metaphor
+627,crime,disease,education,journey,,metaphor
+628,crime,disease,faith,husbandry,,metaphor
+629,crime,disease,family,building,,metaphor
+630,crime,disease,government,household,,metaphor
+631,crime,disease,idea,food,,metaphor
+632,crime,disease,idea,object,,metaphor
+633,crime,disease,ideas,seeds,,metaphor
+634,crime,disease,illness,battle,,metaphor
+635,crime,disease,illness,journey,,metaphor
+636,crime,disease,innovation,bloom,,metaphor
+637,crime,disease,innovation,blossom,,metaphor
+638,crime,disease,innovation,flower,,metaphor
+639,crime,disease,knowledge,liquid,,metaphor
+640,crime,disease,life,theatre,,metaphor
+641,crime,disease,love,commerce,,metaphor
+642,crime,disease,love,journey,,metaphor
+643,crime,disease,marriage,boat,,metaphor
+644,crime,disease,marriage,game,,metaphor
+645,crime,disease,mind,machine,,metaphor
+646,crime,disease,money,liquid,,metaphor
+647,crime,disease,money,weapon,,metaphor
+648,crime,disease,nation,family,,metaphor
+649,crime,disease,nation,ship,,metaphor
+650,crime,disease,politics,courtship,,metaphor
+651,crime,disease,politics,game,,metaphor
+652,crime,disease,politics,machine,,metaphor
+653,crime,disease,politics,theatre,,metaphor
+654,crime,disease,poverty,disease,,metaphor
+655,crime,disease,reasons for a theory,grounds for a building,,metaphor
+656,crime,disease,research,hunt,,metaphor
+657,crime,disease,skill,possession,,metaphor
+658,crime,disease,society,organism,,metaphor
+659,crime,disease,society,train,,metaphor
+660,crime,disease,sport,war,,metaphor
+661,crime,disease,state,family,,metaphor
+662,crime,disease,theory,building,,metaphor
+663,crime,disease,time,money,,metaphor
+664,crime,disease,understanding,following,,metaphor
+665,crime,disease,understanding,seeing,,metaphor
+666,crime,virus,accepting a belief,buying an item,,metaphor
+667,crime,virus,ambition,hunger,,metaphor
+668,crime,virus,argument,war,,metaphor
+669,crime,virus,business,hunt,,metaphor
+670,crime,virus,business,war,,metaphor
+671,crime,virus,career,hill,,metaphor
+672,crime,virus,career,journey,,metaphor
+673,crime,virus,career,mountain,,metaphor
+674,crime,virus,career,slope,,metaphor
+675,crime,virus,competition,race,,metaphor
+676,crime,virus,crime,beast,,metaphor
+677,crime,virus,crime,disease,,metaphor
+678,crime,virus,debate,battle,,metaphor
+679,crime,virus,difficulties,impediments to travel,,metaphor
+680,crime,virus,education,journey,,metaphor
+681,crime,virus,faith,husbandry,,metaphor
+682,crime,virus,family,building,,metaphor
+683,crime,virus,government,household,,metaphor
+684,crime,virus,idea,food,,metaphor
+685,crime,virus,idea,object,,metaphor
+686,crime,virus,ideas,seeds,,metaphor
+687,crime,virus,illness,battle,,metaphor
+688,crime,virus,illness,journey,,metaphor
+689,crime,virus,innovation,bloom,,metaphor
+690,crime,virus,innovation,blossom,,metaphor
+691,crime,virus,innovation,flower,,metaphor
+692,crime,virus,knowledge,liquid,,metaphor
+693,crime,virus,life,theatre,,metaphor
+694,crime,virus,love,commerce,,metaphor
+695,crime,virus,love,journey,,metaphor
+696,crime,virus,marriage,boat,,metaphor
+697,crime,virus,marriage,game,,metaphor
+698,crime,virus,mind,machine,,metaphor
+699,crime,virus,money,liquid,,metaphor
+700,crime,virus,money,weapon,,metaphor
+701,crime,virus,nation,family,,metaphor
+702,crime,virus,nation,ship,,metaphor
+703,crime,virus,politics,courtship,,metaphor
+704,crime,virus,politics,game,,metaphor
+705,crime,virus,politics,machine,,metaphor
+706,crime,virus,politics,theatre,,metaphor
+707,crime,virus,poverty,disease,,metaphor
+708,crime,virus,reasons for a theory,grounds for a building,,metaphor
+709,crime,virus,research,hunt,,metaphor
+710,crime,virus,skill,possession,,metaphor
+711,crime,virus,society,organism,,metaphor
+712,crime,virus,society,train,,metaphor
+713,crime,virus,sport,war,,metaphor
+714,crime,virus,state,family,,metaphor
+715,crime,virus,theory,building,,metaphor
+716,crime,virus,time,money,,metaphor
+717,crime,virus,understanding,following,,metaphor
+718,crime,virus,understanding,seeing,,metaphor
+719,debate,battle,accepting a belief,buying an item,,metaphor
+720,debate,battle,ambition,hunger,,metaphor
+721,debate,battle,argument,war,,metaphor
+722,debate,battle,business,hunt,,metaphor
+723,debate,battle,business,war,,metaphor
+724,debate,battle,career,hill,,metaphor
+725,debate,battle,career,journey,,metaphor
+726,debate,battle,career,mountain,,metaphor
+727,debate,battle,career,slope,,metaphor
+728,debate,battle,competition,race,,metaphor
+729,debate,battle,crime,beast,,metaphor
+730,debate,battle,crime,disease,,metaphor
+731,debate,battle,crime,virus,,metaphor
+732,debate,battle,difficulties,impediments to travel,,metaphor
+733,debate,battle,education,journey,,metaphor
+734,debate,battle,faith,husbandry,,metaphor
+735,debate,battle,family,building,,metaphor
+736,debate,battle,government,household,,metaphor
+737,debate,battle,idea,food,,metaphor
+738,debate,battle,idea,object,,metaphor
+739,debate,battle,ideas,seeds,,metaphor
+740,debate,battle,illness,battle,,metaphor
+741,debate,battle,illness,journey,,metaphor
+742,debate,battle,innovation,bloom,,metaphor
+743,debate,battle,innovation,blossom,,metaphor
+744,debate,battle,innovation,flower,,metaphor
+745,debate,battle,knowledge,liquid,,metaphor
+746,debate,battle,life,theatre,,metaphor
+747,debate,battle,love,commerce,,metaphor
+748,debate,battle,love,journey,,metaphor
+749,debate,battle,marriage,boat,,metaphor
+750,debate,battle,marriage,game,,metaphor
+751,debate,battle,mind,machine,,metaphor
+752,debate,battle,money,liquid,,metaphor
+753,debate,battle,money,weapon,,metaphor
+754,debate,battle,nation,family,,metaphor
+755,debate,battle,nation,ship,,metaphor
+756,debate,battle,politics,courtship,,metaphor
+757,debate,battle,politics,game,,metaphor
+758,debate,battle,politics,machine,,metaphor
+759,debate,battle,politics,theatre,,metaphor
+760,debate,battle,poverty,disease,,metaphor
+761,debate,battle,reasons for a theory,grounds for a building,,metaphor
+762,debate,battle,research,hunt,,metaphor
+763,debate,battle,skill,possession,,metaphor
+764,debate,battle,society,organism,,metaphor
+765,debate,battle,society,train,,metaphor
+766,debate,battle,sport,war,,metaphor
+767,debate,battle,state,family,,metaphor
+768,debate,battle,theory,building,,metaphor
+769,debate,battle,time,money,,metaphor
+770,debate,battle,understanding,following,,metaphor
+771,debate,battle,understanding,seeing,,metaphor
+772,difficulties,impediments to travel,accepting a belief,buying an item,,metaphor
+773,difficulties,impediments to travel,ambition,hunger,,metaphor
+774,difficulties,impediments to travel,argument,war,,metaphor
+775,difficulties,impediments to travel,business,hunt,,metaphor
+776,difficulties,impediments to travel,business,war,,metaphor
+777,difficulties,impediments to travel,career,hill,,metaphor
+778,difficulties,impediments to travel,career,journey,,metaphor
+779,difficulties,impediments to travel,career,mountain,,metaphor
+780,difficulties,impediments to travel,career,slope,,metaphor
+781,difficulties,impediments to travel,competition,race,,metaphor
+782,difficulties,impediments to travel,crime,beast,,metaphor
+783,difficulties,impediments to travel,crime,disease,,metaphor
+784,difficulties,impediments to travel,crime,virus,,metaphor
+785,difficulties,impediments to travel,debate,battle,,metaphor
+786,difficulties,impediments to travel,education,journey,,metaphor
+787,difficulties,impediments to travel,faith,husbandry,,metaphor
+788,difficulties,impediments to travel,family,building,,metaphor
+789,difficulties,impediments to travel,government,household,,metaphor
+790,difficulties,impediments to travel,idea,food,,metaphor
+791,difficulties,impediments to travel,idea,object,,metaphor
+792,difficulties,impediments to travel,ideas,seeds,,metaphor
+793,difficulties,impediments to travel,illness,battle,,metaphor
+794,difficulties,impediments to travel,illness,journey,,metaphor
+795,difficulties,impediments to travel,innovation,bloom,,metaphor
+796,difficulties,impediments to travel,innovation,blossom,,metaphor
+797,difficulties,impediments to travel,innovation,flower,,metaphor
+798,difficulties,impediments to travel,knowledge,liquid,,metaphor
+799,difficulties,impediments to travel,life,theatre,,metaphor
+800,difficulties,impediments to travel,love,commerce,,metaphor
+801,difficulties,impediments to travel,love,journey,,metaphor
+802,difficulties,impediments to travel,marriage,boat,,metaphor
+803,difficulties,impediments to travel,marriage,game,,metaphor
+804,difficulties,impediments to travel,mind,machine,,metaphor
+805,difficulties,impediments to travel,money,liquid,,metaphor
+806,difficulties,impediments to travel,money,weapon,,metaphor
+807,difficulties,impediments to travel,nation,family,,metaphor
+808,difficulties,impediments to travel,nation,ship,,metaphor
+809,difficulties,impediments to travel,politics,courtship,,metaphor
+810,difficulties,impediments to travel,politics,game,,metaphor
+811,difficulties,impediments to travel,politics,machine,,metaphor
+812,difficulties,impediments to travel,politics,theatre,,metaphor
+813,difficulties,impediments to travel,poverty,disease,,metaphor
+814,difficulties,impediments to travel,reasons for a theory,grounds for a building,,metaphor
+815,difficulties,impediments to travel,research,hunt,,metaphor
+816,difficulties,impediments to travel,skill,possession,,metaphor
+817,difficulties,impediments to travel,society,organism,,metaphor
+818,difficulties,impediments to travel,society,train,,metaphor
+819,difficulties,impediments to travel,sport,war,,metaphor
+820,difficulties,impediments to travel,state,family,,metaphor
+821,difficulties,impediments to travel,theory,building,,metaphor
+822,difficulties,impediments to travel,time,money,,metaphor
+823,difficulties,impediments to travel,understanding,following,,metaphor
+824,difficulties,impediments to travel,understanding,seeing,,metaphor
+825,education,journey,accepting a belief,buying an item,,metaphor
+826,education,journey,ambition,hunger,,metaphor
+827,education,journey,argument,war,,metaphor
+828,education,journey,business,hunt,,metaphor
+829,education,journey,business,war,,metaphor
+830,education,journey,career,hill,,metaphor
+831,education,journey,career,journey,,metaphor
+832,education,journey,career,mountain,,metaphor
+833,education,journey,career,slope,,metaphor
+834,education,journey,competition,race,,metaphor
+835,education,journey,crime,beast,,metaphor
+836,education,journey,crime,disease,,metaphor
+837,education,journey,crime,virus,,metaphor
+838,education,journey,debate,battle,,metaphor
+839,education,journey,difficulties,impediments to travel,,metaphor
+840,education,journey,faith,husbandry,,metaphor
+841,education,journey,family,building,,metaphor
+842,education,journey,government,household,,metaphor
+843,education,journey,idea,food,,metaphor
+844,education,journey,idea,object,,metaphor
+845,education,journey,ideas,seeds,,metaphor
+846,education,journey,illness,battle,,metaphor
+847,education,journey,illness,journey,,metaphor
+848,education,journey,innovation,bloom,,metaphor
+849,education,journey,innovation,blossom,,metaphor
+850,education,journey,innovation,flower,,metaphor
+851,education,journey,knowledge,liquid,,metaphor
+852,education,journey,life,theatre,,metaphor
+853,education,journey,love,commerce,,metaphor
+854,education,journey,love,journey,,metaphor
+855,education,journey,marriage,boat,,metaphor
+856,education,journey,marriage,game,,metaphor
+857,education,journey,mind,machine,,metaphor
+858,education,journey,money,liquid,,metaphor
+859,education,journey,money,weapon,,metaphor
+860,education,journey,nation,family,,metaphor
+861,education,journey,nation,ship,,metaphor
+862,education,journey,politics,courtship,,metaphor
+863,education,journey,politics,game,,metaphor
+864,education,journey,politics,machine,,metaphor
+865,education,journey,politics,theatre,,metaphor
+866,education,journey,poverty,disease,,metaphor
+867,education,journey,reasons for a theory,grounds for a building,,metaphor
+868,education,journey,research,hunt,,metaphor
+869,education,journey,skill,possession,,metaphor
+870,education,journey,society,organism,,metaphor
+871,education,journey,society,train,,metaphor
+872,education,journey,sport,war,,metaphor
+873,education,journey,state,family,,metaphor
+874,education,journey,theory,building,,metaphor
+875,education,journey,time,money,,metaphor
+876,education,journey,understanding,following,,metaphor
+877,education,journey,understanding,seeing,,metaphor
+878,faith,husbandry,accepting a belief,buying an item,,metaphor
+879,faith,husbandry,ambition,hunger,,metaphor
+880,faith,husbandry,argument,war,,metaphor
+881,faith,husbandry,business,hunt,,metaphor
+882,faith,husbandry,business,war,,metaphor
+883,faith,husbandry,career,hill,,metaphor
+884,faith,husbandry,career,journey,,metaphor
+885,faith,husbandry,career,mountain,,metaphor
+886,faith,husbandry,career,slope,,metaphor
+887,faith,husbandry,competition,race,,metaphor
+888,faith,husbandry,crime,beast,,metaphor
+889,faith,husbandry,crime,disease,,metaphor
+890,faith,husbandry,crime,virus,,metaphor
+891,faith,husbandry,debate,battle,,metaphor
+892,faith,husbandry,difficulties,impediments to travel,,metaphor
+893,faith,husbandry,education,journey,,metaphor
+894,faith,husbandry,family,building,,metaphor
+895,faith,husbandry,government,household,,metaphor
+896,faith,husbandry,idea,food,,metaphor
+897,faith,husbandry,idea,object,,metaphor
+898,faith,husbandry,ideas,seeds,,metaphor
+899,faith,husbandry,illness,battle,,metaphor
+900,faith,husbandry,illness,journey,,metaphor
+901,faith,husbandry,innovation,bloom,,metaphor
+902,faith,husbandry,innovation,blossom,,metaphor
+903,faith,husbandry,innovation,flower,,metaphor
+904,faith,husbandry,knowledge,liquid,,metaphor
+905,faith,husbandry,life,theatre,,metaphor
+906,faith,husbandry,love,commerce,,metaphor
+907,faith,husbandry,love,journey,,metaphor
+908,faith,husbandry,marriage,boat,,metaphor
+909,faith,husbandry,marriage,game,,metaphor
+910,faith,husbandry,mind,machine,,metaphor
+911,faith,husbandry,money,liquid,,metaphor
+912,faith,husbandry,money,weapon,,metaphor
+913,faith,husbandry,nation,family,,metaphor
+914,faith,husbandry,nation,ship,,metaphor
+915,faith,husbandry,politics,courtship,,metaphor
+916,faith,husbandry,politics,game,,metaphor
+917,faith,husbandry,politics,machine,,metaphor
+918,faith,husbandry,politics,theatre,,metaphor
+919,faith,husbandry,poverty,disease,,metaphor
+920,faith,husbandry,reasons for a theory,grounds for a building,,metaphor
+921,faith,husbandry,research,hunt,,metaphor
+922,faith,husbandry,skill,possession,,metaphor
+923,faith,husbandry,society,organism,,metaphor
+924,faith,husbandry,society,train,,metaphor
+925,faith,husbandry,sport,war,,metaphor
+926,faith,husbandry,state,family,,metaphor
+927,faith,husbandry,theory,building,,metaphor
+928,faith,husbandry,time,money,,metaphor
+929,faith,husbandry,understanding,following,,metaphor
+930,faith,husbandry,understanding,seeing,,metaphor
+931,family,building,accepting a belief,buying an item,,metaphor
+932,family,building,ambition,hunger,,metaphor
+933,family,building,argument,war,,metaphor
+934,family,building,business,hunt,,metaphor
+935,family,building,business,war,,metaphor
+936,family,building,career,hill,,metaphor
+937,family,building,career,journey,,metaphor
+938,family,building,career,mountain,,metaphor
+939,family,building,career,slope,,metaphor
+940,family,building,competition,race,,metaphor
+941,family,building,crime,beast,,metaphor
+942,family,building,crime,disease,,metaphor
+943,family,building,crime,virus,,metaphor
+944,family,building,debate,battle,,metaphor
+945,family,building,difficulties,impediments to travel,,metaphor
+946,family,building,education,journey,,metaphor
+947,family,building,faith,husbandry,,metaphor
+948,family,building,government,household,,metaphor
+949,family,building,idea,food,,metaphor
+950,family,building,idea,object,,metaphor
+951,family,building,ideas,seeds,,metaphor
+952,family,building,illness,battle,,metaphor
+953,family,building,illness,journey,,metaphor
+954,family,building,innovation,bloom,,metaphor
+955,family,building,innovation,blossom,,metaphor
+956,family,building,innovation,flower,,metaphor
+957,family,building,knowledge,liquid,,metaphor
+958,family,building,life,theatre,,metaphor
+959,family,building,love,commerce,,metaphor
+960,family,building,love,journey,,metaphor
+961,family,building,marriage,boat,,metaphor
+962,family,building,marriage,game,,metaphor
+963,family,building,mind,machine,,metaphor
+964,family,building,money,liquid,,metaphor
+965,family,building,money,weapon,,metaphor
+966,family,building,nation,family,,metaphor
+967,family,building,nation,ship,,metaphor
+968,family,building,politics,courtship,,metaphor
+969,family,building,politics,game,,metaphor
+970,family,building,politics,machine,,metaphor
+971,family,building,politics,theatre,,metaphor
+972,family,building,poverty,disease,,metaphor
+973,family,building,reasons for a theory,grounds for a building,,metaphor
+974,family,building,research,hunt,,metaphor
+975,family,building,skill,possession,,metaphor
+976,family,building,society,organism,,metaphor
+977,family,building,society,train,,metaphor
+978,family,building,sport,war,,metaphor
+979,family,building,state,family,,metaphor
+980,family,building,theory,building,,metaphor
+981,family,building,time,money,,metaphor
+982,family,building,understanding,following,,metaphor
+983,family,building,understanding,seeing,,metaphor
+984,gas molecules,billiard balls,atom,solar system,,science
+985,gas molecules,billiard balls,bacterial mutation,slot machine,,science
+986,gas molecules,billiard balls,code,virus,,science
+987,gas molecules,billiard balls,heat transfer,water flow,,science
+988,gas molecules,billiard balls,light,sound,,science
+989,gas molecules,billiard balls,mind,computer,,science
+990,gas molecules,billiard balls,natural selection,artificial selection,,science
+991,gas molecules,billiard balls,planet,projectile,,science
+992,gas molecules,billiard balls,respiration,combustion,,science
+993,gas molecules,billiard balls,sounds,waves,,science
+994,government,household,accepting a belief,buying an item,,metaphor
+995,government,household,ambition,hunger,,metaphor
+996,government,household,argument,war,,metaphor
+997,government,household,business,hunt,,metaphor
+998,government,household,business,war,,metaphor
+999,government,household,career,hill,,metaphor
+1000,government,household,career,journey,,metaphor
+1001,government,household,career,mountain,,metaphor
+1002,government,household,career,slope,,metaphor
+1003,government,household,competition,race,,metaphor
+1004,government,household,crime,beast,,metaphor
+1005,government,household,crime,disease,,metaphor
+1006,government,household,crime,virus,,metaphor
+1007,government,household,debate,battle,,metaphor
+1008,government,household,difficulties,impediments to travel,,metaphor
+1009,government,household,education,journey,,metaphor
+1010,government,household,faith,husbandry,,metaphor
+1011,government,household,family,building,,metaphor
+1012,government,household,idea,food,,metaphor
+1013,government,household,idea,object,,metaphor
+1014,government,household,ideas,seeds,,metaphor
+1015,government,household,illness,battle,,metaphor
+1016,government,household,illness,journey,,metaphor
+1017,government,household,innovation,bloom,,metaphor
+1018,government,household,innovation,blossom,,metaphor
+1019,government,household,innovation,flower,,metaphor
+1020,government,household,knowledge,liquid,,metaphor
+1021,government,household,life,theatre,,metaphor
+1022,government,household,love,commerce,,metaphor
+1023,government,household,love,journey,,metaphor
+1024,government,household,marriage,boat,,metaphor
+1025,government,household,marriage,game,,metaphor
+1026,government,household,mind,machine,,metaphor
+1027,government,household,money,liquid,,metaphor
+1028,government,household,money,weapon,,metaphor
+1029,government,household,nation,family,,metaphor
+1030,government,household,nation,ship,,metaphor
+1031,government,household,politics,courtship,,metaphor
+1032,government,household,politics,game,,metaphor
+1033,government,household,politics,machine,,metaphor
+1034,government,household,politics,theatre,,metaphor
+1035,government,household,poverty,disease,,metaphor
+1036,government,household,reasons for a theory,grounds for a building,,metaphor
+1037,government,household,research,hunt,,metaphor
+1038,government,household,skill,possession,,metaphor
+1039,government,household,society,organism,,metaphor
+1040,government,household,society,train,,metaphor
+1041,government,household,sport,war,,metaphor
+1042,government,household,state,family,,metaphor
+1043,government,household,theory,building,,metaphor
+1044,government,household,time,money,,metaphor
+1045,government,household,understanding,following,,metaphor
+1046,government,household,understanding,seeing,,metaphor
+1047,heat transfer,water flow,atom,solar system,,science
+1048,heat transfer,water flow,bacterial mutation,slot machine,,science
+1049,heat transfer,water flow,code,virus,,science
+1050,heat transfer,water flow,gas molecules,billiard balls,,science
+1051,heat transfer,water flow,light,sound,,science
+1052,heat transfer,water flow,mind,computer,,science
+1053,heat transfer,water flow,natural selection,artificial selection,,science
+1054,heat transfer,water flow,planet,projectile,,science
+1055,heat transfer,water flow,respiration,combustion,,science
+1056,heat transfer,water flow,sounds,waves,,science
+1057,idea,food,accepting a belief,buying an item,,metaphor
+1058,idea,food,ambition,hunger,,metaphor
+1059,idea,food,argument,war,,metaphor
+1060,idea,food,business,hunt,,metaphor
+1061,idea,food,business,war,,metaphor
+1062,idea,food,career,hill,,metaphor
+1063,idea,food,career,journey,,metaphor
+1064,idea,food,career,mountain,,metaphor
+1065,idea,food,career,slope,,metaphor
+1066,idea,food,competition,race,,metaphor
+1067,idea,food,crime,beast,,metaphor
+1068,idea,food,crime,disease,,metaphor
+1069,idea,food,crime,virus,,metaphor
+1070,idea,food,debate,battle,,metaphor
+1071,idea,food,difficulties,impediments to travel,,metaphor
+1072,idea,food,education,journey,,metaphor
+1073,idea,food,faith,husbandry,,metaphor
+1074,idea,food,family,building,,metaphor
+1075,idea,food,government,household,,metaphor
+1076,idea,food,idea,object,,metaphor
+1077,idea,food,ideas,seeds,,metaphor
+1078,idea,food,illness,battle,,metaphor
+1079,idea,food,illness,journey,,metaphor
+1080,idea,food,innovation,bloom,,metaphor
+1081,idea,food,innovation,blossom,,metaphor
+1082,idea,food,innovation,flower,,metaphor
+1083,idea,food,knowledge,liquid,,metaphor
+1084,idea,food,life,theatre,,metaphor
+1085,idea,food,love,commerce,,metaphor
+1086,idea,food,love,journey,,metaphor
+1087,idea,food,marriage,boat,,metaphor
+1088,idea,food,marriage,game,,metaphor
+1089,idea,food,mind,machine,,metaphor
+1090,idea,food,money,liquid,,metaphor
+1091,idea,food,money,weapon,,metaphor
+1092,idea,food,nation,family,,metaphor
+1093,idea,food,nation,ship,,metaphor
+1094,idea,food,politics,courtship,,metaphor
+1095,idea,food,politics,game,,metaphor
+1096,idea,food,politics,machine,,metaphor
+1097,idea,food,politics,theatre,,metaphor
+1098,idea,food,poverty,disease,,metaphor
+1099,idea,food,reasons for a theory,grounds for a building,,metaphor
+1100,idea,food,research,hunt,,metaphor
+1101,idea,food,skill,possession,,metaphor
+1102,idea,food,society,organism,,metaphor
+1103,idea,food,society,train,,metaphor
+1104,idea,food,sport,war,,metaphor
+1105,idea,food,state,family,,metaphor
+1106,idea,food,theory,building,,metaphor
+1107,idea,food,time,money,,metaphor
+1108,idea,food,understanding,following,,metaphor
+1109,idea,food,understanding,seeing,,metaphor
+1110,idea,object,accepting a belief,buying an item,,metaphor
+1111,idea,object,ambition,hunger,,metaphor
+1112,idea,object,argument,war,,metaphor
+1113,idea,object,business,hunt,,metaphor
+1114,idea,object,business,war,,metaphor
+1115,idea,object,career,hill,,metaphor
+1116,idea,object,career,journey,,metaphor
+1117,idea,object,career,mountain,,metaphor
+1118,idea,object,career,slope,,metaphor
+1119,idea,object,competition,race,,metaphor
+1120,idea,object,crime,beast,,metaphor
+1121,idea,object,crime,disease,,metaphor
+1122,idea,object,crime,virus,,metaphor
+1123,idea,object,debate,battle,,metaphor
+1124,idea,object,difficulties,impediments to travel,,metaphor
+1125,idea,object,education,journey,,metaphor
+1126,idea,object,faith,husbandry,,metaphor
+1127,idea,object,family,building,,metaphor
+1128,idea,object,government,household,,metaphor
+1129,idea,object,idea,food,,metaphor
+1130,idea,object,ideas,seeds,,metaphor
+1131,idea,object,illness,battle,,metaphor
+1132,idea,object,illness,journey,,metaphor
+1133,idea,object,innovation,bloom,,metaphor
+1134,idea,object,innovation,blossom,,metaphor
+1135,idea,object,innovation,flower,,metaphor
+1136,idea,object,knowledge,liquid,,metaphor
+1137,idea,object,life,theatre,,metaphor
+1138,idea,object,love,commerce,,metaphor
+1139,idea,object,love,journey,,metaphor
+1140,idea,object,marriage,boat,,metaphor
+1141,idea,object,marriage,game,,metaphor
+1142,idea,object,mind,machine,,metaphor
+1143,idea,object,money,liquid,,metaphor
+1144,idea,object,money,weapon,,metaphor
+1145,idea,object,nation,family,,metaphor
+1146,idea,object,nation,ship,,metaphor
+1147,idea,object,politics,courtship,,metaphor
+1148,idea,object,politics,game,,metaphor
+1149,idea,object,politics,machine,,metaphor
+1150,idea,object,politics,theatre,,metaphor
+1151,idea,object,poverty,disease,,metaphor
+1152,idea,object,reasons for a theory,grounds for a building,,metaphor
+1153,idea,object,research,hunt,,metaphor
+1154,idea,object,skill,possession,,metaphor
+1155,idea,object,society,organism,,metaphor
+1156,idea,object,society,train,,metaphor
+1157,idea,object,sport,war,,metaphor
+1158,idea,object,state,family,,metaphor
+1159,idea,object,theory,building,,metaphor
+1160,idea,object,time,money,,metaphor
+1161,idea,object,understanding,following,,metaphor
+1162,idea,object,understanding,seeing,,metaphor
+1163,ideas,seeds,accepting a belief,buying an item,,metaphor
+1164,ideas,seeds,ambition,hunger,,metaphor
+1165,ideas,seeds,argument,war,,metaphor
+1166,ideas,seeds,business,hunt,,metaphor
+1167,ideas,seeds,business,war,,metaphor
+1168,ideas,seeds,career,hill,,metaphor
+1169,ideas,seeds,career,journey,,metaphor
+1170,ideas,seeds,career,mountain,,metaphor
+1171,ideas,seeds,career,slope,,metaphor
+1172,ideas,seeds,competition,race,,metaphor
+1173,ideas,seeds,crime,beast,,metaphor
+1174,ideas,seeds,crime,disease,,metaphor
+1175,ideas,seeds,crime,virus,,metaphor
+1176,ideas,seeds,debate,battle,,metaphor
+1177,ideas,seeds,difficulties,impediments to travel,,metaphor
+1178,ideas,seeds,education,journey,,metaphor
+1179,ideas,seeds,faith,husbandry,,metaphor
+1180,ideas,seeds,family,building,,metaphor
+1181,ideas,seeds,government,household,,metaphor
+1182,ideas,seeds,idea,food,,metaphor
+1183,ideas,seeds,idea,object,,metaphor
+1184,ideas,seeds,illness,battle,,metaphor
+1185,ideas,seeds,illness,journey,,metaphor
+1186,ideas,seeds,innovation,bloom,,metaphor
+1187,ideas,seeds,innovation,blossom,,metaphor
+1188,ideas,seeds,innovation,flower,,metaphor
+1189,ideas,seeds,knowledge,liquid,,metaphor
+1190,ideas,seeds,life,theatre,,metaphor
+1191,ideas,seeds,love,commerce,,metaphor
+1192,ideas,seeds,love,journey,,metaphor
+1193,ideas,seeds,marriage,boat,,metaphor
+1194,ideas,seeds,marriage,game,,metaphor
+1195,ideas,seeds,mind,machine,,metaphor
+1196,ideas,seeds,money,liquid,,metaphor
+1197,ideas,seeds,money,weapon,,metaphor
+1198,ideas,seeds,nation,family,,metaphor
+1199,ideas,seeds,nation,ship,,metaphor
+1200,ideas,seeds,politics,courtship,,metaphor
+1201,ideas,seeds,politics,game,,metaphor
+1202,ideas,seeds,politics,machine,,metaphor
+1203,ideas,seeds,politics,theatre,,metaphor
+1204,ideas,seeds,poverty,disease,,metaphor
+1205,ideas,seeds,reasons for a theory,grounds for a building,,metaphor
+1206,ideas,seeds,research,hunt,,metaphor
+1207,ideas,seeds,skill,possession,,metaphor
+1208,ideas,seeds,society,organism,,metaphor
+1209,ideas,seeds,society,train,,metaphor
+1210,ideas,seeds,sport,war,,metaphor
+1211,ideas,seeds,state,family,,metaphor
+1212,ideas,seeds,theory,building,,metaphor
+1213,ideas,seeds,time,money,,metaphor
+1214,ideas,seeds,understanding,following,,metaphor
+1215,ideas,seeds,understanding,seeing,,metaphor
+1216,illness,battle,accepting a belief,buying an item,,metaphor
+1217,illness,battle,ambition,hunger,,metaphor
+1218,illness,battle,argument,war,,metaphor
+1219,illness,battle,business,hunt,,metaphor
+1220,illness,battle,business,war,,metaphor
+1221,illness,battle,career,hill,,metaphor
+1222,illness,battle,career,journey,,metaphor
+1223,illness,battle,career,mountain,,metaphor
+1224,illness,battle,career,slope,,metaphor
+1225,illness,battle,competition,race,,metaphor
+1226,illness,battle,crime,beast,,metaphor
+1227,illness,battle,crime,disease,,metaphor
+1228,illness,battle,crime,virus,,metaphor
+1229,illness,battle,debate,battle,,metaphor
+1230,illness,battle,difficulties,impediments to travel,,metaphor
+1231,illness,battle,education,journey,,metaphor
+1232,illness,battle,faith,husbandry,,metaphor
+1233,illness,battle,family,building,,metaphor
+1234,illness,battle,government,household,,metaphor
+1235,illness,battle,idea,food,,metaphor
+1236,illness,battle,idea,object,,metaphor
+1237,illness,battle,ideas,seeds,,metaphor
+1238,illness,battle,illness,journey,,metaphor
+1239,illness,battle,innovation,bloom,,metaphor
+1240,illness,battle,innovation,blossom,,metaphor
+1241,illness,battle,innovation,flower,,metaphor
+1242,illness,battle,knowledge,liquid,,metaphor
+1243,illness,battle,life,theatre,,metaphor
+1244,illness,battle,love,commerce,,metaphor
+1245,illness,battle,love,journey,,metaphor
+1246,illness,battle,marriage,boat,,metaphor
+1247,illness,battle,marriage,game,,metaphor
+1248,illness,battle,mind,machine,,metaphor
+1249,illness,battle,money,liquid,,metaphor
+1250,illness,battle,money,weapon,,metaphor
+1251,illness,battle,nation,family,,metaphor
+1252,illness,battle,nation,ship,,metaphor
+1253,illness,battle,politics,courtship,,metaphor
+1254,illness,battle,politics,game,,metaphor
+1255,illness,battle,politics,machine,,metaphor
+1256,illness,battle,politics,theatre,,metaphor
+1257,illness,battle,poverty,disease,,metaphor
+1258,illness,battle,reasons for a theory,grounds for a building,,metaphor
+1259,illness,battle,research,hunt,,metaphor
+1260,illness,battle,skill,possession,,metaphor
+1261,illness,battle,society,organism,,metaphor
+1262,illness,battle,society,train,,metaphor
+1263,illness,battle,sport,war,,metaphor
+1264,illness,battle,state,family,,metaphor
+1265,illness,battle,theory,building,,metaphor
+1266,illness,battle,time,money,,metaphor
+1267,illness,battle,understanding,following,,metaphor
+1268,illness,battle,understanding,seeing,,metaphor
+1269,illness,journey,accepting a belief,buying an item,,metaphor
+1270,illness,journey,ambition,hunger,,metaphor
+1271,illness,journey,argument,war,,metaphor
+1272,illness,journey,business,hunt,,metaphor
+1273,illness,journey,business,war,,metaphor
+1274,illness,journey,career,hill,,metaphor
+1275,illness,journey,career,journey,,metaphor
+1276,illness,journey,career,mountain,,metaphor
+1277,illness,journey,career,slope,,metaphor
+1278,illness,journey,competition,race,,metaphor
+1279,illness,journey,crime,beast,,metaphor
+1280,illness,journey,crime,disease,,metaphor
+1281,illness,journey,crime,virus,,metaphor
+1282,illness,journey,debate,battle,,metaphor
+1283,illness,journey,difficulties,impediments to travel,,metaphor
+1284,illness,journey,education,journey,,metaphor
+1285,illness,journey,faith,husbandry,,metaphor
+1286,illness,journey,family,building,,metaphor
+1287,illness,journey,government,household,,metaphor
+1288,illness,journey,idea,food,,metaphor
+1289,illness,journey,idea,object,,metaphor
+1290,illness,journey,ideas,seeds,,metaphor
+1291,illness,journey,illness,battle,,metaphor
+1292,illness,journey,innovation,bloom,,metaphor
+1293,illness,journey,innovation,blossom,,metaphor
+1294,illness,journey,innovation,flower,,metaphor
+1295,illness,journey,knowledge,liquid,,metaphor
+1296,illness,journey,life,theatre,,metaphor
+1297,illness,journey,love,commerce,,metaphor
+1298,illness,journey,love,journey,,metaphor
+1299,illness,journey,marriage,boat,,metaphor
+1300,illness,journey,marriage,game,,metaphor
+1301,illness,journey,mind,machine,,metaphor
+1302,illness,journey,money,liquid,,metaphor
+1303,illness,journey,money,weapon,,metaphor
+1304,illness,journey,nation,family,,metaphor
+1305,illness,journey,nation,ship,,metaphor
+1306,illness,journey,politics,courtship,,metaphor
+1307,illness,journey,politics,game,,metaphor
+1308,illness,journey,politics,machine,,metaphor
+1309,illness,journey,politics,theatre,,metaphor
+1310,illness,journey,poverty,disease,,metaphor
+1311,illness,journey,reasons for a theory,grounds for a building,,metaphor
+1312,illness,journey,research,hunt,,metaphor
+1313,illness,journey,skill,possession,,metaphor
+1314,illness,journey,society,organism,,metaphor
+1315,illness,journey,society,train,,metaphor
+1316,illness,journey,sport,war,,metaphor
+1317,illness,journey,state,family,,metaphor
+1318,illness,journey,theory,building,,metaphor
+1319,illness,journey,time,money,,metaphor
+1320,illness,journey,understanding,following,,metaphor
+1321,illness,journey,understanding,seeing,,metaphor
+1322,innovation,bloom,accepting a belief,buying an item,,metaphor
+1323,innovation,bloom,ambition,hunger,,metaphor
+1324,innovation,bloom,argument,war,,metaphor
+1325,innovation,bloom,business,hunt,,metaphor
+1326,innovation,bloom,business,war,,metaphor
+1327,innovation,bloom,career,hill,,metaphor
+1328,innovation,bloom,career,journey,,metaphor
+1329,innovation,bloom,career,mountain,,metaphor
+1330,innovation,bloom,career,slope,,metaphor
+1331,innovation,bloom,competition,race,,metaphor
+1332,innovation,bloom,crime,beast,,metaphor
+1333,innovation,bloom,crime,disease,,metaphor
+1334,innovation,bloom,crime,virus,,metaphor
+1335,innovation,bloom,debate,battle,,metaphor
+1336,innovation,bloom,difficulties,impediments to travel,,metaphor
+1337,innovation,bloom,education,journey,,metaphor
+1338,innovation,bloom,faith,husbandry,,metaphor
+1339,innovation,bloom,family,building,,metaphor
+1340,innovation,bloom,government,household,,metaphor
+1341,innovation,bloom,idea,food,,metaphor
+1342,innovation,bloom,idea,object,,metaphor
+1343,innovation,bloom,ideas,seeds,,metaphor
+1344,innovation,bloom,illness,battle,,metaphor
+1345,innovation,bloom,illness,journey,,metaphor
+1346,innovation,bloom,innovation,blossom,,metaphor
+1347,innovation,bloom,innovation,flower,,metaphor
+1348,innovation,bloom,knowledge,liquid,,metaphor
+1349,innovation,bloom,life,theatre,,metaphor
+1350,innovation,bloom,love,commerce,,metaphor
+1351,innovation,bloom,love,journey,,metaphor
+1352,innovation,bloom,marriage,boat,,metaphor
+1353,innovation,bloom,marriage,game,,metaphor
+1354,innovation,bloom,mind,machine,,metaphor
+1355,innovation,bloom,money,liquid,,metaphor
+1356,innovation,bloom,money,weapon,,metaphor
+1357,innovation,bloom,nation,family,,metaphor
+1358,innovation,bloom,nation,ship,,metaphor
+1359,innovation,bloom,politics,courtship,,metaphor
+1360,innovation,bloom,politics,game,,metaphor
+1361,innovation,bloom,politics,machine,,metaphor
+1362,innovation,bloom,politics,theatre,,metaphor
+1363,innovation,bloom,poverty,disease,,metaphor
+1364,innovation,bloom,reasons for a theory,grounds for a building,,metaphor
+1365,innovation,bloom,research,hunt,,metaphor
+1366,innovation,bloom,skill,possession,,metaphor
+1367,innovation,bloom,society,organism,,metaphor
+1368,innovation,bloom,society,train,,metaphor
+1369,innovation,bloom,sport,war,,metaphor
+1370,innovation,bloom,state,family,,metaphor
+1371,innovation,bloom,theory,building,,metaphor
+1372,innovation,bloom,time,money,,metaphor
+1373,innovation,bloom,understanding,following,,metaphor
+1374,innovation,bloom,understanding,seeing,,metaphor
+1375,innovation,blossom,accepting a belief,buying an item,,metaphor
+1376,innovation,blossom,ambition,hunger,,metaphor
+1377,innovation,blossom,argument,war,,metaphor
+1378,innovation,blossom,business,hunt,,metaphor
+1379,innovation,blossom,business,war,,metaphor
+1380,innovation,blossom,career,hill,,metaphor
+1381,innovation,blossom,career,journey,,metaphor
+1382,innovation,blossom,career,mountain,,metaphor
+1383,innovation,blossom,career,slope,,metaphor
+1384,innovation,blossom,competition,race,,metaphor
+1385,innovation,blossom,crime,beast,,metaphor
+1386,innovation,blossom,crime,disease,,metaphor
+1387,innovation,blossom,crime,virus,,metaphor
+1388,innovation,blossom,debate,battle,,metaphor
+1389,innovation,blossom,difficulties,impediments to travel,,metaphor
+1390,innovation,blossom,education,journey,,metaphor
+1391,innovation,blossom,faith,husbandry,,metaphor
+1392,innovation,blossom,family,building,,metaphor
+1393,innovation,blossom,government,household,,metaphor
+1394,innovation,blossom,idea,food,,metaphor
+1395,innovation,blossom,idea,object,,metaphor
+1396,innovation,blossom,ideas,seeds,,metaphor
+1397,innovation,blossom,illness,battle,,metaphor
+1398,innovation,blossom,illness,journey,,metaphor
+1399,innovation,blossom,innovation,bloom,,metaphor
+1400,innovation,blossom,innovation,flower,,metaphor
+1401,innovation,blossom,knowledge,liquid,,metaphor
+1402,innovation,blossom,life,theatre,,metaphor
+1403,innovation,blossom,love,commerce,,metaphor
+1404,innovation,blossom,love,journey,,metaphor
+1405,innovation,blossom,marriage,boat,,metaphor
+1406,innovation,blossom,marriage,game,,metaphor
+1407,innovation,blossom,mind,machine,,metaphor
+1408,innovation,blossom,money,liquid,,metaphor
+1409,innovation,blossom,money,weapon,,metaphor
+1410,innovation,blossom,nation,family,,metaphor
+1411,innovation,blossom,nation,ship,,metaphor
+1412,innovation,blossom,politics,courtship,,metaphor
+1413,innovation,blossom,politics,game,,metaphor
+1414,innovation,blossom,politics,machine,,metaphor
+1415,innovation,blossom,politics,theatre,,metaphor
+1416,innovation,blossom,poverty,disease,,metaphor
+1417,innovation,blossom,reasons for a theory,grounds for a building,,metaphor
+1418,innovation,blossom,research,hunt,,metaphor
+1419,innovation,blossom,skill,possession,,metaphor
+1420,innovation,blossom,society,organism,,metaphor
+1421,innovation,blossom,society,train,,metaphor
+1422,innovation,blossom,sport,war,,metaphor
+1423,innovation,blossom,state,family,,metaphor
+1424,innovation,blossom,theory,building,,metaphor
+1425,innovation,blossom,time,money,,metaphor
+1426,innovation,blossom,understanding,following,,metaphor
+1427,innovation,blossom,understanding,seeing,,metaphor
+1428,innovation,flower,accepting a belief,buying an item,,metaphor
+1429,innovation,flower,ambition,hunger,,metaphor
+1430,innovation,flower,argument,war,,metaphor
+1431,innovation,flower,business,hunt,,metaphor
+1432,innovation,flower,business,war,,metaphor
+1433,innovation,flower,career,hill,,metaphor
+1434,innovation,flower,career,journey,,metaphor
+1435,innovation,flower,career,mountain,,metaphor
+1436,innovation,flower,career,slope,,metaphor
+1437,innovation,flower,competition,race,,metaphor
+1438,innovation,flower,crime,beast,,metaphor
+1439,innovation,flower,crime,disease,,metaphor
+1440,innovation,flower,crime,virus,,metaphor
+1441,innovation,flower,debate,battle,,metaphor
+1442,innovation,flower,difficulties,impediments to travel,,metaphor
+1443,innovation,flower,education,journey,,metaphor
+1444,innovation,flower,faith,husbandry,,metaphor
+1445,innovation,flower,family,building,,metaphor
+1446,innovation,flower,government,household,,metaphor
+1447,innovation,flower,idea,food,,metaphor
+1448,innovation,flower,idea,object,,metaphor
+1449,innovation,flower,ideas,seeds,,metaphor
+1450,innovation,flower,illness,battle,,metaphor
+1451,innovation,flower,illness,journey,,metaphor
+1452,innovation,flower,innovation,bloom,,metaphor
+1453,innovation,flower,innovation,blossom,,metaphor
+1454,innovation,flower,knowledge,liquid,,metaphor
+1455,innovation,flower,life,theatre,,metaphor
+1456,innovation,flower,love,commerce,,metaphor
+1457,innovation,flower,love,journey,,metaphor
+1458,innovation,flower,marriage,boat,,metaphor
+1459,innovation,flower,marriage,game,,metaphor
+1460,innovation,flower,mind,machine,,metaphor
+1461,innovation,flower,money,liquid,,metaphor
+1462,innovation,flower,money,weapon,,metaphor
+1463,innovation,flower,nation,family,,metaphor
+1464,innovation,flower,nation,ship,,metaphor
+1465,innovation,flower,politics,courtship,,metaphor
+1466,innovation,flower,politics,game,,metaphor
+1467,innovation,flower,politics,machine,,metaphor
+1468,innovation,flower,politics,theatre,,metaphor
+1469,innovation,flower,poverty,disease,,metaphor
+1470,innovation,flower,reasons for a theory,grounds for a building,,metaphor
+1471,innovation,flower,research,hunt,,metaphor
+1472,innovation,flower,skill,possession,,metaphor
+1473,innovation,flower,society,organism,,metaphor
+1474,innovation,flower,society,train,,metaphor
+1475,innovation,flower,sport,war,,metaphor
+1476,innovation,flower,state,family,,metaphor
+1477,innovation,flower,theory,building,,metaphor
+1478,innovation,flower,time,money,,metaphor
+1479,innovation,flower,understanding,following,,metaphor
+1480,innovation,flower,understanding,seeing,,metaphor
+1481,knowledge,liquid,accepting a belief,buying an item,,metaphor
+1482,knowledge,liquid,ambition,hunger,,metaphor
+1483,knowledge,liquid,argument,war,,metaphor
+1484,knowledge,liquid,business,hunt,,metaphor
+1485,knowledge,liquid,business,war,,metaphor
+1486,knowledge,liquid,career,hill,,metaphor
+1487,knowledge,liquid,career,journey,,metaphor
+1488,knowledge,liquid,career,mountain,,metaphor
+1489,knowledge,liquid,career,slope,,metaphor
+1490,knowledge,liquid,competition,race,,metaphor
+1491,knowledge,liquid,crime,beast,,metaphor
+1492,knowledge,liquid,crime,disease,,metaphor
+1493,knowledge,liquid,crime,virus,,metaphor
+1494,knowledge,liquid,debate,battle,,metaphor
+1495,knowledge,liquid,difficulties,impediments to travel,,metaphor
+1496,knowledge,liquid,education,journey,,metaphor
+1497,knowledge,liquid,faith,husbandry,,metaphor
+1498,knowledge,liquid,family,building,,metaphor
+1499,knowledge,liquid,government,household,,metaphor
+1500,knowledge,liquid,idea,food,,metaphor
+1501,knowledge,liquid,idea,object,,metaphor
+1502,knowledge,liquid,ideas,seeds,,metaphor
+1503,knowledge,liquid,illness,battle,,metaphor
+1504,knowledge,liquid,illness,journey,,metaphor
+1505,knowledge,liquid,innovation,bloom,,metaphor
+1506,knowledge,liquid,innovation,blossom,,metaphor
+1507,knowledge,liquid,innovation,flower,,metaphor
+1508,knowledge,liquid,life,theatre,,metaphor
+1509,knowledge,liquid,love,commerce,,metaphor
+1510,knowledge,liquid,love,journey,,metaphor
+1511,knowledge,liquid,marriage,boat,,metaphor
+1512,knowledge,liquid,marriage,game,,metaphor
+1513,knowledge,liquid,mind,machine,,metaphor
+1514,knowledge,liquid,money,liquid,,metaphor
+1515,knowledge,liquid,money,weapon,,metaphor
+1516,knowledge,liquid,nation,family,,metaphor
+1517,knowledge,liquid,nation,ship,,metaphor
+1518,knowledge,liquid,politics,courtship,,metaphor
+1519,knowledge,liquid,politics,game,,metaphor
+1520,knowledge,liquid,politics,machine,,metaphor
+1521,knowledge,liquid,politics,theatre,,metaphor
+1522,knowledge,liquid,poverty,disease,,metaphor
+1523,knowledge,liquid,reasons for a theory,grounds for a building,,metaphor
+1524,knowledge,liquid,research,hunt,,metaphor
+1525,knowledge,liquid,skill,possession,,metaphor
+1526,knowledge,liquid,society,organism,,metaphor
+1527,knowledge,liquid,society,train,,metaphor
+1528,knowledge,liquid,sport,war,,metaphor
+1529,knowledge,liquid,state,family,,metaphor
+1530,knowledge,liquid,theory,building,,metaphor
+1531,knowledge,liquid,time,money,,metaphor
+1532,knowledge,liquid,understanding,following,,metaphor
+1533,knowledge,liquid,understanding,seeing,,metaphor
+1534,life,theatre,accepting a belief,buying an item,,metaphor
+1535,life,theatre,ambition,hunger,,metaphor
+1536,life,theatre,argument,war,,metaphor
+1537,life,theatre,business,hunt,,metaphor
+1538,life,theatre,business,war,,metaphor
+1539,life,theatre,career,hill,,metaphor
+1540,life,theatre,career,journey,,metaphor
+1541,life,theatre,career,mountain,,metaphor
+1542,life,theatre,career,slope,,metaphor
+1543,life,theatre,competition,race,,metaphor
+1544,life,theatre,crime,beast,,metaphor
+1545,life,theatre,crime,disease,,metaphor
+1546,life,theatre,crime,virus,,metaphor
+1547,life,theatre,debate,battle,,metaphor
+1548,life,theatre,difficulties,impediments to travel,,metaphor
+1549,life,theatre,education,journey,,metaphor
+1550,life,theatre,faith,husbandry,,metaphor
+1551,life,theatre,family,building,,metaphor
+1552,life,theatre,government,household,,metaphor
+1553,life,theatre,idea,food,,metaphor
+1554,life,theatre,idea,object,,metaphor
+1555,life,theatre,ideas,seeds,,metaphor
+1556,life,theatre,illness,battle,,metaphor
+1557,life,theatre,illness,journey,,metaphor
+1558,life,theatre,innovation,bloom,,metaphor
+1559,life,theatre,innovation,blossom,,metaphor
+1560,life,theatre,innovation,flower,,metaphor
+1561,life,theatre,knowledge,liquid,,metaphor
+1562,life,theatre,love,commerce,,metaphor
+1563,life,theatre,love,journey,,metaphor
+1564,life,theatre,marriage,boat,,metaphor
+1565,life,theatre,marriage,game,,metaphor
+1566,life,theatre,mind,machine,,metaphor
+1567,life,theatre,money,liquid,,metaphor
+1568,life,theatre,money,weapon,,metaphor
+1569,life,theatre,nation,family,,metaphor
+1570,life,theatre,nation,ship,,metaphor
+1571,life,theatre,politics,courtship,,metaphor
+1572,life,theatre,politics,game,,metaphor
+1573,life,theatre,politics,machine,,metaphor
+1574,life,theatre,politics,theatre,,metaphor
+1575,life,theatre,poverty,disease,,metaphor
+1576,life,theatre,reasons for a theory,grounds for a building,,metaphor
+1577,life,theatre,research,hunt,,metaphor
+1578,life,theatre,skill,possession,,metaphor
+1579,life,theatre,society,organism,,metaphor
+1580,life,theatre,society,train,,metaphor
+1581,life,theatre,sport,war,,metaphor
+1582,life,theatre,state,family,,metaphor
+1583,life,theatre,theory,building,,metaphor
+1584,life,theatre,time,money,,metaphor
+1585,life,theatre,understanding,following,,metaphor
+1586,life,theatre,understanding,seeing,,metaphor
+1587,light,sound,atom,solar system,,science
+1588,light,sound,bacterial mutation,slot machine,,science
+1589,light,sound,code,virus,,science
+1590,light,sound,gas molecules,billiard balls,,science
+1591,light,sound,heat transfer,water flow,,science
+1592,light,sound,mind,computer,,science
+1593,light,sound,natural selection,artificial selection,,science
+1594,light,sound,planet,projectile,,science
+1595,light,sound,respiration,combustion,,science
+1596,light,sound,sounds,waves,,science
+1597,love,commerce,accepting a belief,buying an item,,metaphor
+1598,love,commerce,ambition,hunger,,metaphor
+1599,love,commerce,argument,war,,metaphor
+1600,love,commerce,business,hunt,,metaphor
+1601,love,commerce,business,war,,metaphor
+1602,love,commerce,career,hill,,metaphor
+1603,love,commerce,career,journey,,metaphor
+1604,love,commerce,career,mountain,,metaphor
+1605,love,commerce,career,slope,,metaphor
+1606,love,commerce,competition,race,,metaphor
+1607,love,commerce,crime,beast,,metaphor
+1608,love,commerce,crime,disease,,metaphor
+1609,love,commerce,crime,virus,,metaphor
+1610,love,commerce,debate,battle,,metaphor
+1611,love,commerce,difficulties,impediments to travel,,metaphor
+1612,love,commerce,education,journey,,metaphor
+1613,love,commerce,faith,husbandry,,metaphor
+1614,love,commerce,family,building,,metaphor
+1615,love,commerce,government,household,,metaphor
+1616,love,commerce,idea,food,,metaphor
+1617,love,commerce,idea,object,,metaphor
+1618,love,commerce,ideas,seeds,,metaphor
+1619,love,commerce,illness,battle,,metaphor
+1620,love,commerce,illness,journey,,metaphor
+1621,love,commerce,innovation,bloom,,metaphor
+1622,love,commerce,innovation,blossom,,metaphor
+1623,love,commerce,innovation,flower,,metaphor
+1624,love,commerce,knowledge,liquid,,metaphor
+1625,love,commerce,life,theatre,,metaphor
+1626,love,commerce,love,journey,,metaphor
+1627,love,commerce,marriage,boat,,metaphor
+1628,love,commerce,marriage,game,,metaphor
+1629,love,commerce,mind,machine,,metaphor
+1630,love,commerce,money,liquid,,metaphor
+1631,love,commerce,money,weapon,,metaphor
+1632,love,commerce,nation,family,,metaphor
+1633,love,commerce,nation,ship,,metaphor
+1634,love,commerce,politics,courtship,,metaphor
+1635,love,commerce,politics,game,,metaphor
+1636,love,commerce,politics,machine,,metaphor
+1637,love,commerce,politics,theatre,,metaphor
+1638,love,commerce,poverty,disease,,metaphor
+1639,love,commerce,reasons for a theory,grounds for a building,,metaphor
+1640,love,commerce,research,hunt,,metaphor
+1641,love,commerce,skill,possession,,metaphor
+1642,love,commerce,society,organism,,metaphor
+1643,love,commerce,society,train,,metaphor
+1644,love,commerce,sport,war,,metaphor
+1645,love,commerce,state,family,,metaphor
+1646,love,commerce,theory,building,,metaphor
+1647,love,commerce,time,money,,metaphor
+1648,love,commerce,understanding,following,,metaphor
+1649,love,commerce,understanding,seeing,,metaphor
+1650,love,journey,accepting a belief,buying an item,,metaphor
+1651,love,journey,ambition,hunger,,metaphor
+1652,love,journey,argument,war,,metaphor
+1653,love,journey,business,hunt,,metaphor
+1654,love,journey,business,war,,metaphor
+1655,love,journey,career,hill,,metaphor
+1656,love,journey,career,journey,,metaphor
+1657,love,journey,career,mountain,,metaphor
+1658,love,journey,career,slope,,metaphor
+1659,love,journey,competition,race,,metaphor
+1660,love,journey,crime,beast,,metaphor
+1661,love,journey,crime,disease,,metaphor
+1662,love,journey,crime,virus,,metaphor
+1663,love,journey,debate,battle,,metaphor
+1664,love,journey,difficulties,impediments to travel,,metaphor
+1665,love,journey,education,journey,,metaphor
+1666,love,journey,faith,husbandry,,metaphor
+1667,love,journey,family,building,,metaphor
+1668,love,journey,government,household,,metaphor
+1669,love,journey,idea,food,,metaphor
+1670,love,journey,idea,object,,metaphor
+1671,love,journey,ideas,seeds,,metaphor
+1672,love,journey,illness,battle,,metaphor
+1673,love,journey,illness,journey,,metaphor
+1674,love,journey,innovation,bloom,,metaphor
+1675,love,journey,innovation,blossom,,metaphor
+1676,love,journey,innovation,flower,,metaphor
+1677,love,journey,knowledge,liquid,,metaphor
+1678,love,journey,life,theatre,,metaphor
+1679,love,journey,love,commerce,,metaphor
+1680,love,journey,marriage,boat,,metaphor
+1681,love,journey,marriage,game,,metaphor
+1682,love,journey,mind,machine,,metaphor
+1683,love,journey,money,liquid,,metaphor
+1684,love,journey,money,weapon,,metaphor
+1685,love,journey,nation,family,,metaphor
+1686,love,journey,nation,ship,,metaphor
+1687,love,journey,politics,courtship,,metaphor
+1688,love,journey,politics,game,,metaphor
+1689,love,journey,politics,machine,,metaphor
+1690,love,journey,politics,theatre,,metaphor
+1691,love,journey,poverty,disease,,metaphor
+1692,love,journey,reasons for a theory,grounds for a building,,metaphor
+1693,love,journey,research,hunt,,metaphor
+1694,love,journey,skill,possession,,metaphor
+1695,love,journey,society,organism,,metaphor
+1696,love,journey,society,train,,metaphor
+1697,love,journey,sport,war,,metaphor
+1698,love,journey,state,family,,metaphor
+1699,love,journey,theory,building,,metaphor
+1700,love,journey,time,money,,metaphor
+1701,love,journey,understanding,following,,metaphor
+1702,love,journey,understanding,seeing,,metaphor
+1703,marriage,boat,accepting a belief,buying an item,,metaphor
+1704,marriage,boat,ambition,hunger,,metaphor
+1705,marriage,boat,argument,war,,metaphor
+1706,marriage,boat,business,hunt,,metaphor
+1707,marriage,boat,business,war,,metaphor
+1708,marriage,boat,career,hill,,metaphor
+1709,marriage,boat,career,journey,,metaphor
+1710,marriage,boat,career,mountain,,metaphor
+1711,marriage,boat,career,slope,,metaphor
+1712,marriage,boat,competition,race,,metaphor
+1713,marriage,boat,crime,beast,,metaphor
+1714,marriage,boat,crime,disease,,metaphor
+1715,marriage,boat,crime,virus,,metaphor
+1716,marriage,boat,debate,battle,,metaphor
+1717,marriage,boat,difficulties,impediments to travel,,metaphor
+1718,marriage,boat,education,journey,,metaphor
+1719,marriage,boat,faith,husbandry,,metaphor
+1720,marriage,boat,family,building,,metaphor
+1721,marriage,boat,government,household,,metaphor
+1722,marriage,boat,idea,food,,metaphor
+1723,marriage,boat,idea,object,,metaphor
+1724,marriage,boat,ideas,seeds,,metaphor
+1725,marriage,boat,illness,battle,,metaphor
+1726,marriage,boat,illness,journey,,metaphor
+1727,marriage,boat,innovation,bloom,,metaphor
+1728,marriage,boat,innovation,blossom,,metaphor
+1729,marriage,boat,innovation,flower,,metaphor
+1730,marriage,boat,knowledge,liquid,,metaphor
+1731,marriage,boat,life,theatre,,metaphor
+1732,marriage,boat,love,commerce,,metaphor
+1733,marriage,boat,love,journey,,metaphor
+1734,marriage,boat,marriage,game,,metaphor
+1735,marriage,boat,mind,machine,,metaphor
+1736,marriage,boat,money,liquid,,metaphor
+1737,marriage,boat,money,weapon,,metaphor
+1738,marriage,boat,nation,family,,metaphor
+1739,marriage,boat,nation,ship,,metaphor
+1740,marriage,boat,politics,courtship,,metaphor
+1741,marriage,boat,politics,game,,metaphor
+1742,marriage,boat,politics,machine,,metaphor
+1743,marriage,boat,politics,theatre,,metaphor
+1744,marriage,boat,poverty,disease,,metaphor
+1745,marriage,boat,reasons for a theory,grounds for a building,,metaphor
+1746,marriage,boat,research,hunt,,metaphor
+1747,marriage,boat,skill,possession,,metaphor
+1748,marriage,boat,society,organism,,metaphor
+1749,marriage,boat,society,train,,metaphor
+1750,marriage,boat,sport,war,,metaphor
+1751,marriage,boat,state,family,,metaphor
+1752,marriage,boat,theory,building,,metaphor
+1753,marriage,boat,time,money,,metaphor
+1754,marriage,boat,understanding,following,,metaphor
+1755,marriage,boat,understanding,seeing,,metaphor
+1756,marriage,game,accepting a belief,buying an item,,metaphor
+1757,marriage,game,ambition,hunger,,metaphor
+1758,marriage,game,argument,war,,metaphor
+1759,marriage,game,business,hunt,,metaphor
+1760,marriage,game,business,war,,metaphor
+1761,marriage,game,career,hill,,metaphor
+1762,marriage,game,career,journey,,metaphor
+1763,marriage,game,career,mountain,,metaphor
+1764,marriage,game,career,slope,,metaphor
+1765,marriage,game,competition,race,,metaphor
+1766,marriage,game,crime,beast,,metaphor
+1767,marriage,game,crime,disease,,metaphor
+1768,marriage,game,crime,virus,,metaphor
+1769,marriage,game,debate,battle,,metaphor
+1770,marriage,game,difficulties,impediments to travel,,metaphor
+1771,marriage,game,education,journey,,metaphor
+1772,marriage,game,faith,husbandry,,metaphor
+1773,marriage,game,family,building,,metaphor
+1774,marriage,game,government,household,,metaphor
+1775,marriage,game,idea,food,,metaphor
+1776,marriage,game,idea,object,,metaphor
+1777,marriage,game,ideas,seeds,,metaphor
+1778,marriage,game,illness,battle,,metaphor
+1779,marriage,game,illness,journey,,metaphor
+1780,marriage,game,innovation,bloom,,metaphor
+1781,marriage,game,innovation,blossom,,metaphor
+1782,marriage,game,innovation,flower,,metaphor
+1783,marriage,game,knowledge,liquid,,metaphor
+1784,marriage,game,life,theatre,,metaphor
+1785,marriage,game,love,commerce,,metaphor
+1786,marriage,game,love,journey,,metaphor
+1787,marriage,game,marriage,boat,,metaphor
+1788,marriage,game,mind,machine,,metaphor
+1789,marriage,game,money,liquid,,metaphor
+1790,marriage,game,money,weapon,,metaphor
+1791,marriage,game,nation,family,,metaphor
+1792,marriage,game,nation,ship,,metaphor
+1793,marriage,game,politics,courtship,,metaphor
+1794,marriage,game,politics,game,,metaphor
+1795,marriage,game,politics,machine,,metaphor
+1796,marriage,game,politics,theatre,,metaphor
+1797,marriage,game,poverty,disease,,metaphor
+1798,marriage,game,reasons for a theory,grounds for a building,,metaphor
+1799,marriage,game,research,hunt,,metaphor
+1800,marriage,game,skill,possession,,metaphor
+1801,marriage,game,society,organism,,metaphor
+1802,marriage,game,society,train,,metaphor
+1803,marriage,game,sport,war,,metaphor
+1804,marriage,game,state,family,,metaphor
+1805,marriage,game,theory,building,,metaphor
+1806,marriage,game,time,money,,metaphor
+1807,marriage,game,understanding,following,,metaphor
+1808,marriage,game,understanding,seeing,,metaphor
+1809,mind,computer,atom,solar system,,science
+1810,mind,computer,bacterial mutation,slot machine,,science
+1811,mind,computer,code,virus,,science
+1812,mind,computer,gas molecules,billiard balls,,science
+1813,mind,computer,heat transfer,water flow,,science
+1814,mind,computer,light,sound,,science
+1815,mind,computer,natural selection,artificial selection,,science
+1816,mind,computer,planet,projectile,,science
+1817,mind,computer,respiration,combustion,,science
+1818,mind,computer,sounds,waves,,science
+1819,mind,machine,accepting a belief,buying an item,,metaphor
+1820,mind,machine,ambition,hunger,,metaphor
+1821,mind,machine,argument,war,,metaphor
+1822,mind,machine,business,hunt,,metaphor
+1823,mind,machine,business,war,,metaphor
+1824,mind,machine,career,hill,,metaphor
+1825,mind,machine,career,journey,,metaphor
+1826,mind,machine,career,mountain,,metaphor
+1827,mind,machine,career,slope,,metaphor
+1828,mind,machine,competition,race,,metaphor
+1829,mind,machine,crime,beast,,metaphor
+1830,mind,machine,crime,disease,,metaphor
+1831,mind,machine,crime,virus,,metaphor
+1832,mind,machine,debate,battle,,metaphor
+1833,mind,machine,difficulties,impediments to travel,,metaphor
+1834,mind,machine,education,journey,,metaphor
+1835,mind,machine,faith,husbandry,,metaphor
+1836,mind,machine,family,building,,metaphor
+1837,mind,machine,government,household,,metaphor
+1838,mind,machine,idea,food,,metaphor
+1839,mind,machine,idea,object,,metaphor
+1840,mind,machine,ideas,seeds,,metaphor
+1841,mind,machine,illness,battle,,metaphor
+1842,mind,machine,illness,journey,,metaphor
+1843,mind,machine,innovation,bloom,,metaphor
+1844,mind,machine,innovation,blossom,,metaphor
+1845,mind,machine,innovation,flower,,metaphor
+1846,mind,machine,knowledge,liquid,,metaphor
+1847,mind,machine,life,theatre,,metaphor
+1848,mind,machine,love,commerce,,metaphor
+1849,mind,machine,love,journey,,metaphor
+1850,mind,machine,marriage,boat,,metaphor
+1851,mind,machine,marriage,game,,metaphor
+1852,mind,machine,money,liquid,,metaphor
+1853,mind,machine,money,weapon,,metaphor
+1854,mind,machine,nation,family,,metaphor
+1855,mind,machine,nation,ship,,metaphor
+1856,mind,machine,politics,courtship,,metaphor
+1857,mind,machine,politics,game,,metaphor
+1858,mind,machine,politics,machine,,metaphor
+1859,mind,machine,politics,theatre,,metaphor
+1860,mind,machine,poverty,disease,,metaphor
+1861,mind,machine,reasons for a theory,grounds for a building,,metaphor
+1862,mind,machine,research,hunt,,metaphor
+1863,mind,machine,skill,possession,,metaphor
+1864,mind,machine,society,organism,,metaphor
+1865,mind,machine,society,train,,metaphor
+1866,mind,machine,sport,war,,metaphor
+1867,mind,machine,state,family,,metaphor
+1868,mind,machine,theory,building,,metaphor
+1869,mind,machine,time,money,,metaphor
+1870,mind,machine,understanding,following,,metaphor
+1871,mind,machine,understanding,seeing,,metaphor
+1872,money,liquid,accepting a belief,buying an item,,metaphor
+1873,money,liquid,ambition,hunger,,metaphor
+1874,money,liquid,argument,war,,metaphor
+1875,money,liquid,business,hunt,,metaphor
+1876,money,liquid,business,war,,metaphor
+1877,money,liquid,career,hill,,metaphor
+1878,money,liquid,career,journey,,metaphor
+1879,money,liquid,career,mountain,,metaphor
+1880,money,liquid,career,slope,,metaphor
+1881,money,liquid,competition,race,,metaphor
+1882,money,liquid,crime,beast,,metaphor
+1883,money,liquid,crime,disease,,metaphor
+1884,money,liquid,crime,virus,,metaphor
+1885,money,liquid,debate,battle,,metaphor
+1886,money,liquid,difficulties,impediments to travel,,metaphor
+1887,money,liquid,education,journey,,metaphor
+1888,money,liquid,faith,husbandry,,metaphor
+1889,money,liquid,family,building,,metaphor
+1890,money,liquid,government,household,,metaphor
+1891,money,liquid,idea,food,,metaphor
+1892,money,liquid,idea,object,,metaphor
+1893,money,liquid,ideas,seeds,,metaphor
+1894,money,liquid,illness,battle,,metaphor
+1895,money,liquid,illness,journey,,metaphor
+1896,money,liquid,innovation,bloom,,metaphor
+1897,money,liquid,innovation,blossom,,metaphor
+1898,money,liquid,innovation,flower,,metaphor
+1899,money,liquid,knowledge,liquid,,metaphor
+1900,money,liquid,life,theatre,,metaphor
+1901,money,liquid,love,commerce,,metaphor
+1902,money,liquid,love,journey,,metaphor
+1903,money,liquid,marriage,boat,,metaphor
+1904,money,liquid,marriage,game,,metaphor
+1905,money,liquid,mind,machine,,metaphor
+1906,money,liquid,money,weapon,,metaphor
+1907,money,liquid,nation,family,,metaphor
+1908,money,liquid,nation,ship,,metaphor
+1909,money,liquid,politics,courtship,,metaphor
+1910,money,liquid,politics,game,,metaphor
+1911,money,liquid,politics,machine,,metaphor
+1912,money,liquid,politics,theatre,,metaphor
+1913,money,liquid,poverty,disease,,metaphor
+1914,money,liquid,reasons for a theory,grounds for a building,,metaphor
+1915,money,liquid,research,hunt,,metaphor
+1916,money,liquid,skill,possession,,metaphor
+1917,money,liquid,society,organism,,metaphor
+1918,money,liquid,society,train,,metaphor
+1919,money,liquid,sport,war,,metaphor
+1920,money,liquid,state,family,,metaphor
+1921,money,liquid,theory,building,,metaphor
+1922,money,liquid,time,money,,metaphor
+1923,money,liquid,understanding,following,,metaphor
+1924,money,liquid,understanding,seeing,,metaphor
+1925,money,weapon,accepting a belief,buying an item,,metaphor
+1926,money,weapon,ambition,hunger,,metaphor
+1927,money,weapon,argument,war,,metaphor
+1928,money,weapon,business,hunt,,metaphor
+1929,money,weapon,business,war,,metaphor
+1930,money,weapon,career,hill,,metaphor
+1931,money,weapon,career,journey,,metaphor
+1932,money,weapon,career,mountain,,metaphor
+1933,money,weapon,career,slope,,metaphor
+1934,money,weapon,competition,race,,metaphor
+1935,money,weapon,crime,beast,,metaphor
+1936,money,weapon,crime,disease,,metaphor
+1937,money,weapon,crime,virus,,metaphor
+1938,money,weapon,debate,battle,,metaphor
+1939,money,weapon,difficulties,impediments to travel,,metaphor
+1940,money,weapon,education,journey,,metaphor
+1941,money,weapon,faith,husbandry,,metaphor
+1942,money,weapon,family,building,,metaphor
+1943,money,weapon,government,household,,metaphor
+1944,money,weapon,idea,food,,metaphor
+1945,money,weapon,idea,object,,metaphor
+1946,money,weapon,ideas,seeds,,metaphor
+1947,money,weapon,illness,battle,,metaphor
+1948,money,weapon,illness,journey,,metaphor
+1949,money,weapon,innovation,bloom,,metaphor
+1950,money,weapon,innovation,blossom,,metaphor
+1951,money,weapon,innovation,flower,,metaphor
+1952,money,weapon,knowledge,liquid,,metaphor
+1953,money,weapon,life,theatre,,metaphor
+1954,money,weapon,love,commerce,,metaphor
+1955,money,weapon,love,journey,,metaphor
+1956,money,weapon,marriage,boat,,metaphor
+1957,money,weapon,marriage,game,,metaphor
+1958,money,weapon,mind,machine,,metaphor
+1959,money,weapon,money,liquid,,metaphor
+1960,money,weapon,nation,family,,metaphor
+1961,money,weapon,nation,ship,,metaphor
+1962,money,weapon,politics,courtship,,metaphor
+1963,money,weapon,politics,game,,metaphor
+1964,money,weapon,politics,machine,,metaphor
+1965,money,weapon,politics,theatre,,metaphor
+1966,money,weapon,poverty,disease,,metaphor
+1967,money,weapon,reasons for a theory,grounds for a building,,metaphor
+1968,money,weapon,research,hunt,,metaphor
+1969,money,weapon,skill,possession,,metaphor
+1970,money,weapon,society,organism,,metaphor
+1971,money,weapon,society,train,,metaphor
+1972,money,weapon,sport,war,,metaphor
+1973,money,weapon,state,family,,metaphor
+1974,money,weapon,theory,building,,metaphor
+1975,money,weapon,time,money,,metaphor
+1976,money,weapon,understanding,following,,metaphor
+1977,money,weapon,understanding,seeing,,metaphor
+1978,nation,family,accepting a belief,buying an item,,metaphor
+1979,nation,family,ambition,hunger,,metaphor
+1980,nation,family,argument,war,,metaphor
+1981,nation,family,business,hunt,,metaphor
+1982,nation,family,business,war,,metaphor
+1983,nation,family,career,hill,,metaphor
+1984,nation,family,career,journey,,metaphor
+1985,nation,family,career,mountain,,metaphor
+1986,nation,family,career,slope,,metaphor
+1987,nation,family,competition,race,,metaphor
+1988,nation,family,crime,beast,,metaphor
+1989,nation,family,crime,disease,,metaphor
+1990,nation,family,crime,virus,,metaphor
+1991,nation,family,debate,battle,,metaphor
+1992,nation,family,difficulties,impediments to travel,,metaphor
+1993,nation,family,education,journey,,metaphor
+1994,nation,family,faith,husbandry,,metaphor
+1995,nation,family,family,building,,metaphor
+1996,nation,family,government,household,,metaphor
+1997,nation,family,idea,food,,metaphor
+1998,nation,family,idea,object,,metaphor
+1999,nation,family,ideas,seeds,,metaphor
+2000,nation,family,illness,battle,,metaphor
+2001,nation,family,illness,journey,,metaphor
+2002,nation,family,innovation,bloom,,metaphor
+2003,nation,family,innovation,blossom,,metaphor
+2004,nation,family,innovation,flower,,metaphor
+2005,nation,family,knowledge,liquid,,metaphor
+2006,nation,family,life,theatre,,metaphor
+2007,nation,family,love,commerce,,metaphor
+2008,nation,family,love,journey,,metaphor
+2009,nation,family,marriage,boat,,metaphor
+2010,nation,family,marriage,game,,metaphor
+2011,nation,family,mind,machine,,metaphor
+2012,nation,family,money,liquid,,metaphor
+2013,nation,family,money,weapon,,metaphor
+2014,nation,family,nation,ship,,metaphor
+2015,nation,family,politics,courtship,,metaphor
+2016,nation,family,politics,game,,metaphor
+2017,nation,family,politics,machine,,metaphor
+2018,nation,family,politics,theatre,,metaphor
+2019,nation,family,poverty,disease,,metaphor
+2020,nation,family,reasons for a theory,grounds for a building,,metaphor
+2021,nation,family,research,hunt,,metaphor
+2022,nation,family,skill,possession,,metaphor
+2023,nation,family,society,organism,,metaphor
+2024,nation,family,society,train,,metaphor
+2025,nation,family,sport,war,,metaphor
+2026,nation,family,state,family,,metaphor
+2027,nation,family,theory,building,,metaphor
+2028,nation,family,time,money,,metaphor
+2029,nation,family,understanding,following,,metaphor
+2030,nation,family,understanding,seeing,,metaphor
+2031,nation,ship,accepting a belief,buying an item,,metaphor
+2032,nation,ship,ambition,hunger,,metaphor
+2033,nation,ship,argument,war,,metaphor
+2034,nation,ship,business,hunt,,metaphor
+2035,nation,ship,business,war,,metaphor
+2036,nation,ship,career,hill,,metaphor
+2037,nation,ship,career,journey,,metaphor
+2038,nation,ship,career,mountain,,metaphor
+2039,nation,ship,career,slope,,metaphor
+2040,nation,ship,competition,race,,metaphor
+2041,nation,ship,crime,beast,,metaphor
+2042,nation,ship,crime,disease,,metaphor
+2043,nation,ship,crime,virus,,metaphor
+2044,nation,ship,debate,battle,,metaphor
+2045,nation,ship,difficulties,impediments to travel,,metaphor
+2046,nation,ship,education,journey,,metaphor
+2047,nation,ship,faith,husbandry,,metaphor
+2048,nation,ship,family,building,,metaphor
+2049,nation,ship,government,household,,metaphor
+2050,nation,ship,idea,food,,metaphor
+2051,nation,ship,idea,object,,metaphor
+2052,nation,ship,ideas,seeds,,metaphor
+2053,nation,ship,illness,battle,,metaphor
+2054,nation,ship,illness,journey,,metaphor
+2055,nation,ship,innovation,bloom,,metaphor
+2056,nation,ship,innovation,blossom,,metaphor
+2057,nation,ship,innovation,flower,,metaphor
+2058,nation,ship,knowledge,liquid,,metaphor
+2059,nation,ship,life,theatre,,metaphor
+2060,nation,ship,love,commerce,,metaphor
+2061,nation,ship,love,journey,,metaphor
+2062,nation,ship,marriage,boat,,metaphor
+2063,nation,ship,marriage,game,,metaphor
+2064,nation,ship,mind,machine,,metaphor
+2065,nation,ship,money,liquid,,metaphor
+2066,nation,ship,money,weapon,,metaphor
+2067,nation,ship,nation,family,,metaphor
+2068,nation,ship,politics,courtship,,metaphor
+2069,nation,ship,politics,game,,metaphor
+2070,nation,ship,politics,machine,,metaphor
+2071,nation,ship,politics,theatre,,metaphor
+2072,nation,ship,poverty,disease,,metaphor
+2073,nation,ship,reasons for a theory,grounds for a building,,metaphor
+2074,nation,ship,research,hunt,,metaphor
+2075,nation,ship,skill,possession,,metaphor
+2076,nation,ship,society,organism,,metaphor
+2077,nation,ship,society,train,,metaphor
+2078,nation,ship,sport,war,,metaphor
+2079,nation,ship,state,family,,metaphor
+2080,nation,ship,theory,building,,metaphor
+2081,nation,ship,time,money,,metaphor
+2082,nation,ship,understanding,following,,metaphor
+2083,nation,ship,understanding,seeing,,metaphor
+2084,natural selection,artificial selection,atom,solar system,,science
+2085,natural selection,artificial selection,bacterial mutation,slot machine,,science
+2086,natural selection,artificial selection,code,virus,,science
+2087,natural selection,artificial selection,gas molecules,billiard balls,,science
+2088,natural selection,artificial selection,heat transfer,water flow,,science
+2089,natural selection,artificial selection,light,sound,,science
+2090,natural selection,artificial selection,mind,computer,,science
+2091,natural selection,artificial selection,planet,projectile,,science
+2092,natural selection,artificial selection,respiration,combustion,,science
+2093,natural selection,artificial selection,sounds,waves,,science
+2094,planet,projectile,atom,solar system,,science
+2095,planet,projectile,bacterial mutation,slot machine,,science
+2096,planet,projectile,code,virus,,science
+2097,planet,projectile,gas molecules,billiard balls,,science
+2098,planet,projectile,heat transfer,water flow,,science
+2099,planet,projectile,light,sound,,science
+2100,planet,projectile,mind,computer,,science
+2101,planet,projectile,natural selection,artificial selection,,science
+2102,planet,projectile,respiration,combustion,,science
+2103,planet,projectile,sounds,waves,,science
+2104,politics,courtship,accepting a belief,buying an item,,metaphor
+2105,politics,courtship,ambition,hunger,,metaphor
+2106,politics,courtship,argument,war,,metaphor
+2107,politics,courtship,business,hunt,,metaphor
+2108,politics,courtship,business,war,,metaphor
+2109,politics,courtship,career,hill,,metaphor
+2110,politics,courtship,career,journey,,metaphor
+2111,politics,courtship,career,mountain,,metaphor
+2112,politics,courtship,career,slope,,metaphor
+2113,politics,courtship,competition,race,,metaphor
+2114,politics,courtship,crime,beast,,metaphor
+2115,politics,courtship,crime,disease,,metaphor
+2116,politics,courtship,crime,virus,,metaphor
+2117,politics,courtship,debate,battle,,metaphor
+2118,politics,courtship,difficulties,impediments to travel,,metaphor
+2119,politics,courtship,education,journey,,metaphor
+2120,politics,courtship,faith,husbandry,,metaphor
+2121,politics,courtship,family,building,,metaphor
+2122,politics,courtship,government,household,,metaphor
+2123,politics,courtship,idea,food,,metaphor
+2124,politics,courtship,idea,object,,metaphor
+2125,politics,courtship,ideas,seeds,,metaphor
+2126,politics,courtship,illness,battle,,metaphor
+2127,politics,courtship,illness,journey,,metaphor
+2128,politics,courtship,innovation,bloom,,metaphor
+2129,politics,courtship,innovation,blossom,,metaphor
+2130,politics,courtship,innovation,flower,,metaphor
+2131,politics,courtship,knowledge,liquid,,metaphor
+2132,politics,courtship,life,theatre,,metaphor
+2133,politics,courtship,love,commerce,,metaphor
+2134,politics,courtship,love,journey,,metaphor
+2135,politics,courtship,marriage,boat,,metaphor
+2136,politics,courtship,marriage,game,,metaphor
+2137,politics,courtship,mind,machine,,metaphor
+2138,politics,courtship,money,liquid,,metaphor
+2139,politics,courtship,money,weapon,,metaphor
+2140,politics,courtship,nation,family,,metaphor
+2141,politics,courtship,nation,ship,,metaphor
+2142,politics,courtship,politics,game,,metaphor
+2143,politics,courtship,politics,machine,,metaphor
+2144,politics,courtship,politics,theatre,,metaphor
+2145,politics,courtship,poverty,disease,,metaphor
+2146,politics,courtship,reasons for a theory,grounds for a building,,metaphor
+2147,politics,courtship,research,hunt,,metaphor
+2148,politics,courtship,skill,possession,,metaphor
+2149,politics,courtship,society,organism,,metaphor
+2150,politics,courtship,society,train,,metaphor
+2151,politics,courtship,sport,war,,metaphor
+2152,politics,courtship,state,family,,metaphor
+2153,politics,courtship,theory,building,,metaphor
+2154,politics,courtship,time,money,,metaphor
+2155,politics,courtship,understanding,following,,metaphor
+2156,politics,courtship,understanding,seeing,,metaphor
+2157,politics,game,accepting a belief,buying an item,,metaphor
+2158,politics,game,ambition,hunger,,metaphor
+2159,politics,game,argument,war,,metaphor
+2160,politics,game,business,hunt,,metaphor
+2161,politics,game,business,war,,metaphor
+2162,politics,game,career,hill,,metaphor
+2163,politics,game,career,journey,,metaphor
+2164,politics,game,career,mountain,,metaphor
+2165,politics,game,career,slope,,metaphor
+2166,politics,game,competition,race,,metaphor
+2167,politics,game,crime,beast,,metaphor
+2168,politics,game,crime,disease,,metaphor
+2169,politics,game,crime,virus,,metaphor
+2170,politics,game,debate,battle,,metaphor
+2171,politics,game,difficulties,impediments to travel,,metaphor
+2172,politics,game,education,journey,,metaphor
+2173,politics,game,faith,husbandry,,metaphor
+2174,politics,game,family,building,,metaphor
+2175,politics,game,government,household,,metaphor
+2176,politics,game,idea,food,,metaphor
+2177,politics,game,idea,object,,metaphor
+2178,politics,game,ideas,seeds,,metaphor
+2179,politics,game,illness,battle,,metaphor
+2180,politics,game,illness,journey,,metaphor
+2181,politics,game,innovation,bloom,,metaphor
+2182,politics,game,innovation,blossom,,metaphor
+2183,politics,game,innovation,flower,,metaphor
+2184,politics,game,knowledge,liquid,,metaphor
+2185,politics,game,life,theatre,,metaphor
+2186,politics,game,love,commerce,,metaphor
+2187,politics,game,love,journey,,metaphor
+2188,politics,game,marriage,boat,,metaphor
+2189,politics,game,marriage,game,,metaphor
+2190,politics,game,mind,machine,,metaphor
+2191,politics,game,money,liquid,,metaphor
+2192,politics,game,money,weapon,,metaphor
+2193,politics,game,nation,family,,metaphor
+2194,politics,game,nation,ship,,metaphor
+2195,politics,game,politics,courtship,,metaphor
+2196,politics,game,politics,machine,,metaphor
+2197,politics,game,politics,theatre,,metaphor
+2198,politics,game,poverty,disease,,metaphor
+2199,politics,game,reasons for a theory,grounds for a building,,metaphor
+2200,politics,game,research,hunt,,metaphor
+2201,politics,game,skill,possession,,metaphor
+2202,politics,game,society,organism,,metaphor
+2203,politics,game,society,train,,metaphor
+2204,politics,game,sport,war,,metaphor
+2205,politics,game,state,family,,metaphor
+2206,politics,game,theory,building,,metaphor
+2207,politics,game,time,money,,metaphor
+2208,politics,game,understanding,following,,metaphor
+2209,politics,game,understanding,seeing,,metaphor
+2210,politics,machine,accepting a belief,buying an item,,metaphor
+2211,politics,machine,ambition,hunger,,metaphor
+2212,politics,machine,argument,war,,metaphor
+2213,politics,machine,business,hunt,,metaphor
+2214,politics,machine,business,war,,metaphor
+2215,politics,machine,career,hill,,metaphor
+2216,politics,machine,career,journey,,metaphor
+2217,politics,machine,career,mountain,,metaphor
+2218,politics,machine,career,slope,,metaphor
+2219,politics,machine,competition,race,,metaphor
+2220,politics,machine,crime,beast,,metaphor
+2221,politics,machine,crime,disease,,metaphor
+2222,politics,machine,crime,virus,,metaphor
+2223,politics,machine,debate,battle,,metaphor
+2224,politics,machine,difficulties,impediments to travel,,metaphor
+2225,politics,machine,education,journey,,metaphor
+2226,politics,machine,faith,husbandry,,metaphor
+2227,politics,machine,family,building,,metaphor
+2228,politics,machine,government,household,,metaphor
+2229,politics,machine,idea,food,,metaphor
+2230,politics,machine,idea,object,,metaphor
+2231,politics,machine,ideas,seeds,,metaphor
+2232,politics,machine,illness,battle,,metaphor
+2233,politics,machine,illness,journey,,metaphor
+2234,politics,machine,innovation,bloom,,metaphor
+2235,politics,machine,innovation,blossom,,metaphor
+2236,politics,machine,innovation,flower,,metaphor
+2237,politics,machine,knowledge,liquid,,metaphor
+2238,politics,machine,life,theatre,,metaphor
+2239,politics,machine,love,commerce,,metaphor
+2240,politics,machine,love,journey,,metaphor
+2241,politics,machine,marriage,boat,,metaphor
+2242,politics,machine,marriage,game,,metaphor
+2243,politics,machine,mind,machine,,metaphor
+2244,politics,machine,money,liquid,,metaphor
+2245,politics,machine,money,weapon,,metaphor
+2246,politics,machine,nation,family,,metaphor
+2247,politics,machine,nation,ship,,metaphor
+2248,politics,machine,politics,courtship,,metaphor
+2249,politics,machine,politics,game,,metaphor
+2250,politics,machine,politics,theatre,,metaphor
+2251,politics,machine,poverty,disease,,metaphor
+2252,politics,machine,reasons for a theory,grounds for a building,,metaphor
+2253,politics,machine,research,hunt,,metaphor
+2254,politics,machine,skill,possession,,metaphor
+2255,politics,machine,society,organism,,metaphor
+2256,politics,machine,society,train,,metaphor
+2257,politics,machine,sport,war,,metaphor
+2258,politics,machine,state,family,,metaphor
+2259,politics,machine,theory,building,,metaphor
+2260,politics,machine,time,money,,metaphor
+2261,politics,machine,understanding,following,,metaphor
+2262,politics,machine,understanding,seeing,,metaphor
+2263,politics,theatre,accepting a belief,buying an item,,metaphor
+2264,politics,theatre,ambition,hunger,,metaphor
+2265,politics,theatre,argument,war,,metaphor
+2266,politics,theatre,business,hunt,,metaphor
+2267,politics,theatre,business,war,,metaphor
+2268,politics,theatre,career,hill,,metaphor
+2269,politics,theatre,career,journey,,metaphor
+2270,politics,theatre,career,mountain,,metaphor
+2271,politics,theatre,career,slope,,metaphor
+2272,politics,theatre,competition,race,,metaphor
+2273,politics,theatre,crime,beast,,metaphor
+2274,politics,theatre,crime,disease,,metaphor
+2275,politics,theatre,crime,virus,,metaphor
+2276,politics,theatre,debate,battle,,metaphor
+2277,politics,theatre,difficulties,impediments to travel,,metaphor
+2278,politics,theatre,education,journey,,metaphor
+2279,politics,theatre,faith,husbandry,,metaphor
+2280,politics,theatre,family,building,,metaphor
+2281,politics,theatre,government,household,,metaphor
+2282,politics,theatre,idea,food,,metaphor
+2283,politics,theatre,idea,object,,metaphor
+2284,politics,theatre,ideas,seeds,,metaphor
+2285,politics,theatre,illness,battle,,metaphor
+2286,politics,theatre,illness,journey,,metaphor
+2287,politics,theatre,innovation,bloom,,metaphor
+2288,politics,theatre,innovation,blossom,,metaphor
+2289,politics,theatre,innovation,flower,,metaphor
+2290,politics,theatre,knowledge,liquid,,metaphor
+2291,politics,theatre,life,theatre,,metaphor
+2292,politics,theatre,love,commerce,,metaphor
+2293,politics,theatre,love,journey,,metaphor
+2294,politics,theatre,marriage,boat,,metaphor
+2295,politics,theatre,marriage,game,,metaphor
+2296,politics,theatre,mind,machine,,metaphor
+2297,politics,theatre,money,liquid,,metaphor
+2298,politics,theatre,money,weapon,,metaphor
+2299,politics,theatre,nation,family,,metaphor
+2300,politics,theatre,nation,ship,,metaphor
+2301,politics,theatre,politics,courtship,,metaphor
+2302,politics,theatre,politics,game,,metaphor
+2303,politics,theatre,politics,machine,,metaphor
+2304,politics,theatre,poverty,disease,,metaphor
+2305,politics,theatre,reasons for a theory,grounds for a building,,metaphor
+2306,politics,theatre,research,hunt,,metaphor
+2307,politics,theatre,skill,possession,,metaphor
+2308,politics,theatre,society,organism,,metaphor
+2309,politics,theatre,society,train,,metaphor
+2310,politics,theatre,sport,war,,metaphor
+2311,politics,theatre,state,family,,metaphor
+2312,politics,theatre,theory,building,,metaphor
+2313,politics,theatre,time,money,,metaphor
+2314,politics,theatre,understanding,following,,metaphor
+2315,politics,theatre,understanding,seeing,,metaphor
+2316,poverty,disease,accepting a belief,buying an item,,metaphor
+2317,poverty,disease,ambition,hunger,,metaphor
+2318,poverty,disease,argument,war,,metaphor
+2319,poverty,disease,business,hunt,,metaphor
+2320,poverty,disease,business,war,,metaphor
+2321,poverty,disease,career,hill,,metaphor
+2322,poverty,disease,career,journey,,metaphor
+2323,poverty,disease,career,mountain,,metaphor
+2324,poverty,disease,career,slope,,metaphor
+2325,poverty,disease,competition,race,,metaphor
+2326,poverty,disease,crime,beast,,metaphor
+2327,poverty,disease,crime,disease,,metaphor
+2328,poverty,disease,crime,virus,,metaphor
+2329,poverty,disease,debate,battle,,metaphor
+2330,poverty,disease,difficulties,impediments to travel,,metaphor
+2331,poverty,disease,education,journey,,metaphor
+2332,poverty,disease,faith,husbandry,,metaphor
+2333,poverty,disease,family,building,,metaphor
+2334,poverty,disease,government,household,,metaphor
+2335,poverty,disease,idea,food,,metaphor
+2336,poverty,disease,idea,object,,metaphor
+2337,poverty,disease,ideas,seeds,,metaphor
+2338,poverty,disease,illness,battle,,metaphor
+2339,poverty,disease,illness,journey,,metaphor
+2340,poverty,disease,innovation,bloom,,metaphor
+2341,poverty,disease,innovation,blossom,,metaphor
+2342,poverty,disease,innovation,flower,,metaphor
+2343,poverty,disease,knowledge,liquid,,metaphor
+2344,poverty,disease,life,theatre,,metaphor
+2345,poverty,disease,love,commerce,,metaphor
+2346,poverty,disease,love,journey,,metaphor
+2347,poverty,disease,marriage,boat,,metaphor
+2348,poverty,disease,marriage,game,,metaphor
+2349,poverty,disease,mind,machine,,metaphor
+2350,poverty,disease,money,liquid,,metaphor
+2351,poverty,disease,money,weapon,,metaphor
+2352,poverty,disease,nation,family,,metaphor
+2353,poverty,disease,nation,ship,,metaphor
+2354,poverty,disease,politics,courtship,,metaphor
+2355,poverty,disease,politics,game,,metaphor
+2356,poverty,disease,politics,machine,,metaphor
+2357,poverty,disease,politics,theatre,,metaphor
+2358,poverty,disease,reasons for a theory,grounds for a building,,metaphor
+2359,poverty,disease,research,hunt,,metaphor
+2360,poverty,disease,skill,possession,,metaphor
+2361,poverty,disease,society,organism,,metaphor
+2362,poverty,disease,society,train,,metaphor
+2363,poverty,disease,sport,war,,metaphor
+2364,poverty,disease,state,family,,metaphor
+2365,poverty,disease,theory,building,,metaphor
+2366,poverty,disease,time,money,,metaphor
+2367,poverty,disease,understanding,following,,metaphor
+2368,poverty,disease,understanding,seeing,,metaphor
+2369,reasons for a theory,grounds for a building,accepting a belief,buying an item,,metaphor
+2370,reasons for a theory,grounds for a building,ambition,hunger,,metaphor
+2371,reasons for a theory,grounds for a building,argument,war,,metaphor
+2372,reasons for a theory,grounds for a building,business,hunt,,metaphor
+2373,reasons for a theory,grounds for a building,business,war,,metaphor
+2374,reasons for a theory,grounds for a building,career,hill,,metaphor
+2375,reasons for a theory,grounds for a building,career,journey,,metaphor
+2376,reasons for a theory,grounds for a building,career,mountain,,metaphor
+2377,reasons for a theory,grounds for a building,career,slope,,metaphor
+2378,reasons for a theory,grounds for a building,competition,race,,metaphor
+2379,reasons for a theory,grounds for a building,crime,beast,,metaphor
+2380,reasons for a theory,grounds for a building,crime,disease,,metaphor
+2381,reasons for a theory,grounds for a building,crime,virus,,metaphor
+2382,reasons for a theory,grounds for a building,debate,battle,,metaphor
+2383,reasons for a theory,grounds for a building,difficulties,impediments to travel,,metaphor
+2384,reasons for a theory,grounds for a building,education,journey,,metaphor
+2385,reasons for a theory,grounds for a building,faith,husbandry,,metaphor
+2386,reasons for a theory,grounds for a building,family,building,,metaphor
+2387,reasons for a theory,grounds for a building,government,household,,metaphor
+2388,reasons for a theory,grounds for a building,idea,food,,metaphor
+2389,reasons for a theory,grounds for a building,idea,object,,metaphor
+2390,reasons for a theory,grounds for a building,ideas,seeds,,metaphor
+2391,reasons for a theory,grounds for a building,illness,battle,,metaphor
+2392,reasons for a theory,grounds for a building,illness,journey,,metaphor
+2393,reasons for a theory,grounds for a building,innovation,bloom,,metaphor
+2394,reasons for a theory,grounds for a building,innovation,blossom,,metaphor
+2395,reasons for a theory,grounds for a building,innovation,flower,,metaphor
+2396,reasons for a theory,grounds for a building,knowledge,liquid,,metaphor
+2397,reasons for a theory,grounds for a building,life,theatre,,metaphor
+2398,reasons for a theory,grounds for a building,love,commerce,,metaphor
+2399,reasons for a theory,grounds for a building,love,journey,,metaphor
+2400,reasons for a theory,grounds for a building,marriage,boat,,metaphor
+2401,reasons for a theory,grounds for a building,marriage,game,,metaphor
+2402,reasons for a theory,grounds for a building,mind,machine,,metaphor
+2403,reasons for a theory,grounds for a building,money,liquid,,metaphor
+2404,reasons for a theory,grounds for a building,money,weapon,,metaphor
+2405,reasons for a theory,grounds for a building,nation,family,,metaphor
+2406,reasons for a theory,grounds for a building,nation,ship,,metaphor
+2407,reasons for a theory,grounds for a building,politics,courtship,,metaphor
+2408,reasons for a theory,grounds for a building,politics,game,,metaphor
+2409,reasons for a theory,grounds for a building,politics,machine,,metaphor
+2410,reasons for a theory,grounds for a building,politics,theatre,,metaphor
+2411,reasons for a theory,grounds for a building,poverty,disease,,metaphor
+2412,reasons for a theory,grounds for a building,research,hunt,,metaphor
+2413,reasons for a theory,grounds for a building,skill,possession,,metaphor
+2414,reasons for a theory,grounds for a building,society,organism,,metaphor
+2415,reasons for a theory,grounds for a building,society,train,,metaphor
+2416,reasons for a theory,grounds for a building,sport,war,,metaphor
+2417,reasons for a theory,grounds for a building,state,family,,metaphor
+2418,reasons for a theory,grounds for a building,theory,building,,metaphor
+2419,reasons for a theory,grounds for a building,time,money,,metaphor
+2420,reasons for a theory,grounds for a building,understanding,following,,metaphor
+2421,reasons for a theory,grounds for a building,understanding,seeing,,metaphor
+2422,research,hunt,accepting a belief,buying an item,,metaphor
+2423,research,hunt,ambition,hunger,,metaphor
+2424,research,hunt,argument,war,,metaphor
+2425,research,hunt,business,hunt,,metaphor
+2426,research,hunt,business,war,,metaphor
+2427,research,hunt,career,hill,,metaphor
+2428,research,hunt,career,journey,,metaphor
+2429,research,hunt,career,mountain,,metaphor
+2430,research,hunt,career,slope,,metaphor
+2431,research,hunt,competition,race,,metaphor
+2432,research,hunt,crime,beast,,metaphor
+2433,research,hunt,crime,disease,,metaphor
+2434,research,hunt,crime,virus,,metaphor
+2435,research,hunt,debate,battle,,metaphor
+2436,research,hunt,difficulties,impediments to travel,,metaphor
+2437,research,hunt,education,journey,,metaphor
+2438,research,hunt,faith,husbandry,,metaphor
+2439,research,hunt,family,building,,metaphor
+2440,research,hunt,government,household,,metaphor
+2441,research,hunt,idea,food,,metaphor
+2442,research,hunt,idea,object,,metaphor
+2443,research,hunt,ideas,seeds,,metaphor
+2444,research,hunt,illness,battle,,metaphor
+2445,research,hunt,illness,journey,,metaphor
+2446,research,hunt,innovation,bloom,,metaphor
+2447,research,hunt,innovation,blossom,,metaphor
+2448,research,hunt,innovation,flower,,metaphor
+2449,research,hunt,knowledge,liquid,,metaphor
+2450,research,hunt,life,theatre,,metaphor
+2451,research,hunt,love,commerce,,metaphor
+2452,research,hunt,love,journey,,metaphor
+2453,research,hunt,marriage,boat,,metaphor
+2454,research,hunt,marriage,game,,metaphor
+2455,research,hunt,mind,machine,,metaphor
+2456,research,hunt,money,liquid,,metaphor
+2457,research,hunt,money,weapon,,metaphor
+2458,research,hunt,nation,family,,metaphor
+2459,research,hunt,nation,ship,,metaphor
+2460,research,hunt,politics,courtship,,metaphor
+2461,research,hunt,politics,game,,metaphor
+2462,research,hunt,politics,machine,,metaphor
+2463,research,hunt,politics,theatre,,metaphor
+2464,research,hunt,poverty,disease,,metaphor
+2465,research,hunt,reasons for a theory,grounds for a building,,metaphor
+2466,research,hunt,skill,possession,,metaphor
+2467,research,hunt,society,organism,,metaphor
+2468,research,hunt,society,train,,metaphor
+2469,research,hunt,sport,war,,metaphor
+2470,research,hunt,state,family,,metaphor
+2471,research,hunt,theory,building,,metaphor
+2472,research,hunt,time,money,,metaphor
+2473,research,hunt,understanding,following,,metaphor
+2474,research,hunt,understanding,seeing,,metaphor
+2475,respiration,combustion,atom,solar system,,science
+2476,respiration,combustion,bacterial mutation,slot machine,,science
+2477,respiration,combustion,code,virus,,science
+2478,respiration,combustion,gas molecules,billiard balls,,science
+2479,respiration,combustion,heat transfer,water flow,,science
+2480,respiration,combustion,light,sound,,science
+2481,respiration,combustion,mind,computer,,science
+2482,respiration,combustion,natural selection,artificial selection,,science
+2483,respiration,combustion,planet,projectile,,science
+2484,respiration,combustion,sounds,waves,,science
+2485,skill,possession,accepting a belief,buying an item,,metaphor
+2486,skill,possession,ambition,hunger,,metaphor
+2487,skill,possession,argument,war,,metaphor
+2488,skill,possession,business,hunt,,metaphor
+2489,skill,possession,business,war,,metaphor
+2490,skill,possession,career,hill,,metaphor
+2491,skill,possession,career,journey,,metaphor
+2492,skill,possession,career,mountain,,metaphor
+2493,skill,possession,career,slope,,metaphor
+2494,skill,possession,competition,race,,metaphor
+2495,skill,possession,crime,beast,,metaphor
+2496,skill,possession,crime,disease,,metaphor
+2497,skill,possession,crime,virus,,metaphor
+2498,skill,possession,debate,battle,,metaphor
+2499,skill,possession,difficulties,impediments to travel,,metaphor
+2500,skill,possession,education,journey,,metaphor
+2501,skill,possession,faith,husbandry,,metaphor
+2502,skill,possession,family,building,,metaphor
+2503,skill,possession,government,household,,metaphor
+2504,skill,possession,idea,food,,metaphor
+2505,skill,possession,idea,object,,metaphor
+2506,skill,possession,ideas,seeds,,metaphor
+2507,skill,possession,illness,battle,,metaphor
+2508,skill,possession,illness,journey,,metaphor
+2509,skill,possession,innovation,bloom,,metaphor
+2510,skill,possession,innovation,blossom,,metaphor
+2511,skill,possession,innovation,flower,,metaphor
+2512,skill,possession,knowledge,liquid,,metaphor
+2513,skill,possession,life,theatre,,metaphor
+2514,skill,possession,love,commerce,,metaphor
+2515,skill,possession,love,journey,,metaphor
+2516,skill,possession,marriage,boat,,metaphor
+2517,skill,possession,marriage,game,,metaphor
+2518,skill,possession,mind,machine,,metaphor
+2519,skill,possession,money,liquid,,metaphor
+2520,skill,possession,money,weapon,,metaphor
+2521,skill,possession,nation,family,,metaphor
+2522,skill,possession,nation,ship,,metaphor
+2523,skill,possession,politics,courtship,,metaphor
+2524,skill,possession,politics,game,,metaphor
+2525,skill,possession,politics,machine,,metaphor
+2526,skill,possession,politics,theatre,,metaphor
+2527,skill,possession,poverty,disease,,metaphor
+2528,skill,possession,reasons for a theory,grounds for a building,,metaphor
+2529,skill,possession,research,hunt,,metaphor
+2530,skill,possession,society,organism,,metaphor
+2531,skill,possession,society,train,,metaphor
+2532,skill,possession,sport,war,,metaphor
+2533,skill,possession,state,family,,metaphor
+2534,skill,possession,theory,building,,metaphor
+2535,skill,possession,time,money,,metaphor
+2536,skill,possession,understanding,following,,metaphor
+2537,skill,possession,understanding,seeing,,metaphor
+2538,society,organism,accepting a belief,buying an item,,metaphor
+2539,society,organism,ambition,hunger,,metaphor
+2540,society,organism,argument,war,,metaphor
+2541,society,organism,business,hunt,,metaphor
+2542,society,organism,business,war,,metaphor
+2543,society,organism,career,hill,,metaphor
+2544,society,organism,career,journey,,metaphor
+2545,society,organism,career,mountain,,metaphor
+2546,society,organism,career,slope,,metaphor
+2547,society,organism,competition,race,,metaphor
+2548,society,organism,crime,beast,,metaphor
+2549,society,organism,crime,disease,,metaphor
+2550,society,organism,crime,virus,,metaphor
+2551,society,organism,debate,battle,,metaphor
+2552,society,organism,difficulties,impediments to travel,,metaphor
+2553,society,organism,education,journey,,metaphor
+2554,society,organism,faith,husbandry,,metaphor
+2555,society,organism,family,building,,metaphor
+2556,society,organism,government,household,,metaphor
+2557,society,organism,idea,food,,metaphor
+2558,society,organism,idea,object,,metaphor
+2559,society,organism,ideas,seeds,,metaphor
+2560,society,organism,illness,battle,,metaphor
+2561,society,organism,illness,journey,,metaphor
+2562,society,organism,innovation,bloom,,metaphor
+2563,society,organism,innovation,blossom,,metaphor
+2564,society,organism,innovation,flower,,metaphor
+2565,society,organism,knowledge,liquid,,metaphor
+2566,society,organism,life,theatre,,metaphor
+2567,society,organism,love,commerce,,metaphor
+2568,society,organism,love,journey,,metaphor
+2569,society,organism,marriage,boat,,metaphor
+2570,society,organism,marriage,game,,metaphor
+2571,society,organism,mind,machine,,metaphor
+2572,society,organism,money,liquid,,metaphor
+2573,society,organism,money,weapon,,metaphor
+2574,society,organism,nation,family,,metaphor
+2575,society,organism,nation,ship,,metaphor
+2576,society,organism,politics,courtship,,metaphor
+2577,society,organism,politics,game,,metaphor
+2578,society,organism,politics,machine,,metaphor
+2579,society,organism,politics,theatre,,metaphor
+2580,society,organism,poverty,disease,,metaphor
+2581,society,organism,reasons for a theory,grounds for a building,,metaphor
+2582,society,organism,research,hunt,,metaphor
+2583,society,organism,skill,possession,,metaphor
+2584,society,organism,society,train,,metaphor
+2585,society,organism,sport,war,,metaphor
+2586,society,organism,state,family,,metaphor
+2587,society,organism,theory,building,,metaphor
+2588,society,organism,time,money,,metaphor
+2589,society,organism,understanding,following,,metaphor
+2590,society,organism,understanding,seeing,,metaphor
+2591,society,train,accepting a belief,buying an item,,metaphor
+2592,society,train,ambition,hunger,,metaphor
+2593,society,train,argument,war,,metaphor
+2594,society,train,business,hunt,,metaphor
+2595,society,train,business,war,,metaphor
+2596,society,train,career,hill,,metaphor
+2597,society,train,career,journey,,metaphor
+2598,society,train,career,mountain,,metaphor
+2599,society,train,career,slope,,metaphor
+2600,society,train,competition,race,,metaphor
+2601,society,train,crime,beast,,metaphor
+2602,society,train,crime,disease,,metaphor
+2603,society,train,crime,virus,,metaphor
+2604,society,train,debate,battle,,metaphor
+2605,society,train,difficulties,impediments to travel,,metaphor
+2606,society,train,education,journey,,metaphor
+2607,society,train,faith,husbandry,,metaphor
+2608,society,train,family,building,,metaphor
+2609,society,train,government,household,,metaphor
+2610,society,train,idea,food,,metaphor
+2611,society,train,idea,object,,metaphor
+2612,society,train,ideas,seeds,,metaphor
+2613,society,train,illness,battle,,metaphor
+2614,society,train,illness,journey,,metaphor
+2615,society,train,innovation,bloom,,metaphor
+2616,society,train,innovation,blossom,,metaphor
+2617,society,train,innovation,flower,,metaphor
+2618,society,train,knowledge,liquid,,metaphor
+2619,society,train,life,theatre,,metaphor
+2620,society,train,love,commerce,,metaphor
+2621,society,train,love,journey,,metaphor
+2622,society,train,marriage,boat,,metaphor
+2623,society,train,marriage,game,,metaphor
+2624,society,train,mind,machine,,metaphor
+2625,society,train,money,liquid,,metaphor
+2626,society,train,money,weapon,,metaphor
+2627,society,train,nation,family,,metaphor
+2628,society,train,nation,ship,,metaphor
+2629,society,train,politics,courtship,,metaphor
+2630,society,train,politics,game,,metaphor
+2631,society,train,politics,machine,,metaphor
+2632,society,train,politics,theatre,,metaphor
+2633,society,train,poverty,disease,,metaphor
+2634,society,train,reasons for a theory,grounds for a building,,metaphor
+2635,society,train,research,hunt,,metaphor
+2636,society,train,skill,possession,,metaphor
+2637,society,train,society,organism,,metaphor
+2638,society,train,sport,war,,metaphor
+2639,society,train,state,family,,metaphor
+2640,society,train,theory,building,,metaphor
+2641,society,train,time,money,,metaphor
+2642,society,train,understanding,following,,metaphor
+2643,society,train,understanding,seeing,,metaphor
+2644,sounds,waves,atom,solar system,,science
+2645,sounds,waves,bacterial mutation,slot machine,,science
+2646,sounds,waves,code,virus,,science
+2647,sounds,waves,gas molecules,billiard balls,,science
+2648,sounds,waves,heat transfer,water flow,,science
+2649,sounds,waves,light,sound,,science
+2650,sounds,waves,mind,computer,,science
+2651,sounds,waves,natural selection,artificial selection,,science
+2652,sounds,waves,planet,projectile,,science
+2653,sounds,waves,respiration,combustion,,science
+2654,sport,war,accepting a belief,buying an item,,metaphor
+2655,sport,war,ambition,hunger,,metaphor
+2656,sport,war,argument,war,,metaphor
+2657,sport,war,business,hunt,,metaphor
+2658,sport,war,business,war,,metaphor
+2659,sport,war,career,hill,,metaphor
+2660,sport,war,career,journey,,metaphor
+2661,sport,war,career,mountain,,metaphor
+2662,sport,war,career,slope,,metaphor
+2663,sport,war,competition,race,,metaphor
+2664,sport,war,crime,beast,,metaphor
+2665,sport,war,crime,disease,,metaphor
+2666,sport,war,crime,virus,,metaphor
+2667,sport,war,debate,battle,,metaphor
+2668,sport,war,difficulties,impediments to travel,,metaphor
+2669,sport,war,education,journey,,metaphor
+2670,sport,war,faith,husbandry,,metaphor
+2671,sport,war,family,building,,metaphor
+2672,sport,war,government,household,,metaphor
+2673,sport,war,idea,food,,metaphor
+2674,sport,war,idea,object,,metaphor
+2675,sport,war,ideas,seeds,,metaphor
+2676,sport,war,illness,battle,,metaphor
+2677,sport,war,illness,journey,,metaphor
+2678,sport,war,innovation,bloom,,metaphor
+2679,sport,war,innovation,blossom,,metaphor
+2680,sport,war,innovation,flower,,metaphor
+2681,sport,war,knowledge,liquid,,metaphor
+2682,sport,war,life,theatre,,metaphor
+2683,sport,war,love,commerce,,metaphor
+2684,sport,war,love,journey,,metaphor
+2685,sport,war,marriage,boat,,metaphor
+2686,sport,war,marriage,game,,metaphor
+2687,sport,war,mind,machine,,metaphor
+2688,sport,war,money,liquid,,metaphor
+2689,sport,war,money,weapon,,metaphor
+2690,sport,war,nation,family,,metaphor
+2691,sport,war,nation,ship,,metaphor
+2692,sport,war,politics,courtship,,metaphor
+2693,sport,war,politics,game,,metaphor
+2694,sport,war,politics,machine,,metaphor
+2695,sport,war,politics,theatre,,metaphor
+2696,sport,war,poverty,disease,,metaphor
+2697,sport,war,reasons for a theory,grounds for a building,,metaphor
+2698,sport,war,research,hunt,,metaphor
+2699,sport,war,skill,possession,,metaphor
+2700,sport,war,society,organism,,metaphor
+2701,sport,war,society,train,,metaphor
+2702,sport,war,state,family,,metaphor
+2703,sport,war,theory,building,,metaphor
+2704,sport,war,time,money,,metaphor
+2705,sport,war,understanding,following,,metaphor
+2706,sport,war,understanding,seeing,,metaphor
+2707,state,family,accepting a belief,buying an item,,metaphor
+2708,state,family,ambition,hunger,,metaphor
+2709,state,family,argument,war,,metaphor
+2710,state,family,business,hunt,,metaphor
+2711,state,family,business,war,,metaphor
+2712,state,family,career,hill,,metaphor
+2713,state,family,career,journey,,metaphor
+2714,state,family,career,mountain,,metaphor
+2715,state,family,career,slope,,metaphor
+2716,state,family,competition,race,,metaphor
+2717,state,family,crime,beast,,metaphor
+2718,state,family,crime,disease,,metaphor
+2719,state,family,crime,virus,,metaphor
+2720,state,family,debate,battle,,metaphor
+2721,state,family,difficulties,impediments to travel,,metaphor
+2722,state,family,education,journey,,metaphor
+2723,state,family,faith,husbandry,,metaphor
+2724,state,family,family,building,,metaphor
+2725,state,family,government,household,,metaphor
+2726,state,family,idea,food,,metaphor
+2727,state,family,idea,object,,metaphor
+2728,state,family,ideas,seeds,,metaphor
+2729,state,family,illness,battle,,metaphor
+2730,state,family,illness,journey,,metaphor
+2731,state,family,innovation,bloom,,metaphor
+2732,state,family,innovation,blossom,,metaphor
+2733,state,family,innovation,flower,,metaphor
+2734,state,family,knowledge,liquid,,metaphor
+2735,state,family,life,theatre,,metaphor
+2736,state,family,love,commerce,,metaphor
+2737,state,family,love,journey,,metaphor
+2738,state,family,marriage,boat,,metaphor
+2739,state,family,marriage,game,,metaphor
+2740,state,family,mind,machine,,metaphor
+2741,state,family,money,liquid,,metaphor
+2742,state,family,money,weapon,,metaphor
+2743,state,family,nation,family,,metaphor
+2744,state,family,nation,ship,,metaphor
+2745,state,family,politics,courtship,,metaphor
+2746,state,family,politics,game,,metaphor
+2747,state,family,politics,machine,,metaphor
+2748,state,family,politics,theatre,,metaphor
+2749,state,family,poverty,disease,,metaphor
+2750,state,family,reasons for a theory,grounds for a building,,metaphor
+2751,state,family,research,hunt,,metaphor
+2752,state,family,skill,possession,,metaphor
+2753,state,family,society,organism,,metaphor
+2754,state,family,society,train,,metaphor
+2755,state,family,sport,war,,metaphor
+2756,state,family,theory,building,,metaphor
+2757,state,family,time,money,,metaphor
+2758,state,family,understanding,following,,metaphor
+2759,state,family,understanding,seeing,,metaphor
+2760,theory,building,accepting a belief,buying an item,,metaphor
+2761,theory,building,ambition,hunger,,metaphor
+2762,theory,building,argument,war,,metaphor
+2763,theory,building,business,hunt,,metaphor
+2764,theory,building,business,war,,metaphor
+2765,theory,building,career,hill,,metaphor
+2766,theory,building,career,journey,,metaphor
+2767,theory,building,career,mountain,,metaphor
+2768,theory,building,career,slope,,metaphor
+2769,theory,building,competition,race,,metaphor
+2770,theory,building,crime,beast,,metaphor
+2771,theory,building,crime,disease,,metaphor
+2772,theory,building,crime,virus,,metaphor
+2773,theory,building,debate,battle,,metaphor
+2774,theory,building,difficulties,impediments to travel,,metaphor
+2775,theory,building,education,journey,,metaphor
+2776,theory,building,faith,husbandry,,metaphor
+2777,theory,building,family,building,,metaphor
+2778,theory,building,government,household,,metaphor
+2779,theory,building,idea,food,,metaphor
+2780,theory,building,idea,object,,metaphor
+2781,theory,building,ideas,seeds,,metaphor
+2782,theory,building,illness,battle,,metaphor
+2783,theory,building,illness,journey,,metaphor
+2784,theory,building,innovation,bloom,,metaphor
+2785,theory,building,innovation,blossom,,metaphor
+2786,theory,building,innovation,flower,,metaphor
+2787,theory,building,knowledge,liquid,,metaphor
+2788,theory,building,life,theatre,,metaphor
+2789,theory,building,love,commerce,,metaphor
+2790,theory,building,love,journey,,metaphor
+2791,theory,building,marriage,boat,,metaphor
+2792,theory,building,marriage,game,,metaphor
+2793,theory,building,mind,machine,,metaphor
+2794,theory,building,money,liquid,,metaphor
+2795,theory,building,money,weapon,,metaphor
+2796,theory,building,nation,family,,metaphor
+2797,theory,building,nation,ship,,metaphor
+2798,theory,building,politics,courtship,,metaphor
+2799,theory,building,politics,game,,metaphor
+2800,theory,building,politics,machine,,metaphor
+2801,theory,building,politics,theatre,,metaphor
+2802,theory,building,poverty,disease,,metaphor
+2803,theory,building,reasons for a theory,grounds for a building,,metaphor
+2804,theory,building,research,hunt,,metaphor
+2805,theory,building,skill,possession,,metaphor
+2806,theory,building,society,organism,,metaphor
+2807,theory,building,society,train,,metaphor
+2808,theory,building,sport,war,,metaphor
+2809,theory,building,state,family,,metaphor
+2810,theory,building,time,money,,metaphor
+2811,theory,building,understanding,following,,metaphor
+2812,theory,building,understanding,seeing,,metaphor
+2813,time,money,accepting a belief,buying an item,,metaphor
+2814,time,money,ambition,hunger,,metaphor
+2815,time,money,argument,war,,metaphor
+2816,time,money,business,hunt,,metaphor
+2817,time,money,business,war,,metaphor
+2818,time,money,career,hill,,metaphor
+2819,time,money,career,journey,,metaphor
+2820,time,money,career,mountain,,metaphor
+2821,time,money,career,slope,,metaphor
+2822,time,money,competition,race,,metaphor
+2823,time,money,crime,beast,,metaphor
+2824,time,money,crime,disease,,metaphor
+2825,time,money,crime,virus,,metaphor
+2826,time,money,debate,battle,,metaphor
+2827,time,money,difficulties,impediments to travel,,metaphor
+2828,time,money,education,journey,,metaphor
+2829,time,money,faith,husbandry,,metaphor
+2830,time,money,family,building,,metaphor
+2831,time,money,government,household,,metaphor
+2832,time,money,idea,food,,metaphor
+2833,time,money,idea,object,,metaphor
+2834,time,money,ideas,seeds,,metaphor
+2835,time,money,illness,battle,,metaphor
+2836,time,money,illness,journey,,metaphor
+2837,time,money,innovation,bloom,,metaphor
+2838,time,money,innovation,blossom,,metaphor
+2839,time,money,innovation,flower,,metaphor
+2840,time,money,knowledge,liquid,,metaphor
+2841,time,money,life,theatre,,metaphor
+2842,time,money,love,commerce,,metaphor
+2843,time,money,love,journey,,metaphor
+2844,time,money,marriage,boat,,metaphor
+2845,time,money,marriage,game,,metaphor
+2846,time,money,mind,machine,,metaphor
+2847,time,money,money,liquid,,metaphor
+2848,time,money,money,weapon,,metaphor
+2849,time,money,nation,family,,metaphor
+2850,time,money,nation,ship,,metaphor
+2851,time,money,politics,courtship,,metaphor
+2852,time,money,politics,game,,metaphor
+2853,time,money,politics,machine,,metaphor
+2854,time,money,politics,theatre,,metaphor
+2855,time,money,poverty,disease,,metaphor
+2856,time,money,reasons for a theory,grounds for a building,,metaphor
+2857,time,money,research,hunt,,metaphor
+2858,time,money,skill,possession,,metaphor
+2859,time,money,society,organism,,metaphor
+2860,time,money,society,train,,metaphor
+2861,time,money,sport,war,,metaphor
+2862,time,money,state,family,,metaphor
+2863,time,money,theory,building,,metaphor
+2864,time,money,understanding,following,,metaphor
+2865,time,money,understanding,seeing,,metaphor
+2866,understanding,following,accepting a belief,buying an item,,metaphor
+2867,understanding,following,ambition,hunger,,metaphor
+2868,understanding,following,argument,war,,metaphor
+2869,understanding,following,business,hunt,,metaphor
+2870,understanding,following,business,war,,metaphor
+2871,understanding,following,career,hill,,metaphor
+2872,understanding,following,career,journey,,metaphor
+2873,understanding,following,career,mountain,,metaphor
+2874,understanding,following,career,slope,,metaphor
+2875,understanding,following,competition,race,,metaphor
+2876,understanding,following,crime,beast,,metaphor
+2877,understanding,following,crime,disease,,metaphor
+2878,understanding,following,crime,virus,,metaphor
+2879,understanding,following,debate,battle,,metaphor
+2880,understanding,following,difficulties,impediments to travel,,metaphor
+2881,understanding,following,education,journey,,metaphor
+2882,understanding,following,faith,husbandry,,metaphor
+2883,understanding,following,family,building,,metaphor
+2884,understanding,following,government,household,,metaphor
+2885,understanding,following,idea,food,,metaphor
+2886,understanding,following,idea,object,,metaphor
+2887,understanding,following,ideas,seeds,,metaphor
+2888,understanding,following,illness,battle,,metaphor
+2889,understanding,following,illness,journey,,metaphor
+2890,understanding,following,innovation,bloom,,metaphor
+2891,understanding,following,innovation,blossom,,metaphor
+2892,understanding,following,innovation,flower,,metaphor
+2893,understanding,following,knowledge,liquid,,metaphor
+2894,understanding,following,life,theatre,,metaphor
+2895,understanding,following,love,commerce,,metaphor
+2896,understanding,following,love,journey,,metaphor
+2897,understanding,following,marriage,boat,,metaphor
+2898,understanding,following,marriage,game,,metaphor
+2899,understanding,following,mind,machine,,metaphor
+2900,understanding,following,money,liquid,,metaphor
+2901,understanding,following,money,weapon,,metaphor
+2902,understanding,following,nation,family,,metaphor
+2903,understanding,following,nation,ship,,metaphor
+2904,understanding,following,politics,courtship,,metaphor
+2905,understanding,following,politics,game,,metaphor
+2906,understanding,following,politics,machine,,metaphor
+2907,understanding,following,politics,theatre,,metaphor
+2908,understanding,following,poverty,disease,,metaphor
+2909,understanding,following,reasons for a theory,grounds for a building,,metaphor
+2910,understanding,following,research,hunt,,metaphor
+2911,understanding,following,skill,possession,,metaphor
+2912,understanding,following,society,organism,,metaphor
+2913,understanding,following,society,train,,metaphor
+2914,understanding,following,sport,war,,metaphor
+2915,understanding,following,state,family,,metaphor
+2916,understanding,following,theory,building,,metaphor
+2917,understanding,following,time,money,,metaphor
+2918,understanding,following,understanding,seeing,,metaphor
+2919,understanding,seeing,accepting a belief,buying an item,,metaphor
+2920,understanding,seeing,ambition,hunger,,metaphor
+2921,understanding,seeing,argument,war,,metaphor
+2922,understanding,seeing,business,hunt,,metaphor
+2923,understanding,seeing,business,war,,metaphor
+2924,understanding,seeing,career,hill,,metaphor
+2925,understanding,seeing,career,journey,,metaphor
+2926,understanding,seeing,career,mountain,,metaphor
+2927,understanding,seeing,career,slope,,metaphor
+2928,understanding,seeing,competition,race,,metaphor
+2929,understanding,seeing,crime,beast,,metaphor
+2930,understanding,seeing,crime,disease,,metaphor
+2931,understanding,seeing,crime,virus,,metaphor
+2932,understanding,seeing,debate,battle,,metaphor
+2933,understanding,seeing,difficulties,impediments to travel,,metaphor
+2934,understanding,seeing,education,journey,,metaphor
+2935,understanding,seeing,faith,husbandry,,metaphor
+2936,understanding,seeing,family,building,,metaphor
+2937,understanding,seeing,government,household,,metaphor
+2938,understanding,seeing,idea,food,,metaphor
+2939,understanding,seeing,idea,object,,metaphor
+2940,understanding,seeing,ideas,seeds,,metaphor
+2941,understanding,seeing,illness,battle,,metaphor
+2942,understanding,seeing,illness,journey,,metaphor
+2943,understanding,seeing,innovation,bloom,,metaphor
+2944,understanding,seeing,innovation,blossom,,metaphor
+2945,understanding,seeing,innovation,flower,,metaphor
+2946,understanding,seeing,knowledge,liquid,,metaphor
+2947,understanding,seeing,life,theatre,,metaphor
+2948,understanding,seeing,love,commerce,,metaphor
+2949,understanding,seeing,love,journey,,metaphor
+2950,understanding,seeing,marriage,boat,,metaphor
+2951,understanding,seeing,marriage,game,,metaphor
+2952,understanding,seeing,mind,machine,,metaphor
+2953,understanding,seeing,money,liquid,,metaphor
+2954,understanding,seeing,money,weapon,,metaphor
+2955,understanding,seeing,nation,family,,metaphor
+2956,understanding,seeing,nation,ship,,metaphor
+2957,understanding,seeing,politics,courtship,,metaphor
+2958,understanding,seeing,politics,game,,metaphor
+2959,understanding,seeing,politics,machine,,metaphor
+2960,understanding,seeing,politics,theatre,,metaphor
+2961,understanding,seeing,poverty,disease,,metaphor
+2962,understanding,seeing,reasons for a theory,grounds for a building,,metaphor
+2963,understanding,seeing,research,hunt,,metaphor
+2964,understanding,seeing,skill,possession,,metaphor
+2965,understanding,seeing,society,organism,,metaphor
+2966,understanding,seeing,society,train,,metaphor
+2967,understanding,seeing,sport,war,,metaphor
+2968,understanding,seeing,state,family,,metaphor
+2969,understanding,seeing,theory,building,,metaphor
+2970,understanding,seeing,time,money,,metaphor
+2971,understanding,seeing,understanding,following,,metaphor
