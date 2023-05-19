@@ -154,7 +154,7 @@ def test_model(model, data_path, output_path, cot=False, demonstrations=False, n
 
     for index, row in tqdm.tqdm(df.iterrows()):
 
-        analogy_type = index["analogy_type"]
+        analogy_type = row["analogy_type"]
 
         index_dict = {"category":analogy_type}
 
@@ -163,7 +163,7 @@ def test_model(model, data_path, output_path, cot=False, demonstrations=False, n
         targ_word = row["targ_word"]
         src_word = row["src_word"]
 
-        prompt1 = f"If {target} is like {source}, then {targ_word} is like"
+        prompt = f"If {target} is like {source}, then {targ_word} is like"
         if cot:
             prompt = cot_sentence + prompt
             n = 0
