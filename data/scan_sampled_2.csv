@@ -1,0 +1,131 @@
+,target,source,targ_word,src_word,alternatives,analogy_type
+0,accepting a belief,buying an item,belief,merchandise,,metaphor
+1,accepting a belief,buying an item,true,valuable,,metaphor
+2,ambition,hunger,complacency,satiation,,metaphor
+3,ambition,hunger,nourishment,food,,metaphor
+4,argument,war,claim,position,,metaphor
+5,argument,war,logic,weapon,,metaphor
+6,atom,solar system,nucleus,sun,,science
+7,atom,solar system,attracts,attracts,,science
+8,bacterial mutation,slot machine,reproducing,winning,,science
+9,bacterial mutation,slot machine,genes,reels,,science
+10,business,hunt,businessman,hunter,,metaphor
+11,business,hunt,product,weapon,,metaphor
+12,business,war,workers,army,,metaphor
+13,business,war,lawyer,weapon,,metaphor
+14,career,hill,job,lift,,metaphor
+15,career,hill,boss,guide,,metaphor
+16,career,journey,funding,ticket,,metaphor
+17,career,journey,boss,guide ,,metaphor
+18,career,mountain,success,ascent,,metaphor
+19,career,mountain,work,climb,,metaphor
+20,career,slope,failure,descent,,metaphor
+21,career,slope,worker,climber,,metaphor
+22,code,virus,installation,infection,,science
+23,code,virus,antivirus,vaccine,,science
+24,competition,race,competitor,racer,,metaphor
+25,competition,race,success,speed,,metaphor
+26,crime,beast,execution,killing,,metaphor
+27,crime,beast,jail,cage,,metaphor
+28,crime,disease,sentence,diagnosis,,metaphor
+29,crime,disease,punishment,surgery,,metaphor
+30,crime,virus,information,inoculation,,metaphor
+31,crime,virus,education,prevention,,metaphor
+32,debate,battle,argument,weapon,,metaphor
+33,debate,battle,knowledge,weapon,,metaphor
+34,difficulties,impediments to travel,difficulties,obstructions,,metaphor
+35,difficulties,impediments to travel,goal,destination,,metaphor
+36,education,journey,teacher,guide,,metaphor
+37,education,journey,exam,stop,,metaphor
+38,faith,husbandry,omniscience,mastery,,metaphor
+39,faith,husbandry,atonement,slaughter,,metaphor
+40,family,building,love,foundation,,metaphor
+41,family,building,understanding,cement,,metaphor
+42,gas molecules,billiard balls,container,table,,science
+43,gas molecules,billiard balls,temperature,speed,,science
+44,government,household,governor,father,,metaphor
+45,government,household,mayor,father,,metaphor
+46,heat transfer,water flow,burner,water tower,,science
+47,heat transfer,water flow,cooling,emptying,,science
+48,idea,food,irrelevance,staleness,,metaphor
+49,idea,food,teaching,feeding,,metaphor
+50,idea,object,trivial,light,,metaphor
+51,idea,object,analyze,weigh,,metaphor
+52,ideas,seeds,product,fruit,,metaphor
+53,ideas,seeds,fail,wither,,metaphor
+54,illness,battle,patient,warrior,,metaphor
+55,illness,battle,medicine,weapon,,metaphor
+56,illness,journey,disease,vehicle,,metaphor
+57,illness,journey,health,destination,,metaphor
+58,innovation,bloom,idea,blossom,,metaphor
+59,innovation,bloom,funding,water,,metaphor
+60,innovation,blossom,laboratory,soil,,metaphor
+61,innovation,blossom,research,stem,,metaphor
+62,innovation,flower,idea,blossom,,metaphor
+63,innovation,flower,research,stem,,metaphor
+64,knowledge,liquid,memory,container,,metaphor
+65,knowledge,liquid,mind,container,,metaphor
+66,life,theatre,history,script,,metaphor
+67,life,theatre,age,act,,metaphor
+68,light,sound,reflects,echoes,,science
+69,light,sound,bright,loud,,science
+70,love,commerce,commitment,terms,,metaphor
+71,love,commerce,person,buyer,,metaphor
+72,love,journey,improvement,progress,,metaphor
+73,love,journey,difficulty,obstacle,,metaphor
+74,marriage,boat,divorce,shipwreck,,metaphor
+75,marriage,boat,affair,rock,,metaphor
+76,marriage,game,spouse,player,,metaphor
+77,marriage,game,home,playground,,metaphor
+78,mind,computer,neuron,hardware,,science
+79,mind,computer,brain,hardware,,science
+80,mind,machine,asleep,turned off,,metaphor
+81,mind,machine,thinking,working,,metaphor
+82,money,liquid,bank,container,,metaphor
+83,money,liquid,capital,pool,,metaphor
+84,money,weapon,business,war,,metaphor
+85,money,weapon,person,fighter,,metaphor
+86,nation,family,imprisonment,punishment,,metaphor
+87,nation,family,law,father,,metaphor
+88,nation,ship,citizen,passenger,,metaphor
+89,nation,ship,problem,storm,,metaphor
+90,natural selection,artificial selection,natural,artificial,,science
+91,natural selection,artificial selection,mating,breeding,,science
+92,planet,projectile,gravity,gravity,,science
+93,planet,projectile,elliptical,parabolic,,science
+94,politics,courtship,challenger,rival,,metaphor
+95,politics,courtship,incumbent,suitor,,metaphor
+96,politics,game,press,ball,,metaphor
+97,politics,game,politician,player,,metaphor
+98,politics,machine,corruption,rust,,metaphor
+99,politics,machine,crisis,breakdown,,metaphor
+100,politics,theatre,parliament,stage,,metaphor
+101,politics,theatre,citizens,audience,,metaphor
+102,poverty,disease,state,hospital,,metaphor
+103,poverty,disease,politician,doctor,,metaphor
+104,reasons for a theory,grounds for a building,reasons,foundations,,metaphor
+105,reasons for a theory,grounds for a building,theories,buildings,,metaphor
+106,research,hunt,find,slay,,metaphor
+107,research,hunt,idea,prey,,metaphor
+108,respiration,combustion,oxygen,oxygen,,science
+109,respiration,combustion,animal,fire,,science
+110,skill,possession,learning,acquisition,,metaphor
+111,skill,possession,person,owner,,metaphor
+112,society,organism,people,tissue,,metaphor
+113,society,organism,communication,vein,,metaphor
+114,society,train,future,destination,,metaphor
+115,society,train,budget,fuel,,metaphor
+116,sounds,waves,loud,rough,,science
+117,sounds,waves,insulation,breakwater,,science
+118,sport,war,ball,weapon,,metaphor
+119,sport,war,coach,general,,metaphor
+120,state,family,subsidies,food,,metaphor
+121,state,family,law,rule,,metaphor
+122,theory,building,conjecture,construction,,metaphor
+123,theory,building,scientist,architect,,metaphor
+124,time,money,slow,expensive,,metaphor
+125,time,money,quick,cheap,,metaphor
+126,understanding,following,listener,follower,,metaphor
+127,understanding,following,complicated,twisted,,metaphor
+128,understanding,seeing,interpretation,view,,metaphor
+129,understanding,seeing,explaining,illuminating,,metaphor
