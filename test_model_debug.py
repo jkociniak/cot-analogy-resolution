@@ -100,6 +100,7 @@ def test_model(data_path, output_path,
     # Load model and dataset
     model, tokenizer = load_model(**model_params)
     df = pd.read_csv(data_path)
+    df = df.iloc[:1]
 
     results = dict()
     for index, row in tqdm.tqdm(df.iterrows()):
