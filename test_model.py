@@ -95,11 +95,14 @@ def test_model(data_path, output_path,
                model_params,
                cot=False, cot_prompt="Let's think step by step. \n", cot_format='append',
                add_demos=False, n_demos=4, filter_demos=True,
-               min_tokens=3, max_tokens=50, use_alts=True, reverse_analogy=False):
+               min_tokens=3, max_tokens=50, use_alts=True, reverse_analogy=False,
+               debug=False):
 
     # Load model and dataset
     model, tokenizer = load_model(**model_params)
     df = pd.read_csv(data_path)
+    if debug:
+        df = df.head(1)
 
     results = dict()
     for index, row in tqdm.tqdm(df.iterrows()):
@@ -123,6 +126,8 @@ def test_model(data_path, output_path,
             n_demos = 0
 
         output = test_prompt(model, tokenizer, prompt, max_tokens, min_tokens)
+        new_prompt = output + ". Therefore, the answer is "
+        output = test_prompt(model, tokenizer, new_prompt, max_tokens, min_tokens)
 
         results_summary = {"prompt": prompt,
                            "category": analogy_type,
@@ -180,6 +185,7 @@ if __name__ == "__main__":
     argParser.add_argument("--use_alts", help="use the alternatives or not", action="store_true")
     argParser.add_argument("--reverse_analogy", help="Use function to analyse difference on reversed prompts on SCAN",
                            action="store_true")
+    argParser.add_argument("--debug", help="Debug mode", action="store_true")
 
     args = argParser.parse_args()
 
@@ -219,7 +225,8 @@ if __name__ == "__main__":
         'min_tokens': args.min_tokens,
         'max_tokens': args.max_tokens,
         'use_alts': args.use_alts,
-        'reverse_analogy': args.reverse_analogy
+        'reverse_analogy': args.reverse_analogy,
+        'debug': args.debug
     }
 
     test_model(args.dataset, args.output,
