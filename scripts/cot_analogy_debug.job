@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu_titanrtx_shared_course
+#SBATCH --gres=gpu:2
+#SBATCH --job-name=cot-analogy-debug
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --time=00:15:00
+#SBATCH --mem=64000M
+#SBATCH --output=job_logs/cot-analogy-debug_output_%A.out
+
+# Your job starts in the directory where you call sbatch
+cd $HOME/uva-atcs-project/cot-analogy-resolution
+# Activate your environment
+source activate cot
+# Run your code
+srun python -u test_model.py --debug --model=llama7b --cfg_ckpt=pretrained/7B --weights_ckpt=pretrained/7B --cot --cot_format=kojima --output=results/scan_cot_kojima_format.pkl
