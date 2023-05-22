@@ -2,7 +2,7 @@ import pandas as pd
 import argparse
 import pickle
 import tqdm
-import os 
+import os
 
 from transformers import AutoTokenizer, AutoModelForCausalLM, AutoConfig
 from accelerate import load_checkpoint_and_dispatch, init_empty_weights
@@ -59,8 +59,7 @@ def preprocess_prompt(example1, example2, target1, cot, cot_prompt, cot_format):
     if cot_format == 'naive':
         return cot_prompt + default_prompt
     elif cot_format == 'kojima':
-        prompt = f"""Q: If {example1} is like {example2}, then what is {target1} like?
-                     A: """
+        prompt = f"""Q: If {example1} is like {example2}, then what is {target1} like? \nA: """
         return prompt + cot_prompt
 
 
@@ -126,12 +125,21 @@ def test_model(data_path, output_path,
         else:
             n_demos = 0
 
+        print("input prompt")
+        print(prompt)
         output = test_prompt(model, tokenizer, prompt, max_tokens, min_tokens)
-        new_prompt = output + ". Therefore, the answer is "
+        print("first output")
+        print(output)
+        answer_prompt = f".\n Therefore, the answer is: If {example1} is like {example2}, then {target1} is like"
+        #new_prompt = output + ".\n Therefore, the answer is: "
+        new_prompt = output + answer_prompt
+        print("second prompt")
+        print(new_prompt)
         if cot:
             if cot_format == 'kojima':
-                output = test_prompt(model, tokenizer, new_prompt, 5, 1)
-
+                output = test_prompt(model, tokenizer, new_prompt, 10, 1)
+                print("final output")
+                print(output)
         results_summary = {"prompt": prompt,
                            "category": analogy_type,
                            "output": output}
