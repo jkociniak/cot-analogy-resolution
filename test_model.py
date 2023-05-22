@@ -2,6 +2,7 @@ import pandas as pd
 import argparse
 import pickle
 import tqdm
+import os 
 
 from transformers import AutoTokenizer, AutoModelForCausalLM, AutoConfig
 from accelerate import load_checkpoint_and_dispatch, init_empty_weights
@@ -58,7 +59,7 @@ def preprocess_prompt(example1, example2, target1, cot, cot_prompt, cot_format):
     if cot_format == 'naive':
         return cot_prompt + default_prompt
     elif cot_format == 'kojima':
-        prompt = f"""Q: If {example1} is like {example2}, then what {target1} is like?
+        prompt = f"""Q: If {example1} is like {example2}, then what is {target1} like?
                      A: """
         return prompt + cot_prompt
 
@@ -127,7 +128,9 @@ def test_model(data_path, output_path,
 
         output = test_prompt(model, tokenizer, prompt, max_tokens, min_tokens)
         new_prompt = output + ". Therefore, the answer is "
-        output = test_prompt(model, tokenizer, new_prompt, max_tokens, min_tokens)
+        if cot:
+            if cot_format == 'kojima':
+                output = test_prompt(model, tokenizer, new_prompt, 5, 1)
 
         results_summary = {"prompt": prompt,
                            "category": analogy_type,
@@ -159,7 +162,7 @@ if __name__ == "__main__":
                            default="results/baseline.pckl")
 
     # model params
-    argParser.add_argument("--model", default="llama7b", choices=['llama7b', 'gptj'], help="Which model to test", type=str)
+    argParser.add_argument("--model", default="llama7b", choices=['llama7b', 'gptj', 'alpaca-7b'], help="Which model to test", type=str)
     argParser.add_argument("--cfg_ckpt", help="Path to config checkpoint", type=str)
     argParser.add_argument("--weights_ckpt", help="Path to weights checkpoint", type=str)
 
@@ -189,20 +192,31 @@ if __name__ == "__main__":
 
     args = argParser.parse_args()
 
-    model_name = args.model.lower()
-    if model_name == "llama7b":
-        # Set the specifics for the LLama model
+    shared_model_folder = "/project/gpuuva021/shared/analogies/models"
+    local_model_folder = "/home/lcur1103/models"
+    model = args.model
+    model = model.lower()
+    if model in ["llama-7b", "alpaca-7b"]:
+        model_folder = shared_model_folder
+    else:
+        model_folder = local_model_folder
+
+    # Set the specifics for the LLama model
+    if model.lower() == "llama7b":
         checkpoint = "LLama/llama/converted_models/7B"
         checkpoint2 = checkpoint
         no_split = ["LlamaDecoderLayer"]
-    elif model_name == "gptj":
-        # Set specifics for gptj model
+
+    # Set specifics for gptj model
+    elif model.lower() == "gptj":
         checkpoint = "EleutherAI/gpt-j-6B"
         checkpoint2 = "sharded-gpt-j-6B"
         no_split = ["GPTJBlock"]
+    # alpaca-7b model
     else:
-        raise ValueError("Model not supported")
-
+        checkpoint = os.path.join(model_folder, model.lower())
+        checkpoint2 = checkpoint
+        no_split = ["LlamaDecoderLayer"]
     model_params = {
         "cfg_ckpt": checkpoint if args.cfg_ckpt is None else args.cfg_ckpt,
         "weights_ckpt": checkpoint2 if args.weights_ckpt is None else args.weights_ckpt,
