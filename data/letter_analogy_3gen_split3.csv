@@ -1,51 +1,101 @@
 ,target,source,targ_word,src_word,alternatives,analogy_type
-0,m n o p,l n o p,f x h x j x l x n x p x r x t x,d x h x j x l x n x p x r x t x,,letter_analogy_3gen_split3
-1,d c b e f,b c d e f,19 0 17 0 15 0 21 0 23 0,15 0 17 0 19 0 21 0 23 0,,letter_analogy_3gen_split3
-2,w u v t x,t u v w x,2 2 3 3 4 4 6 6 5 5 7 7 8 8 9 9 10 10,2 2 3 3 4 4 5 5 6 6 7 7 8 8 9 9 10 10,,letter_analogy_3gen_split3
-3,m n n o p q,m n o p q,17 16 15 14 13 13 12 11 10 9,17 16 15 14 13 12 11 10 9,,letter_analogy_3gen_split3
-4,h i j k,h i j l,11 11 12 12 13 13 14 14 15 15 16 16 17 17 18 18,11 11 12 12 13 13 14 14 15 15 16 16 17 17 19 19,,letter_analogy_3gen_split3
-5,c d e f j,c d e f g,5 7 9 11 13 15 17 18 21,5 7 9 11 13 15 17 19 21,,letter_analogy_3gen_split3
-6,h i j k,h i j l,8 8 7 7 6 6 5 5,8 8 7 7 6 6 4 4,,letter_analogy_3gen_split3
-7,e i g h f,e f g h i,x x t x v x r x p x,x x v x t x r x p x,,letter_analogy_3gen_split3
-8,e f g h,e f g i,10 10 9 9 8 8 7 7,10 10 9 9 8 8 6 6,,letter_analogy_3gen_split3
-9,r s q u v,r s t u v,p p x x q q x x s s x x u u x x w w x x,o o x x q q x x s s x x u u x x w w x x,,letter_analogy_3gen_split3
-10,n o p q,n o p r,h h j j l l n n p p r r t t v v,h h j j l l n n p p r r t t x x,,letter_analogy_3gen_split3
-11,b c d s f,b c d e f,24 22 20 6 16,24 22 20 18 16,,letter_analogy_3gen_split3
-12,k i m n o,k l m n o,3 3 0 0 2 2 0 0 5 5 0 0 6 6 0 0 7 7 0 0,3 3 0 0 4 4 0 0 5 5 0 0 6 6 0 0 7 7 0 0,,letter_analogy_3gen_split3
-13,h q j k l,h i j k l,1 1 22 22 5 5 7 7 9 9,1 1 3 3 5 5 7 7 9 9,,letter_analogy_3gen_split3
-14,c d e f,c d e g,o o x x p p x x q q x x r r x x s s x x t t x x u u x x v v x x,o o x x p p x x q q x x r r x x s s x x t t x x u u x x w w x x,,letter_analogy_3gen_split3
-15,f g h i,f g h i j,z z x x y y x x x x x x w w x x,z z x x y y x x x x x x w w x x v v x x,,letter_analogy_3gen_split3
-16,k l m m n o,k l m n o,2 0 4 0 6 0 8 0 10 0 10 0,2 0 4 0 6 0 8 0 10 0,,letter_analogy_3gen_split3
-17,h i j k,h i j k l,o x m x k x i x,o x m x k x i x g x,,letter_analogy_3gen_split3
-18,g h i i j k,g h i j k,r p n l j h h f d b,r p n l j h f d b,,letter_analogy_3gen_split3
-19,p q k s t,p q r s t,1 0 14 0 13 0 12 0 11 0,15 0 14 0 13 0 12 0 11 0,,letter_analogy_3gen_split3
+0,e f g h b,e f g h i,j j h h f f w w b b,j j h h f f d d b b,,letter_analogy_3gen_split3
+1,g i h j k,g h i j k,t r p h l j n f d,t r p n l j h f d,,letter_analogy_3gen_split3
+2,g h i j,g h i j k,y y x x w w v v u u t t s s r r,y y x x w w v v u u t t s s r r q q,,letter_analogy_3gen_split3
+3,s t u u v w,s t u v w,c c e e g g i i k k k k m m o o q q s s,c c e e g g i i k k m m o o q q s s,,letter_analogy_3gen_split3
+4,s t u v,r t u v,4 6 8 10 12 14 16 18,2 6 8 10 12 14 16 18,,letter_analogy_3gen_split3
+5,v w x y,v w x y z,11 0 12 0 13 0 14 0 15 0 16 0 17 0 18 0,11 0 12 0 13 0 14 0 15 0 16 0 17 0 18 0 19 0,,letter_analogy_3gen_split3
+6,s t u v,s t u w,j j x x k k x x l l x x m m x x n n x x o o x x p p x x q q x x,j j x x k k x x l l x x m m x x n n x x o o x x p p x x r r x x,,letter_analogy_3gen_split3
+7,p q r s,o q r s,14 0 16 0 18 0 20 0,12 0 16 0 18 0 20 0,,letter_analogy_3gen_split3
+8,e f g h,e f g h i,m m x x n n x x o o x x p p x x q q x x r r x x s s x x t t x x,m m x x n n x x o o x x p p x x q q x x r r x x s s x x t t x x u u x x,,letter_analogy_3gen_split3
+9,l m n n o p,l m n o p,q q o o o o m m k k i i,q q o o m m k k i i,,letter_analogy_3gen_split3
+10,k l m n,k l m o,o o n n m m l l k k j j i i h h,o o n n m m l l k k j j i i g g,,letter_analogy_3gen_split3
+11,h q j k l,h i j k l,1 1 22 22 5 5 7 7 9 9,1 1 3 3 5 5 7 7 9 9,,letter_analogy_3gen_split3
+12,h h i j k l,h i j k l,9 7 5 3 1 1,9 7 5 3 1,,letter_analogy_3gen_split3
+13,p q k s t,p q r s t,1 0 14 0 13 0 12 0 11 0,15 0 14 0 13 0 12 0 11 0,,letter_analogy_3gen_split3
+14,i j k l,i j k m,2 0 4 0 6 0 8 0,2 0 4 0 6 0 10 0,,letter_analogy_3gen_split3
+15,p q r s,p q r t,j x h x f x d x,j x h x f x b x,,letter_analogy_3gen_split3
+16,l m n o,l m n p,p x o x n x m x l x k x j x i x,p x o x n x m x l x k x j x h x,,letter_analogy_3gen_split3
+17,i g h f j,f g h i j,24 24 20 20 22 22 21 21 23 23,24 24 23 23 22 22 21 21 20 20,,letter_analogy_3gen_split3
+18,a b c c d e,a b c d e,p x o x n x m x m x l x k x j x i x h x,p x o x n x m x l x k x j x i x h x,,letter_analogy_3gen_split3
+19,r r s t u v,r s t u v,n n x x p p x x p p x x r r x x t t x x v v x x,n n x x p p x x r r x x t t x x v v x x,,letter_analogy_3gen_split3
 20,i g h f j,f g h i j,e e i i g g k k c c,k k i i g g e e c c,,letter_analogy_3gen_split3
-21,u v x w y,u v w x y,5 21 9 11 13 15 17 19 7,5 7 9 11 13 15 17 19 21,,letter_analogy_3gen_split3
-22,m n o p,l n o p,q q o o m m k k,s s o o m m k k,,letter_analogy_3gen_split3
-23,w u v t x,t u v w x,18 0 20 0 24 0 22 0 26 0,18 0 20 0 22 0 24 0 26 0,,letter_analogy_3gen_split3
-24,d e f g,d e f h,a x c x e x g x i x k x m x o x,a x c x e x g x i x k x m x q x,,letter_analogy_3gen_split3
-25,q r s t,q r s t u,f f x x g g x x h h x x i i x x j j x x k k x x l l x x m m x x,f f x x g g x x h h x x i i x x j j x x k k x x l l x x m m x x n n x x,,letter_analogy_3gen_split3
-26,g h i j,g h i j k,h h j j l l n n p p r r t t v v,h h j j l l n n p p r r t t v v x x,,letter_analogy_3gen_split3
-27,s t u v,r t u v,4 6 8 10 12 14 16 18,2 6 8 10 12 14 16 18,,letter_analogy_3gen_split3
-28,i j k l,h j k l,r x p x n x l x,t x p x n x l x,,letter_analogy_3gen_split3
-29,p u v w x,t u v w x,10 10 9 9 8 8 3 3 6 6,10 10 9 9 8 8 7 7 6 6,,letter_analogy_3gen_split3
-30,m k l j n,j k l m n,s s x x q q x x r r x x p p x x o o x x,s s x x r r x x q q x x p p x x o o x x,,letter_analogy_3gen_split3
-31,e d c f g,c d e f g,f f h h j j p p n n l l r r t t v v,f f h h j j l l n n p p r r t t v v,,letter_analogy_3gen_split3
-32,n o p q,n o p r,d d f f h h j j l l n n p p r r,d d f f h h j j l l n n p p t t,,letter_analogy_3gen_split3
-33,i j k l,i j k m,2 0 4 0 6 0 8 0,2 0 4 0 6 0 10 0,,letter_analogy_3gen_split3
-34,j i k l m,i j k l m,k k x x g g x x h h x x i i x x j j x x f f x x l l x x m m x x n n x x,f f x x g g x x h h x x i i x x j j x x k k x x l l x x m m x x n n x x,,letter_analogy_3gen_split3
-35,e f g h b,e f g h i,j j h h f f w w b b,j j h h f f d d b b,,letter_analogy_3gen_split3
-36,j k l m,j k l n,17 0 19 0 21 0 23 0,17 0 19 0 21 0 25 0,,letter_analogy_3gen_split3
-37,t w x y z,v w x y z,d d z z h h j j l l n n p p r r t t,d d f f h h j j l l n n p p r r t t,,letter_analogy_3gen_split3
-38,s t u u v w,s t u v w,c c e e g g i i k k k k m m o o q q s s,c c e e g g i i k k m m o o q q s s,,letter_analogy_3gen_split3
-39,h h i j k l,h i j k l,9 7 5 3 1 1,9 7 5 3 1,,letter_analogy_3gen_split3
-40,s t p v w,s t u v w,g g x x h h x x i i x x p p x x k k x x l l x x m m x x n n x x o o x x,g g x x h h x x i i x x j j x x k k x x l l x x m m x x n n x x o o x x,,letter_analogy_3gen_split3
-41,h i j k,g i j k,w x v x u x t x s x r x q x p x,x x v x u x t x s x r x q x p x,,letter_analogy_3gen_split3
-42,m n o p w,m n o p q,h h j j l l n n p p r r t t v v c c,h h j j l l n n p p r r t t v v x x,,letter_analogy_3gen_split3
-43,q r s t,q r s t u,13 11 9 7,13 11 9 7 5,,letter_analogy_3gen_split3
-44,e f g h h i,e f g h i,8 10 12 14 16 18 20 22 22 24,8 10 12 14 16 18 20 22 24,,letter_analogy_3gen_split3
-45,k l m n,k l m n o,y y x x x x x x w w x x v v x x,y y x x x x x x w w x x v v x x u u x x,,letter_analogy_3gen_split3
-46,j k l m m n,j k l m n,19 18 17 16 15 14 13 12 11 11,19 18 17 16 15 14 13 12 11,,letter_analogy_3gen_split3
-47,s t u v,r t u v,4 4 0 0 5 5 0 0 6 6 0 0 7 7 0 0,3 3 0 0 5 5 0 0 6 6 0 0 7 7 0 0,,letter_analogy_3gen_split3
-48,p q r s,p q r t,o o m m k k i i,o o m m k k g g,,letter_analogy_3gen_split3
-49,n o p q,n o p q r,k k j j i i h h g g f f e e d d,k k j j i i h h g g f f e e d d c c,,letter_analogy_3gen_split3
+21,m n o p q q,m n o p q,j j l l l l n n p p r r t t v v x x z z,j j l l n n p p r r t t v v x x z z,,letter_analogy_3gen_split3
+22,w u v t x,t u v w x,2 2 3 3 4 4 6 6 5 5 7 7 8 8 9 9 10 10,2 2 3 3 4 4 5 5 6 6 7 7 8 8 9 9 10 10,,letter_analogy_3gen_split3
+23,e f g h,e f g i,10 10 9 9 8 8 7 7,10 10 9 9 8 8 6 6,,letter_analogy_3gen_split3
+24,j k l m n n,j k l m n,j j x x i i x x h h x x h h x x g g x x f f x x,j j x x i i x x h h x x g g x x f f x x,,letter_analogy_3gen_split3
+25,f g h i,e g h i,k x m x o x q x s x u x w x y x,i x m x o x q x s x u x w x y x,,letter_analogy_3gen_split3
+26,t w x y z,v w x y z,d d z z h h j j l l n n p p r r t t,d d f f h h j j l l n n p p r r t t,,letter_analogy_3gen_split3
+27,f g h i,f g h i j,e e g g i i k k m m o o q q s s,e e g g i i k k m m o o q q s s u u,,letter_analogy_3gen_split3
+28,j k l m m n,j k l m n,19 18 17 16 15 14 13 12 11 11,19 18 17 16 15 14 13 12 11,,letter_analogy_3gen_split3
+29,g h i j,f h i j,14 14 13 13 12 12 11 11,15 15 13 13 12 12 11 11,,letter_analogy_3gen_split3
+30,d c e f g,c d e f g,n v t r p x l j h,x v t r p n l j h,,letter_analogy_3gen_split3
+31,e f g h h i,e f g h i,8 10 12 14 16 18 20 22 22 24,8 10 12 14 16 18 20 22 24,,letter_analogy_3gen_split3
+32,e d c f g,c d e f g,f f h h j j p p n n l l r r t t v v,f f h h j j l l n n p p r r t t v v,,letter_analogy_3gen_split3
+33,s t p v w,s t u v w,g g x x h h x x i i x x p p x x k k x x l l x x m m x x n n x x o o x x,g g x x h h x x i i x x j j x x k k x x l l x x m m x x n n x x o o x x,,letter_analogy_3gen_split3
+34,s t u v v w,s t u v w,d d x x e e x x e e x x f f x x g g x x h h x x i i x x j j x x k k x x l l x x,d d x x e e x x f f x x g g x x h h x x i i x x j j x x k k x x l l x x,,letter_analogy_3gen_split3
+35,e i g h f,e f g h i,x x t x v x r x p x,x x v x t x r x p x,,letter_analogy_3gen_split3
+36,d e f g,d e f h,a x c x e x g x i x k x m x o x,a x c x e x g x i x k x m x q x,,letter_analogy_3gen_split3
+37,i j k l,h j k l,9 9 8 8 7 7 6 6,10 10 8 8 7 7 6 6,,letter_analogy_3gen_split3
+38,p q r s s t,p q r s t,y y x x w w v v u u t t s s r r q q q q,y y x x w w v v u u t t s s r r q q,,letter_analogy_3gen_split3
+39,m n o p w,m n o p q,h h j j l l n n p p r r t t v v c c,h h j j l l n n p p r r t t v v x x,,letter_analogy_3gen_split3
+40,m k l j n,j k l m n,s s x x q q x x r r x x p p x x o o x x,s s x x r r x x q q x x p p x x o o x x,,letter_analogy_3gen_split3
+41,g h i i j k,g h i j k,r p n l j h h f d b,r p n l j h f d b,,letter_analogy_3gen_split3
+42,h i j k,h i j k l,o x m x k x i x,o x m x k x i x g x,,letter_analogy_3gen_split3
+43,q r s t,q r s u,c c x x d d x x e e x x f f x x g g x x h h x x i i x x j j x x,c c x x d d x x e e x x f f x x g g x x h h x x i i x x k k x x,,letter_analogy_3gen_split3
+44,f g h i,f g h i j,z z x x y y x x x x x x w w x x,z z x x y y x x x x x x w w x x v v x x,,letter_analogy_3gen_split3
+45,k l m n,j l m n,g x e x c x a x,i x e x c x a x,,letter_analogy_3gen_split3
+46,o p q r r s,o p q r s,w u u s q o m k i g,w u s q o m k i g,,letter_analogy_3gen_split3
+47,p q r s,p q r s t,q x o x m x k x,q x o x m x k x i x,,letter_analogy_3gen_split3
+48,q r s t,q r s t u,13 11 9 7,13 11 9 7 5,,letter_analogy_3gen_split3
+49,m n o p,m n o p q,t x s x r x q x p x o x n x m x,t x s x r x q x p x o x n x m x l x,,letter_analogy_3gen_split3
+50,b c d e,b c d e f,19 19 18 18 17 17 16 16,19 19 18 18 17 17 16 16 15 15,,letter_analogy_3gen_split3
+51,q r s t,q r s t u,f f x x g g x x h h x x i i x x j j x x k k x x l l x x m m x x,f f x x g g x x h h x x i i x x j j x x k k x x l l x x m m x x n n x x,,letter_analogy_3gen_split3
+52,k l m m n o,k l m n o,2 0 4 0 6 0 8 0 10 0 10 0,2 0 4 0 6 0 8 0 10 0,,letter_analogy_3gen_split3
+53,q r s t,q r s u,w x u x s x q x,w x u x s x o x,,letter_analogy_3gen_split3
+54,k j i l m,i j k l m,j x i x g x h x f x e x d x c x b x,j x i x h x g x f x e x d x c x b x,,letter_analogy_3gen_split3
+55,n o p q,n o p r,h h j j l l n n p p r r t t v v,h h j j l l n n p p r r t t x x,,letter_analogy_3gen_split3
+56,h i j k,h i j l,8 8 7 7 6 6 5 5,8 8 7 7 6 6 4 4,,letter_analogy_3gen_split3
+57,k l l m n o,k l m n o,2 4 6 8 10 12 14 16 18 18,2 4 6 8 10 12 14 16 18,,letter_analogy_3gen_split3
+58,i j k l,h j k l,r x p x n x l x,t x p x n x l x,,letter_analogy_3gen_split3
+59,j k l m,j k l n,17 0 19 0 21 0 23 0,17 0 19 0 21 0 25 0,,letter_analogy_3gen_split3
+60,m n n o p q,m n o p q,17 16 15 14 13 13 12 11 10 9,17 16 15 14 13 12 11 10 9,,letter_analogy_3gen_split3
+61,p q r s,p q r t,o o m m k k i i,o o m m k k g g,,letter_analogy_3gen_split3
+62,k i m n o,k l m n o,3 3 0 0 2 2 0 0 5 5 0 0 6 6 0 0 7 7 0 0,3 3 0 0 4 4 0 0 5 5 0 0 6 6 0 0 7 7 0 0,,letter_analogy_3gen_split3
+63,w u v t x,t u v w x,18 0 20 0 24 0 22 0 26 0,18 0 20 0 22 0 24 0 26 0,,letter_analogy_3gen_split3
+64,n o p q,m o p q,e e x x d d x x c c x x b b x x,f f x x d d x x c c x x b b x x,,letter_analogy_3gen_split3
+65,u v w x,t v w x,5 0 6 0 7 0 8 0 9 0 10 0 11 0 12 0,4 0 6 0 7 0 8 0 9 0 10 0 11 0 12 0,,letter_analogy_3gen_split3
+66,h i j k,h i j l,11 11 12 12 13 13 14 14 15 15 16 16 17 17 18 18,11 11 12 12 13 13 14 14 15 15 16 16 17 17 19 19,,letter_analogy_3gen_split3
+67,d e f f g h,d e f g h,m m m m l l k k j j i i h h g g f f e e,m m l l k k j j i i h h g g f f e e,,letter_analogy_3gen_split3
+68,b f d e c,b c d e f,16 15 12 13 14 11 10 9 8,16 15 14 13 12 11 10 9 8,,letter_analogy_3gen_split3
+69,k l m n,k l m n o,y y x x x x x x w w x x v v x x,y y x x x x x x w w x x v v x x u u x x,,letter_analogy_3gen_split3
+70,g h i j,g h i j k,h h j j l l n n p p r r t t v v,h h j j l l n n p p r r t t v v x x,,letter_analogy_3gen_split3
+71,a b c d,a b c d e,4 0 5 0 6 0 7 0 8 0 9 0 10 0 11 0,4 0 5 0 6 0 7 0 8 0 9 0 10 0 11 0 12 0,,letter_analogy_3gen_split3
+72,f g h i,e g h i,w x v x u x t x s x r x q x p x,x x v x u x t x s x r x q x p x,,letter_analogy_3gen_split3
+73,o p q r z,o p q r s,u x s x d x o x m x,u x s x q x o x m x,,letter_analogy_3gen_split3
+74,r s q u v,r s t u v,p p x x q q x x s s x x u u x x w w x x,o o x x q q x x s s x x u u x x w w x x,,letter_analogy_3gen_split3
+75,i i j k l m,i j k l m,18 18 20 20 22 22 22 22 24 24 26 26,18 18 20 20 22 22 24 24 26 26,,letter_analogy_3gen_split3
+76,g h i j,g h i k,s x r x q x p x o x n x m x l x,s x r x q x p x o x n x m x k x,,letter_analogy_3gen_split3
+77,g h i e k,g h i j k,4 6 8 10 17 14 16 18 20,4 6 8 10 12 14 16 18 20,,letter_analogy_3gen_split3
+78,v e f g h,d e f g h,9 14 7 6 5 4 3 2 1,9 8 7 6 5 4 3 2 1,,letter_analogy_3gen_split3
+79,i j t l m,i j k l m,u x t x s x x x q x p x o x n x m x,u x t x s x r x q x p x o x n x m x,,letter_analogy_3gen_split3
+80,n o p q,n o p q r,k k j j i i h h g g f f e e d d,k k j j i i h h g g f f e e d d c c,,letter_analogy_3gen_split3
+81,b c d s f,b c d e f,24 22 20 6 16,24 22 20 18 16,,letter_analogy_3gen_split3
+82,u v x w y,u v w x y,5 21 9 11 13 15 17 19 7,5 7 9 11 13 15 17 19 21,,letter_analogy_3gen_split3
+83,c d e f j,c d e f g,5 7 9 11 13 15 17 18 21,5 7 9 11 13 15 17 19 21,,letter_analogy_3gen_split3
+84,r s t u,r s t v,11 0 13 0 15 0 17 0,11 0 13 0 15 0 19 0,,letter_analogy_3gen_split3
+85,t u v w,s u v w,w u s q o m k i,y u s q o m k i,,letter_analogy_3gen_split3
+86,p u v w x,t u v w x,10 10 9 9 8 8 3 3 6 6,10 10 9 9 8 8 7 7 6 6,,letter_analogy_3gen_split3
+87,d e f i h,d e f g h,12 12 24 24 14 14 15 15 16 16 17 17 18 18 19 19 20 20,12 12 13 13 14 14 15 15 16 16 17 17 18 18 19 19 20 20,,letter_analogy_3gen_split3
+88,n o p q,n o p r,d d f f h h j j l l n n p p r r,d d f f h h j j l l n n p p t t,,letter_analogy_3gen_split3
+89,f g h i,f g h j,14 14 13 13 12 12 11 11,14 14 13 13 12 12 10 10,,letter_analogy_3gen_split3
+90,j i k l m,i j k l m,k k x x g g x x h h x x i i x x j j x x f f x x l l x x m m x x n n x x,f f x x g g x x h h x x i i x x j j x x k k x x l l x x m m x x n n x x,,letter_analogy_3gen_split3
+91,h i j k,g i j k,w x v x u x t x s x r x q x p x,x x v x u x t x s x r x q x p x,,letter_analogy_3gen_split3
+92,e f g i h,e f g h i,o x q x p x r x n x m x l x k x j x,r x q x p x o x n x m x l x k x j x,,letter_analogy_3gen_split3
+93,s t u v,r t u v,4 4 0 0 5 5 0 0 6 6 0 0 7 7 0 0,3 3 0 0 5 5 0 0 6 6 0 0 7 7 0 0,,letter_analogy_3gen_split3
+94,m n o p,l n o p,q q o o m m k k,s s o o m m k k,,letter_analogy_3gen_split3
+95,p q r s,p q r s t,w w x x v v x x u u x x t t x x,w w x x v v x x u u x x t t x x s s x x,,letter_analogy_3gen_split3
+96,d c b e f,b c d e f,19 0 17 0 15 0 21 0 23 0,15 0 17 0 19 0 21 0 23 0,,letter_analogy_3gen_split3
+97,m n o p,l n o p,f x h x j x l x n x p x r x t x,d x h x j x l x n x p x r x t x,,letter_analogy_3gen_split3
+98,c d e f,c d e g,o o x x p p x x q q x x r r x x s s x x t t x x u u x x v v x x,o o x x p p x x q q x x r r x x s s x x t t x x u u x x w w x x,,letter_analogy_3gen_split3
+99,q r t s u,q r s t u,r x q x p x o x m x n x l x k x j x,r x q x p x o x n x m x l x k x j x,,letter_analogy_3gen_split3

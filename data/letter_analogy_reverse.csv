@@ -1,51 +1,101 @@
 ,target,source,targ_word,src_word,alternatives,analogy_type
-0,t u v w,t u v x,m l k j,m l k i,,letter_analogy_reverse
-1,p q r s,o q r s,v u t s,w u t s,,letter_analogy_reverse
-2,k l m n n o,k l m n o,i h g f f e,i h g f e,,letter_analogy_reverse
-3,p q r s,p q r t,i h g f,i h g e,,letter_analogy_reverse
-4,v w x b z,v w x y z,s r v p o,s r q p o,,letter_analogy_reverse
-5,a b c d,a b c d e,s r q p,s r q p o,,letter_analogy_reverse
-6,t u v w,s u v w,e d c b,f d c b,,letter_analogy_reverse
-7,d e f g c,d e f g h,y s w v u,y x w v u,,letter_analogy_reverse
-8,q o p n r,n o p q r,m l i j k,m l k j i,,letter_analogy_reverse
-9,i j k l,h j k l,w v u t,x v u t,,letter_analogy_reverse
-10,n o p q,n o p q r,j i h g,j i h g f,,letter_analogy_reverse
-11,b c d e f f,b c d e f,k j i h g g,k j i h g,,letter_analogy_reverse
-12,j k l a n,j k l m n,w v u d s,w v u t s,,letter_analogy_reverse
-13,u v w w x y,u v w x y,g f e d c c,g f e d c,,letter_analogy_reverse
-14,m n o p,l n o p,f e d c,g e d c,,letter_analogy_reverse
-15,h u v w x,t u v w x,e d c q a,e d c b a,,letter_analogy_reverse
-16,l m n o,l m n o p,l k j i,l k j i h,,letter_analogy_reverse
-17,b c d e e f,b c d e f,o n n m l k,o n m l k,,letter_analogy_reverse
-18,n m o p q,m n o p q,s q r p o,s r q p o,,letter_analogy_reverse
-19,p o n q r,n o p q r,l k i j h,l k j i h,,letter_analogy_reverse
-20,o p q r,o p q s,k j i h,k j i g,,letter_analogy_reverse
-21,f g h i,f g h i j,y x w v,y x w v u,,letter_analogy_reverse
-22,o p q r,o p q s,f e d c,f e d b,,letter_analogy_reverse
-23,t u v w w x,t u v w x,q q p o n m,q p o n m,,letter_analogy_reverse
-24,d e f g,d e f h,s r q p,s r q o,,letter_analogy_reverse
-25,t u v w c,t u v w x,m l k j y,m l k j i,,letter_analogy_reverse
-26,r s t d v,r s t u v,y x w a u,y x w v u,,letter_analogy_reverse
-27,c d e f,b d e f,m l k j,n l k j,,letter_analogy_reverse
-28,k l m n,j l m n,h g f e,i g f e,,letter_analogy_reverse
-29,e g f h i,e f g h i,l j k i h,l k j i h,,letter_analogy_reverse
-30,d b c a e,a b c d e,s r p q o,s r q p o,,letter_analogy_reverse
-31,e f g h,e f g h i,h g f e,h g f e d,,letter_analogy_reverse
-32,d e f g,d e f g h,r q p o,r q p o n,,letter_analogy_reverse
-33,u v x w y,u v w x y,q p n o m,q p o n m,,letter_analogy_reverse
-34,c d e f,b d e f,o n m l,p n m l,,letter_analogy_reverse
-35,n o x q r,n o p q r,t s r q a,t s r q p,,letter_analogy_reverse
-36,k o m n l,k l m n o,s v u t w,w v u t s,,letter_analogy_reverse
-37,k l m n,k l m n o,w v u t,w v u t s,,letter_analogy_reverse
-38,m n o p,m n o q,n m l k,n m l j,,letter_analogy_reverse
-39,w x y z,v x y z,s r q p,t r q p,,letter_analogy_reverse
-40,s t u v,s t u v w,z y x w,z y x w v,,letter_analogy_reverse
-41,f g h i,e g h i,u t s r,v t s r,,letter_analogy_reverse
-42,i j s l m,i j k l m,u p o n m,q p o n m,,letter_analogy_reverse
-43,g h i j,g h i k,j i h g,j i h f,,letter_analogy_reverse
-44,k l m n,j l m n,v u t s,w u t s,,letter_analogy_reverse
-45,d e f g,c e f g,p o n m,q o n m,,letter_analogy_reverse
-46,i j k l m m,i j k l m,i i h g f e,i h g f e,,letter_analogy_reverse
-47,p q r s,p q r t,r q p o,r q p n,,letter_analogy_reverse
-48,g h i j,g h i j k,f e d c,f e d c b,,letter_analogy_reverse
-49,u w v x y,u v w x y,k i j h g,k j i h g,,letter_analogy_reverse
+0,c d e f,b d e f,o n m l,p n m l,,letter_analogy_reverse
+1,p q r s t t,p q r s t,r q q p o n,r q p o n,,letter_analogy_reverse
+2,p q r s,o q r s,d c b a,e c b a,,letter_analogy_reverse
+3,f g h i,f g h i j,y x w v,y x w v u,,letter_analogy_reverse
+4,l m n o,l m n o p,y x w v,y x w v u,,letter_analogy_reverse
+5,o p q r,o p q s,f e d c,f e d b,,letter_analogy_reverse
+6,w v u x y,u v w x y,c e d f b,f e d c b,,letter_analogy_reverse
+7,i j k l m m,i j k l m,i i h g f e,i h g f e,,letter_analogy_reverse
+8,g h i j,g h i j k,f e d c,f e d c b,,letter_analogy_reverse
+9,t u v w c,t u v w x,m l k j y,m l k j i,,letter_analogy_reverse
+10,q o p n r,n o p q r,m l i j k,m l k j i,,letter_analogy_reverse
+11,h u v w x,t u v w x,e d c q a,e d c b a,,letter_analogy_reverse
+12,h h i j k l,h i j k l,w v v u t s,w v u t s,,letter_analogy_reverse
+13,n o x q r,n o p q r,t s r q a,t s r q p,,letter_analogy_reverse
+14,k l m n,k l m n o,w v u t,w v u t s,,letter_analogy_reverse
+15,d e f g,c e f g,p o n m,q o n m,,letter_analogy_reverse
+16,a b c d,a b c d e,h g f e,h g f e d,,letter_analogy_reverse
+17,q r s t,p r s t,v u t s,w u t s,,letter_analogy_reverse
+18,o p q r,o p q s,k j i h,k j i g,,letter_analogy_reverse
+19,j k l m,i k l m,g f e d,h f e d,,letter_analogy_reverse
+20,g h i i j k,g h i j k,g g f e d c,g f e d c,,letter_analogy_reverse
+21,t u v w,s u v w,e d c b,f d c b,,letter_analogy_reverse
+22,i j k l,i j k l m,k j i h,k j i h g,,letter_analogy_reverse
+23,g h i j k k,g h i j k,h g f e d d,h g f e d,,letter_analogy_reverse
+24,k l m n,j l m n,h g f e,i g f e,,letter_analogy_reverse
+25,p o n q r,n o p q r,l k i j h,l k j i h,,letter_analogy_reverse
+26,p q r r s t,p q r s t,f e d c c b,f e d c b,,letter_analogy_reverse
+27,p q r s,p q r t,i h g f,i h g e,,letter_analogy_reverse
+28,n m o p q,m n o p q,s q r p o,s r q p o,,letter_analogy_reverse
+29,i j s l m,i j k l m,u p o n m,q p o n m,,letter_analogy_reverse
+30,l m n o,l m n o p,l k j i,l k j i h,,letter_analogy_reverse
+31,t u v w w x,t u v w x,q q p o n m,q p o n m,,letter_analogy_reverse
+32,t u v w,s u v w,d c b a,e c b a,,letter_analogy_reverse
+33,f g h i,e g h i,u t s r,v t s r,,letter_analogy_reverse
+34,i m k l j,i j k l m,g i h j f,j i h g f,,letter_analogy_reverse
+35,k l m n,j l m n,v u t s,w u t s,,letter_analogy_reverse
+36,i j k l,h j k l,w v u t,x v u t,,letter_analogy_reverse
+37,r v t u s,r s t u v,w v t u s,w v u t s,,letter_analogy_reverse
+38,a b c d,a b c d e,u t s r,u t s r q,,letter_analogy_reverse
+39,b c d e e f,b c d e f,o n n m l k,o n m l k,,letter_analogy_reverse
+40,c d e f b,c d e f g,h y x w v,z y x w v,,letter_analogy_reverse
+41,s t u v,s t u v w,k j i h,k j i h g,,letter_analogy_reverse
+42,m n o p,l n o p,f e d c,g e d c,,letter_analogy_reverse
+43,s t t u v w,s t u v w,r q q p o n,r q p o n,,letter_analogy_reverse
+44,s t u v,s t u v w,z y x w,z y x w v,,letter_analogy_reverse
+45,v w x y,u w x y,i h g f,j h g f,,letter_analogy_reverse
+46,g h i j,g h i k,n m l k,n m l j,,letter_analogy_reverse
+47,j k l m,j k l n,j i h g,j i h f,,letter_analogy_reverse
+48,g h i j,g h i j k,m l k j,m l k j i,,letter_analogy_reverse
+49,e g f h i,e f g h i,l j k i h,l k j i h,,letter_analogy_reverse
+50,d e f g,c e f g,x w v u,y w v u,,letter_analogy_reverse
+51,e f g h,e f g h i,h g f e,h g f e d,,letter_analogy_reverse
+52,u w v x y,u v w x y,k i j h g,k j i h g,,letter_analogy_reverse
+53,c d e f,b d e f,m l k j,n l k j,,letter_analogy_reverse
+54,k o m n l,k l m n o,s v u t w,w v u t s,,letter_analogy_reverse
+55,i j k l,h j k l,t s r q,u s r q,,letter_analogy_reverse
+56,t u v w,t u v x,m l k j,m l k i,,letter_analogy_reverse
+57,p q r s,p q r t,r q p o,r q p n,,letter_analogy_reverse
+58,r s t d v,r s t u v,y x w a u,y x w v u,,letter_analogy_reverse
+59,h i j k,h i j k l,p o n m,p o n m l,,letter_analogy_reverse
+60,a b c d,a b c d e,s r q p,s r q p o,,letter_analogy_reverse
+61,l m n n o p,l m n o p,g g f e d c,g f e d c,,letter_analogy_reverse
+62,u v w x,u v w y,j i h g,j i h f,,letter_analogy_reverse
+63,d b c a e,a b c d e,s r p q o,s r q p o,,letter_analogy_reverse
+64,o p q r,n p q r,k j i h,l j i h,,letter_analogy_reverse
+65,v w x b z,v w x y z,s r v p o,s r q p o,,letter_analogy_reverse
+66,p q r s t t,p q r s t,n m l k j j,n m l k j,,letter_analogy_reverse
+67,g h j i k,g h i j k,g c e d f,g f e d c,,letter_analogy_reverse
+68,w x y z,v x y z,s r q p,t r q p,,letter_analogy_reverse
+69,g d e f c,c d e f g,x u v w t,x w v u t,,letter_analogy_reverse
+70,v w x y,v w x y z,j i h g,j i h g f,,letter_analogy_reverse
+71,b c d f e,b c d e f,w x v u t,x w v u t,,letter_analogy_reverse
+72,j k l m,j k l m n,h g f e,h g f e d,,letter_analogy_reverse
+73,n n o p q r,n o p q r,t s r q q p,t s r q p,,letter_analogy_reverse
+74,p q r s s t,p q r s t,l k j i i h,l k j i h,,letter_analogy_reverse
+75,h h i j k l,h i j k l,z y x w w v,z y x w v,,letter_analogy_reverse
+76,d e f g,d e f g h,r q p o,r q p o n,,letter_analogy_reverse
+77,s t u c w,s t u v w,s m q p o,s r q p o,,letter_analogy_reverse
+78,g h i j,g h i k,j i h g,j i h f,,letter_analogy_reverse
+79,u v w w x y,u v w x y,g f e d c c,g f e d c,,letter_analogy_reverse
+80,l m n o,l m n p,v u t s,v u t r,,letter_analogy_reverse
+81,j k l a n,j k l m n,w v u d s,w v u t s,,letter_analogy_reverse
+82,o p q r,o p q r s,x w v u,x w v u t,,letter_analogy_reverse
+83,v w x y,v w x y z,i h g f,i h g f e,,letter_analogy_reverse
+84,d e f g c,d e f g h,y s w v u,y x w v u,,letter_analogy_reverse
+85,d e f g,c e f g,w v u t,x v u t,,letter_analogy_reverse
+86,k l m n n o,k l m n o,i h g f f e,i h g f e,,letter_analogy_reverse
+87,p n o m q,m n o p q,f e b c d,f e d c b,,letter_analogy_reverse
+88,m n o p,m n o q,n m l k,n m l j,,letter_analogy_reverse
+89,c d e f,b d e f,x w v u,y w v u,,letter_analogy_reverse
+90,c d e p g,c d e f g,i h g p e,i h g f e,,letter_analogy_reverse
+91,u h w x y,u v w x y,g f q d c,g f e d c,,letter_analogy_reverse
+92,b c d e f f,b c d e f,k j i h g g,k j i h g,,letter_analogy_reverse
+93,f g h i,e g h i,o n m l,p n m l,,letter_analogy_reverse
+94,d e f g,d e f h,s r q p,s r q o,,letter_analogy_reverse
+95,n o p q,n o p q r,j i h g,j i h g f,,letter_analogy_reverse
+96,g z i j k,g h i j k,s v q p o,s r q p o,,letter_analogy_reverse
+97,u v x w y,u v w x y,q p n o m,q p o n m,,letter_analogy_reverse
+98,l k m n o,k l m n o,t u s r q,u t s r q,,letter_analogy_reverse
+99,p q r s,o q r s,v u t s,w u t s,,letter_analogy_reverse
