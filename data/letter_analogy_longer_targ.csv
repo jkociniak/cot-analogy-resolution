@@ -1,101 +1,51 @@
 ,target,source,targ_word,src_word,alternatives,analogy_type
-0,g h i j k k,g h i j k,o o p q r s t u v w,o p q r s t u v w,,letter_analogy_longer_targ
-1,w x y z,v x y z,s t u v w x y z,r t u v w x y z,,letter_analogy_longer_targ
-2,q r s t,q r s t u,e f g h i j k l,e f g h i j k l m,,letter_analogy_longer_targ
-3,b c d e,b c d f,o p q r s t u v,o p q r s t u w,,letter_analogy_longer_targ
-4,g h i j,g h i j k,h i j k l m n o,h i j k l m n o p,,letter_analogy_longer_targ
-5,u v w x,u v w x y,b c d e f g h i,b c d e f g h i j,,letter_analogy_longer_targ
-6,r q p s t,p q r s t,l j k i m n o p q,i j k l m n o p q,,letter_analogy_longer_targ
-7,o p q r,n p q r,l m n o p q r s,k m n o p q r s,,letter_analogy_longer_targ
-8,g h i j,g h i j k,q r s t u v w x,q r s t u v w x y,,letter_analogy_longer_targ
-9,m n o p,l n o p,o p q r s t u v,n p q r s t u v,,letter_analogy_longer_targ
-10,n o p q,n o p r,i j k l m n o p,i j k l m n o q,,letter_analogy_longer_targ
-11,m m n o p q,m n o p q,f g h i j k l l m n,f g h i j k l m n,,letter_analogy_longer_targ
+0,j j k l m n,j k l m n,c d e f g h i i j k,c d e f g h i j k,,letter_analogy_longer_targ
+1,h i j l k,h i j k l,k l q n o p m r s,k l m n o p q r s,,letter_analogy_longer_targ
+2,w u v t x,t u v w x,o p q s r t u v w,o p q r s t u v w,,letter_analogy_longer_targ
+3,n o p q,n o p r,j k l m n o p q,j k l m n o p r,,letter_analogy_longer_targ
+4,p t r s q,p q r s t,j p l m n o k q r,j k l m n o p q r,,letter_analogy_longer_targ
+5,d e e f g h,d e f g h,q r r s t u v w x y,q r s t u v w x y,,letter_analogy_longer_targ
+6,l m n o,k m n o,o p q r s t u v,n p q r s t u v,,letter_analogy_longer_targ
+7,m n o p,l n o p,o p q r s t u v,n p q r s t u v,,letter_analogy_longer_targ
+8,w x y z,v x y z,s t u v w x y z,r t u v w x y z,,letter_analogy_longer_targ
+9,m n o o p q,m n o p q,j k l m n n o p q r,j k l m n o p q r,,letter_analogy_longer_targ
+10,v b x y z,v w x y z,e f g h u j k l m,e f g h i j k l m,,letter_analogy_longer_targ
+11,r s t u,q s t u,s t u v w x y z,r t u v w x y z,,letter_analogy_longer_targ
 12,b c d e,a c d e,p q r s t u v w,o q r s t u v w,,letter_analogy_longer_targ
-13,u v w k y,u v w x y,o p q r f t u v w,o p q r s t u v w,,letter_analogy_longer_targ
-14,i m k l j,i j k l m,l m s o p q r n t,l m n o p q r s t,,letter_analogy_longer_targ
-15,z c d e f,b c d e f,e f g h i j k l x,e f g h i j k l m,,letter_analogy_longer_targ
-16,h i j l k,h i j k l,k l q n o p m r s,k l m n o p q r s,,letter_analogy_longer_targ
-17,c d e f,c d e f g,q r s t u v w x,q r s t u v w x y,,letter_analogy_longer_targ
-18,v u x y z,v w x y z,c d n f g h i j k,c d e f g h i j k,,letter_analogy_longer_targ
-19,u v w x,u v w y,g h i j k l m n,g h i j k l m o,,letter_analogy_longer_targ
-20,m n o p,m n o q,a b c d e f g h,a b c d e f g i,,letter_analogy_longer_targ
-21,a b c d,a b c d e,l m n o p q r s,l m n o p q r s t,,letter_analogy_longer_targ
-22,u v w x,u v w x y,d e f g h i j k,d e f g h i j k l,,letter_analogy_longer_targ
-23,b b c d e f,b c d e f,c d e f g h i j k k,c d e f g h i j k,,letter_analogy_longer_targ
-24,t u v w,t u v w x,j k l m n o p q,j k l m n o p q r,,letter_analogy_longer_targ
-25,p q r s,p q r t,g h i j k l m n,g h i j k l m o,,letter_analogy_longer_targ
-26,h i s k l,h i j k l,c d e f g h i w k,c d e f g h i j k,,letter_analogy_longer_targ
-27,k i j h l,h i j k l,f e g h i j k l m,e f g h i j k l m,,letter_analogy_longer_targ
-28,e f g h,d f g h,c d e f g h i j,b d e f g h i j,,letter_analogy_longer_targ
-29,k l f n o,k l m n o,j o p q r s t u v,n o p q r s t u v,,letter_analogy_longer_targ
-30,s t w v u,s t u v w,m j k l i n o p q,i j k l m n o p q,,letter_analogy_longer_targ
-31,i j k l,i j k m,g h i j k l m n,g h i j k l m o,,letter_analogy_longer_targ
-32,i j k s m,i j k l m,p q r s t u k w x,p q r s t u v w x,,letter_analogy_longer_targ
-33,h i j k,h i j l,c d e f g h i j,c d e f g h i k,,letter_analogy_longer_targ
-34,f g h i,e g h i,m n o p q r s t,l n o p q r s t,,letter_analogy_longer_targ
-35,s t u u v w,s t u v w,r s s t u v w x y z,r s t u v w x y z,,letter_analogy_longer_targ
-36,l k m n o,k l m n o,c b d e f g h i j,b c d e f g h i j,,letter_analogy_longer_targ
-37,s t v u w,s t u v w,q k l m n o p j r,j k l m n o p q r,,letter_analogy_longer_targ
-38,p t r s q,p q r s t,j p l m n o k q r,j k l m n o p q r,,letter_analogy_longer_targ
-39,p q r o t,p q r s t,m n o p q r l t u,m n o p q r s t u,,letter_analogy_longer_targ
-40,l m n o,k m n o,o p q r s t u v,n p q r s t u v,,letter_analogy_longer_targ
-41,l n m o p,l m n o p,h f g e i j k l m,e f g h i j k l m,,letter_analogy_longer_targ
-42,s t u v v w,s t u v w,r s t u v v w x y z,r s t u v w x y z,,letter_analogy_longer_targ
-43,r s t u,q s t u,h i j k l m n o,g i j k l m n o,,letter_analogy_longer_targ
-44,p q r s,o q r s,h i j k l m n o,g i j k l m n o,,letter_analogy_longer_targ
-45,r s t u,r s t u v,o p q r s t u v,o p q r s t u v w,,letter_analogy_longer_targ
-46,h i j k,h i j k l,q r s t u v w x,q r s t u v w x y,,letter_analogy_longer_targ
-47,g h i j,g h i k,o p q r s t u v,o p q r s t u w,,letter_analogy_longer_targ
-48,b c d e,a c d e,r s t u v w x y,q s t u v w x y,,letter_analogy_longer_targ
-49,c d e e f g,c d e f g,a b c d e f f g h i,a b c d e f g h i,,letter_analogy_longer_targ
-50,j j k l m n,j k l m n,c d e f g h i i j k,c d e f g h i j k,,letter_analogy_longer_targ
-51,f g h i,f g h i j,o p q r s t u v,o p q r s t u v w,,letter_analogy_longer_targ
-52,n o p q,n o p r,p q r s t u v w,p q r s t u v x,,letter_analogy_longer_targ
-53,h i j u l,h i j k l,r s t u o w x y z,r s t u v w x y z,,letter_analogy_longer_targ
-54,n o p r q,n o p q r,d e l g h i j k f,d e f g h i j k l,,letter_analogy_longer_targ
-55,u y w x v,u v w x y,l m p o n q r s t,l m n o p q r s t,,letter_analogy_longer_targ
-56,m n o p c,m n o p q,i j k l m n a p q,i j k l m n o p q,,letter_analogy_longer_targ
-57,z k l m n,j k l m n,b c d e f g o i j,b c d e f g h i j,,letter_analogy_longer_targ
-58,d e e f g h,d e f g h,q r r s t u v w x y,q r s t u v w x y,,letter_analogy_longer_targ
-59,b b c d e f,b c d e f,d e f g h i j j k l,d e f g h i j k l,,letter_analogy_longer_targ
-60,h i j k,h i j l,e f g h i j k l,e f g h i j k m,,letter_analogy_longer_targ
-61,s t u v,s t u v w,g h i j k l m n,g h i j k l m n o,,letter_analogy_longer_targ
-62,b c d e,b c d e f,g h i j k l m n,g h i j k l m n o,,letter_analogy_longer_targ
-63,d h f g e,d e f g h,c d e f g h i k j,c d e f g h i j k,,letter_analogy_longer_targ
-64,c d j f g,c d e f g,r s t u v w a y z,r s t u v w x y z,,letter_analogy_longer_targ
-65,e t u v w,s t u v w,i j k l m n o w q,i j k l m n o p q,,letter_analogy_longer_targ
-66,h h i j k l,h i j k l,r s t u v w x x y z,r s t u v w x y z,,letter_analogy_longer_targ
-67,c d e f,c d e f g,o p q r s t u v,o p q r s t u v w,,letter_analogy_longer_targ
-68,g h i o k,g h i j k,x f g h i j k l m,e f g h i j k l m,,letter_analogy_longer_targ
-69,m n o p,l n o p,d e f g h i j k,c e f g h i j k,,letter_analogy_longer_targ
-70,v w x y,v w x z,a b c d e f g h,a b c d e f g i,,letter_analogy_longer_targ
-71,d u f g h,d e f g h,a b c d e y g h i,a b c d e f g h i,,letter_analogy_longer_targ
-72,r s t u,q s t u,s t u v w x y z,r t u v w x y z,,letter_analogy_longer_targ
-73,i j k l,i j k l m,o p q r s t u v,o p q r s t u v w,,letter_analogy_longer_targ
-74,j k o m n,j k l m n,l m n o p i r s t,l m n o p q r s t,,letter_analogy_longer_targ
-75,l m n o,l m n o p,g h i j k l m n,g h i j k l m n o,,letter_analogy_longer_targ
-76,v w x y,v w x z,n o p q r s t u,n o p q r s t v,,letter_analogy_longer_targ
-77,j w x y z,v w x y z,h i a k l m n o p,h i j k l m n o p,,letter_analogy_longer_targ
-78,s t u v,r t u v,p q r s t u v w,o q r s t u v w,,letter_analogy_longer_targ
-79,v b x y z,v w x y z,e f g h u j k l m,e f g h i j k l m,,letter_analogy_longer_targ
-80,s t u v,s t u w,g h i j k l m n,g h i j k l m o,,letter_analogy_longer_targ
-81,t u v w,s u v w,s t u v w x y z,r t u v w x y z,,letter_analogy_longer_targ
-82,n o p q,n o p r,j k l m n o p q,j k l m n o p r,,letter_analogy_longer_targ
-83,v w x z y,v w x y z,f g h i l k j m n,f g h i j k l m n,,letter_analogy_longer_targ
-84,m n o p,m n o p q,q r s t u v w x,q r s t u v w x y,,letter_analogy_longer_targ
-85,w u v t x,t u v w x,o p q s r t u v w,o p q r s t u v w,,letter_analogy_longer_targ
-86,m n p o q,m n o p q,o p q r s t w v u,o p q r s t u v w,,letter_analogy_longer_targ
-87,q r s t,q r s u,c d e f g h i j,c d e f g h i k,,letter_analogy_longer_targ
-88,t u v d x,t u v w x,e f w h i j k l m,e f g h i j k l m,,letter_analogy_longer_targ
-89,t u v v w x,t u v w x,l m m n o p q r s t,l m n o p q r s t,,letter_analogy_longer_targ
-90,s t u v v w,s t u v w,f g h i i j k l m n,f g h i j k l m n,,letter_analogy_longer_targ
-91,j k l m,i k l m,i j k l m n o p,h j k l m n o p,,letter_analogy_longer_targ
-92,b c c d e f,b c d e f,q r s s t u v w x y,q r s t u v w x y,,letter_analogy_longer_targ
-93,c g e f d,c d e f g,b c d e f h g i j,b c d e f g h i j,,letter_analogy_longer_targ
-94,m n o o p q,m n o p q,j k l m n n o p q r,j k l m n o p q r,,letter_analogy_longer_targ
-95,x h i j k,g h i j k,o p q r s t u v k,o p q r s t u v w,,letter_analogy_longer_targ
-96,s t u v,s t u w,n o p q r s t u,n o p q r s t v,,letter_analogy_longer_targ
-97,m n o p p q,m n o p q,d d e f g h i j k l,d e f g h i j k l,,letter_analogy_longer_targ
-98,e f g h,e f g i,a b c d e f g h,a b c d e f g i,,letter_analogy_longer_targ
-99,k h m n o,k l m n o,h i j k l m n b p,h i j k l m n o p,,letter_analogy_longer_targ
+13,b c c d e f,b c d e f,q r s s t u v w x y,q r s t u v w x y,,letter_analogy_longer_targ
+14,g h i o k,g h i j k,x f g h i j k l m,e f g h i j k l m,,letter_analogy_longer_targ
+15,k i j h l,h i j k l,f e g h i j k l m,e f g h i j k l m,,letter_analogy_longer_targ
+16,c d j f g,c d e f g,r s t u v w a y z,r s t u v w x y z,,letter_analogy_longer_targ
+17,h i j k,h i j l,c d e f g h i j,c d e f g h i k,,letter_analogy_longer_targ
+18,e f g h,e f g i,a b c d e f g h,a b c d e f g i,,letter_analogy_longer_targ
+19,p q r s,o q r s,h i j k l m n o,g i j k l m n o,,letter_analogy_longer_targ
+20,g h i j,g h i j k,q r s t u v w x,q r s t u v w x y,,letter_analogy_longer_targ
+21,i j k l,i j k m,g h i j k l m n,g h i j k l m o,,letter_analogy_longer_targ
+22,g h i j,g h i k,o p q r s t u v,o p q r s t u w,,letter_analogy_longer_targ
+23,l k m n o,k l m n o,c b d e f g h i j,b c d e f g h i j,,letter_analogy_longer_targ
+24,m n o p,m n o q,a b c d e f g h,a b c d e f g i,,letter_analogy_longer_targ
+25,m n o p c,m n o p q,i j k l m n a p q,i j k l m n o p q,,letter_analogy_longer_targ
+26,m n o p,l n o p,d e f g h i j k,c e f g h i j k,,letter_analogy_longer_targ
+27,x h i j k,g h i j k,o p q r s t u v k,o p q r s t u v w,,letter_analogy_longer_targ
+28,c d e f,c d e f g,o p q r s t u v,o p q r s t u v w,,letter_analogy_longer_targ
+29,j k l m,i k l m,i j k l m n o p,h j k l m n o p,,letter_analogy_longer_targ
+30,t u v d x,t u v w x,e f w h i j k l m,e f g h i j k l m,,letter_analogy_longer_targ
+31,u v w k y,u v w x y,o p q r f t u v w,o p q r s t u v w,,letter_analogy_longer_targ
+32,c d e f,c d e f g,q r s t u v w x,q r s t u v w x y,,letter_analogy_longer_targ
+33,s t u v,s t u w,n o p q r s t u,n o p q r s t v,,letter_analogy_longer_targ
+34,i m k l j,i j k l m,l m s o p q r n t,l m n o p q r s t,,letter_analogy_longer_targ
+35,m n o p p q,m n o p q,d d e f g h i j k l,d e f g h i j k l,,letter_analogy_longer_targ
+36,u v w x,u v w y,g h i j k l m n,g h i j k l m o,,letter_analogy_longer_targ
+37,d u f g h,d e f g h,a b c d e y g h i,a b c d e f g h i,,letter_analogy_longer_targ
+38,v u x y z,v w x y z,c d n f g h i j k,c d e f g h i j k,,letter_analogy_longer_targ
+39,i j k l,i j k l m,o p q r s t u v,o p q r s t u v w,,letter_analogy_longer_targ
+40,v w x z y,v w x y z,f g h i l k j m n,f g h i j k l m n,,letter_analogy_longer_targ
+41,r s t u,r s t u v,o p q r s t u v,o p q r s t u v w,,letter_analogy_longer_targ
+42,a b c d,a b c d e,l m n o p q r s,l m n o p q r s t,,letter_analogy_longer_targ
+43,b b c d e f,b c d e f,d e f g h i j j k l,d e f g h i j k l,,letter_analogy_longer_targ
+44,r s t u,q s t u,h i j k l m n o,g i j k l m n o,,letter_analogy_longer_targ
+45,c g e f d,c d e f g,b c d e f h g i j,b c d e f g h i j,,letter_analogy_longer_targ
+46,t u v w,s u v w,s t u v w x y z,r t u v w x y z,,letter_analogy_longer_targ
+47,i j k s m,i j k l m,p q r s t u k w x,p q r s t u v w x,,letter_analogy_longer_targ
+48,s t u v,r t u v,p q r s t u v w,o q r s t u v w,,letter_analogy_longer_targ
+49,h i j u l,h i j k l,r s t u o w x y z,r s t u v w x y z,,letter_analogy_longer_targ
