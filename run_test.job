@@ -1,0 +1,33 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu_titanrtx_shared_course
+#SBATCH --gres=gpu:2
+#SBATCH --job-name=LoadModelTest
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=3
+#SBATCH --time=48:00:00
+#SBATCH --mem=32000M
+#SBATCH --output=output_llm_test.out
+
+module load 2022
+module load Anaconda3/2022.05
+#srun nvcc --version
+source activate 2022_env
+#pip install --upgrade protobuf==3.20.3
+#pip install pandas
+
+
+#git clone https://huggingface.co/facebook/opt-66b
+#cd opt-66b
+#git-lfs install
+#git lfs pull
+#cd .. 
+
+
+#srun python -u test_model.py --model alpaca-7b --dataset SCAN_dataset.csv --cot --debug --output Results/alpaca-debug.pckl --cot_format=kojima --max_tokens 200 --timing
+srun python -u test_model.py --model alpaca-7b --dataset SCAN_dataset.csv --cot --output Results/alpaca-7b_cot_scan_standard.pckl --cot_format=kojima --max_tokens 200 --timing
+srun python -u test_model.py --model llama-7b --dataset SCAN_dataset.csv --cot --output Results/llama-7b_cot_scan_standard.pckl --cot_format=kojima --max_tokens 200 --timing
+srun python -u test_model.py --model vicuna-7b --dataset SCAN_dataset.csv --cot --output Results/vicuna-7b_cot_scan_standard.pckl --cot_format=kojima --max_tokens 200 --timing
+srun python -u test_model.py --model alpaca-7b --dataset SCAN_dataset.csv --output Results/alpaca-7b-baseline_scan_standard.pckl --timing
+srun python -u test_model.py --model llama-7b --dataset SCAN_dataset.csv --output Results/llama-7b-baseline_scan_standard.pckl --timing
+srun python -u test_model.py --model vicuna-7b --dataset SCAN_dataset.csv --output Results/vicuna-7b-baseline_scan_standard.pckl --timing
