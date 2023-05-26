@@ -3,6 +3,8 @@ import argparse
 import pickle
 import tqdm
 import os
+import time
+import string
 
 from transformers import AutoTokenizer, AutoModelForCausalLM, AutoConfig
 from accelerate import load_checkpoint_and_dispatch, init_empty_weights
@@ -41,11 +43,18 @@ def test_prompt(model, tokenizer, prompt, max_tokens=50, min_tokens=3):
     # Move prompt to gpu
     input = tokenizer(prompt, return_tensors="pt").to(0)
 
+    # Get the length of the input tensor (how many tokens are in the prompt)
+    input_length = input["input_ids"].shape[1]
+
     # Generate output based on prompt
     output = model.generate(input["input_ids"], max_new_tokens=max_tokens, min_new_tokens=min_tokens)
 
+    # Slice the output tensor to only include the new tokens
+    new_tokens = output[0][input_length:]
+
     # Decode the output
-    decoded_output = tokenizer.decode(output[0].tolist())
+    #decoded_output = tokenizer.decode(output[0].tolist())
+    decoded_output = tokenizer.decode(new_tokens.tolist())
 
     return decoded_output
 
@@ -95,21 +104,31 @@ def test_model(data_path, output_path,
                model_params,
                cot=False, cot_prompt="Let's think step by step. \n", cot_format='append',
                add_demos=False, n_demos=4, filter_demos=True,
-               min_tokens=3, max_tokens=50, use_alts=True, reverse_analogy=False,
-               debug=False):
+               min_tokens=3, max_tokens=200, use_alts=True, reverse_analogy=False,
+               debug=False, timing=False):
 
     # Load model and dataset
     model, tokenizer = load_model(**model_params)
     df = pd.read_csv(data_path)
     if debug:
-        df = df.head(1)
+        df = df.head(10)
 
     results = dict()
     for index, row in tqdm.tqdm(df.iterrows()):
+        if timing:
+            start_time = time.time()
+
+
         example1 = row["target"]
         example2 = row["source"]
         target1 = row["targ_word"]
         target2 = row["src_word"]
+
+        # Examples with faulty duplicates are skipped
+        if example1 == example2:
+            continue
+        if target1 == target2:
+            continue
 
         if reverse_analogy:
             example1, example2 = example2, example1
@@ -125,35 +144,79 @@ def test_model(data_path, output_path,
         else:
             n_demos = 0
 
-        print("input prompt")
-        print(prompt)
+
+        # reasoning is not there if no cot
+        reasoning = ""
+        #print("input prompt")
+        #print(prompt)
+        # If not cot we only generate the answer and no reasoning. So max_tokens is set to 10
+        if not cot:
+            max_tokens=15
+
         output = test_prompt(model, tokenizer, prompt, max_tokens, min_tokens)
-        print("first output")
-        print(output)
-        answer_prompt = f".\n Therefore, the answer is: If {example1} is like {example2}, then {target1} is like"
-        #new_prompt = output + ".\n Therefore, the answer is: "
-        new_prompt = output + answer_prompt
-        print("second prompt")
-        print(new_prompt)
+        #print("first output")
+        #print(output)
+        
+        #answer_prompt = f".\nTherefore, the answer is: If {example1} is like {example2}, then {target1} is like"
+        # Remove the "A:" in the initial prompt and output to distinguish from final answer
+        #prompt = prompt.replace ("A:", "") 
+        #output = output.replace ("A:", "") 
+
+        answer_prompt = f".\nTherefore, this is the final answer: If {example1} is like {example2} then {target1} is like "
+
+        #new_prompt = output + ".\nTherefore, the answer is: "
+        new_prompt = prompt + output + answer_prompt
+        #print("second prompt")
+        #print(new_prompt)
         if cot:
             if cot_format == 'kojima':
-                output = test_prompt(model, tokenizer, new_prompt, 10, 1)
-                print("final output")
-                print(output)
-        results_summary = {"prompt": prompt,
-                           "category": analogy_type,
-                           "output": output}
+                reasoning = output
+                output = test_prompt(model, tokenizer, new_prompt, 15, 1)
+                #print("final output")
+                #print(output)
 
         alternatives = []
         if use_alts:
             assert type(row["alternatives"]) == str
             alternatives = row["alternatives"].split(", ")
 
-        answer = output.split("like ")[2 * (n_demos + 1)].split(".")[0]
+        # old answer computation
+        #answer = output.split("like ")[2 * (n_demos + 1)].split(".")[0]
+
+        # Answer ix expected to be in the first 4 generated words
+        answer_split = output.split()[:4]
+
+        # Create a translation table mapping every punctuation to None
+        table = str.maketrans('', '', string.punctuation)
+
+        special_chars = ["</s>, <s>"]
+        answer_list = []
+        for word in answer_split: 
+            word = word.replace('<s>', '').replace('</s>', '')
+            answer_list.append(word.translate(table).lower())
+            
+
+            
+        answer = " ".join(answer_list)
+        #print("final answer")
+        #print(answer)
+        #print("label") 
+        #print(target2)
+
+        results_summary = {"prompt": prompt,
+                           "category": analogy_type,
+                           "reasoning": reasoning,
+                           "answer": answer}
+
+
         eval_summary = evaluate_answer(answer, target2, alternatives)
         results_summary.update(eval_summary)
         results[index] = results_summary
 
+        if timing:
+            end_time = time.time()
+            elapsed_time = end_time - start_time
+            print(f"Loop {index} took {elapsed_time} seconds")
     with open(output_path, "wb") as f:
         pickle.dump(results, f, protocol=pickle.HIGHEST_PROTOCOL)
 
@@ -170,7 +233,7 @@ if __name__ == "__main__":
                            default="results/baseline.pckl")
 
     # model params
-    argParser.add_argument("--model", default="llama7b", choices=['llama7b', 'gptj', 'alpaca-7b'], help="Which model to test", type=str)
+    argParser.add_argument("--model", default="llama7b", choices=['llama7b', 'gptj', 'alpaca-7b', 'llama-7b', 'vicuna-7b'], help="Which model to test", type=str)
     argParser.add_argument("--cfg_ckpt", help="Path to config checkpoint", type=str)
     argParser.add_argument("--weights_ckpt", help="Path to weights checkpoint", type=str)
 
@@ -197,6 +260,7 @@ if __name__ == "__main__":
     argParser.add_argument("--reverse_analogy", help="Use function to analyse difference on reversed prompts on SCAN",
                            action="store_true")
     argParser.add_argument("--debug", help="Debug mode", action="store_true")
+    argParser.add_argument("--timing", help="Print time of each loop iteration", action="store_true")
 
     args = argParser.parse_args()
 
@@ -248,7 +312,8 @@ if __name__ == "__main__":
         'max_tokens': args.max_tokens,
         'use_alts': args.use_alts,
         'reverse_analogy': args.reverse_analogy,
-        'debug': args.debug
+        'debug': args.debug,
+        'timing': args.timing
     }
 
     test_model(args.dataset, args.output,
