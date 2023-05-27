@@ -233,13 +233,13 @@ if __name__ == "__main__":
                            default="results/baseline.pckl")
 
     # model params
-    argParser.add_argument("--model", default="llama7b", choices=['llama7b', 'gptj', 'alpaca-7b', 'llama-7b', 'vicuna-7b'], help="Which model to test", type=str)
+    argParser.add_argument("--model", default="llama7b", choices=['llama7b', 'gptj', 'alpaca-7b', 'llama-7b', 'vicuna-7b', 'llama-13b', 'alpaca-13b', 'vicuna-13b'], help="Which model to test", type=str)
     argParser.add_argument("--cfg_ckpt", help="Path to config checkpoint", type=str)
     argParser.add_argument("--weights_ckpt", help="Path to weights checkpoint", type=str)
 
     # demonstration params
     argParser.add_argument("--add_demos", help="Use demonstrations", action="store_true")
-    argParser.add_argument("--n_demos", default=4, type=int)
+    argParser.add_argument("--n_demos", default=8, type=int)
     argParser.add_argument("--filter_demos", help="Limit demonstrations to same category as query",
                            action="store_true")
 
@@ -255,7 +255,7 @@ if __name__ == "__main__":
     argParser.add_argument("--min_tokens", help="Minimum number of new tokens to generate",
                            type=int, default=3)
     argParser.add_argument("--max_tokens", help="Maximum number of new tokens to generate",
-                           type=int, default=50)
+                           type=int, default=200)
     argParser.add_argument("--use_alts", help="use the alternatives or not", action="store_true")
     argParser.add_argument("--reverse_analogy", help="Use function to analyse difference on reversed prompts on SCAN",
                            action="store_true")
