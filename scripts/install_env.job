@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu_titanrtx_shared_course
+#SBATCH --gres=gpu:0
+#SBATCH --job-name=intall_env
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=01:00:00
+#SBATCH --mem=32000M
+#SBATCH --output=out_cpu_job.out
+
+module load 2022
+module load Anaconda3/2022.05
+conda env create -f env.yml 
+

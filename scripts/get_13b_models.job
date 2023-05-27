@@ -1,0 +1,35 @@
+#!/bin/bash
+
+#SBATCH --partition=gpu_titanrtx_shared_course
+#SBATCH --gres=gpu:0
+#SBATCH --job-name=intall_env
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=06:00:00
+#SBATCH --mem=32000M
+#SBATCH --output=out_cpu_job.out
+
+module load 2022
+module load Anaconda3/2022.05
+source activate 2022_env
+cd models
+git clone https://huggingface.co/Neko-Institute-of-Science/LLaMA-13B-4bit-128g/
+mv LLaMA-13B-4bit-128g llama-13b/
+cd llama-13b
+git-lfs install
+git lfs pull
+
+cd .. 
+git clone https://huggingface.co/anon8231489123/gpt4-x-alpaca-13b-native-4bit-128g/
+mv gpt4-x-alpaca-13b-native-4bit-128g/ alpaca-13b/
+cd alpaca-13b
+git-lfs install
+git lfs pull 
+cd .. 
+
+git clone https://huggingface.co/TheBloke/vicuna-13B-1.1-GPTQ-4bit-128g/
+mv vicuna-13b-1.1-GPTQ-4bit-128g/ vicuna-13b/ 
+cd vicuna-13b/ 
+git-lfs install
+git lfs pull 
+
