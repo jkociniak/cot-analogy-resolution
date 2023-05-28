@@ -72,7 +72,7 @@ def preprocess_prompt(example1, example2, target1, cot, cot_prompt, cot_format):
         return prompt + cot_prompt
 
 
-def add_demonstrations(demos_df, filter_demos, n_demos, category):
+def add_demonstrations(prompt, demos_df, filter_demos, n_demos, category):
     if filter_demos:
         demo_df = demos_df[demos_df["analogy_type"] == category].sample(n=n_demos)
     else:
@@ -83,6 +83,7 @@ def add_demonstrations(demos_df, filter_demos, n_demos, category):
         demo_second = f"then {demo_row['targ_word']} is like {demo_row['src_word']} . \n"
         prompt = demo_first + demo_second + prompt
 
+    return prompt
 
 def evaluate_answer(answer, target, alternatives):
     eval_summary = dict()
@@ -140,7 +141,7 @@ def test_model(data_path, output_path,
         if add_demos:
             assert n_demos > 0
             possible_demos = df[~df.index.isin([index])]
-            add_demonstrations(possible_demos, filter_demos, n_demos, analogy_type)
+            add_demonstrations(prompt, possible_demos, filter_demos, n_demos, analogy_type)
         else:
             n_demos = 0
 
@@ -233,7 +234,7 @@ if __name__ == "__main__":
                            default="results/baseline.pckl")
 
     # model params
-    argParser.add_argument("--model", default="llama7b", choices=['llama7b', 'gptj', 'alpaca-7b', 'llama-7b', 'vicuna-7b', 'llama-13b', 'alpaca-13b', 'vicuna-13b'], help="Which model to test", type=str)
+    argParser.add_argument("--model", default="llama7b", choices=['llama7b', 'gptj', 'alpaca-7b', 'llama-7b', 'vicuna-7b'], help="Which model to test", type=str)
     argParser.add_argument("--cfg_ckpt", help="Path to config checkpoint", type=str)
     argParser.add_argument("--weights_ckpt", help="Path to weights checkpoint", type=str)
 
@@ -255,7 +256,7 @@ if __name__ == "__main__":
     argParser.add_argument("--min_tokens", help="Minimum number of new tokens to generate",
                            type=int, default=3)
     argParser.add_argument("--max_tokens", help="Maximum number of new tokens to generate",
-                           type=int, default=200)
+                           type=int, default=50)
     argParser.add_argument("--use_alts", help="use the alternatives or not", action="store_true")
     argParser.add_argument("--reverse_analogy", help="Use function to analyse difference on reversed prompts on SCAN",
                            action="store_true")
