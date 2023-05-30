@@ -63,20 +63,20 @@ if __name__ == "__main__":
         "no_split": ["LlamaDecoderLayer"]
     }
 
-    start_time = time.time()
+    #start_time = time.time()
     model, tokenizer = load_model(**model_params)
-    end_time = time.time()
-    elapsed_time = end_time - start_time
-    print(f"Loading model took {elapsed_time} seconds")
+    #end_time = time.time()
+    #elapsed_time = end_time - start_time
+    #print(f"Loading model took {elapsed_time} seconds")
 
     prompt = 'If atom is like solar system, then nucleus is like'
-    print(f'Prompt: {prompt}')
+    #print(f'Prompt: {prompt}')
 
-    start_time = time.time()
+    #start_time = time.time()
     output = test_prompt(model, tokenizer, prompt, 3, 200)
-    end_time = time.time()
-    elapsed_time = end_time - start_time
-    print(f"Inference took {elapsed_time} seconds")
+    #end_time = time.time()
+    #elapsed_time = end_time - start_time
+    #print(f"Inference took {elapsed_time} seconds")
 
-    print(f'Output: {output}')
+    #print(f'Output: {output}')
 
