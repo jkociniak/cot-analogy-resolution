@@ -70,7 +70,7 @@ if __name__ == "__main__":
     #print(f"Loading model took {elapsed_time} seconds")
 
     prompt = 'If atom is like solar system, then nucleus is like'
-    #print(f'Prompt: {prompt}')
+    print(f'Prompt: {prompt}')
 
     #start_time = time.time()
     output = test_prompt(model, tokenizer, prompt, 3, 200)
@@ -78,5 +78,5 @@ if __name__ == "__main__":
     #elapsed_time = end_time - start_time
     #print(f"Inference took {elapsed_time} seconds")
 
-    #print(f'Output: {output}')
+    print(f'Output: {output}')
 
