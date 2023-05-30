@@ -10,6 +10,9 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, AutoConfig
 from accelerate import load_checkpoint_and_dispatch, init_empty_weights
 
 
+def print_utf8(x):
+    return print(x.encode("utf-8").decode("utf-8"))
+
 def load_model(cfg_ckpt, weights_ckpt, no_split):
 
     """
@@ -59,7 +62,7 @@ def test_prompt(model, tokenizer, prompt, max_tokens=50, min_tokens=3):
     return decoded_output
 
 
-def preprocess_prompt(example1, example2, target1, cot, cot_prompt, cot_format):
+def preprocess_prompt(example1, example2, target1, cot, cot_prompt, cot_format, add_format_demo):
     default_prompt = f"If {example1} is like {example2}, then {target1} is like"
     if not cot:
         return default_prompt
@@ -68,7 +71,12 @@ def preprocess_prompt(example1, example2, target1, cot, cot_prompt, cot_format):
     if cot_format == 'naive':
         return cot_prompt + default_prompt
     elif cot_format == 'kojima':
-        prompt = f"""Q: If {example1} is like {example2}, then what is {target1} like? \nA: """
+        prompt = f"""Q: If {example1} is like {example2}, then what is {target1} like?"""
+        if add_format_demo:
+            format_demo = '\nNote: The final answer should be given in the format "If (U) is like (V) then (I) is like (J)"'
+            prompt = prompt + format_demo
+        prompt = prompt +  "\nReasoning: "
+
         return prompt + cot_prompt
 
 
@@ -91,9 +99,19 @@ def evaluate_answer(answer, target, alternatives):
     eval_summary["alternatives"] = alternatives
     targets = [target] + alternatives
 
+    # create answer set
+
+    answer_set = []
+    answer_split = answer.split() 
+    for i in range(len(answer_split)):
+        for j in range(i, len(answer_split)):
+            answer_set.append(' '.join(answer_split[i:j+1]))
+
+    print("Answer set")
+    print(answer_set)
     correct = False
     for word in targets:
-        if word in answer:
+        if word in answer_set:
             correct = True
             break
 
@@ -106,7 +124,7 @@ def test_model(data_path, output_path,
                cot=False, cot_prompt="Let's think step by step. \n", cot_format='append',
                add_demos=False, n_demos=4, filter_demos=True,
                min_tokens=3, max_tokens=200, use_alts=True, reverse_analogy=False,
-               debug=False, timing=False):
+               debug=False, timing=False, add_print=False, add_dots=False, add_format_demo=False):
 
     # Load model and dataset
     model, tokenizer = load_model(**model_params)
@@ -135,46 +153,55 @@ def test_model(data_path, output_path,
             example1, example2 = example2, example1
             target1, target2 = target2, target1
 
-        prompt = preprocess_prompt(example1, example2, target1, cot, cot_prompt, cot_format)
+        prompt = preprocess_prompt(example1, example2, target1, cot, cot_prompt, cot_format, add_format_demo)
 
         analogy_type = row["analogy_type"]
         if add_demos:
             assert n_demos > 0
             possible_demos = df[~df.index.isin([index])]
-            add_demonstrations(prompt, possible_demos, filter_demos, n_demos, analogy_type)
+            prompt = add_demonstrations(prompt, possible_demos, filter_demos, n_demos, analogy_type)
         else:
             n_demos = 0
 
 
         # reasoning is not there if no cot
         reasoning = ""
-        #print("input prompt")
-        #print(prompt)
+        if add_print:
+            print_utf8("input prompt")
+            print_utf8(prompt)
         # If not cot we only generate the answer and no reasoning. So max_tokens is set to 10
         if not cot:
             max_tokens=15
 
         output = test_prompt(model, tokenizer, prompt, max_tokens, min_tokens)
-        #print("first output")
-        #print(output)
-        
+        if add_print:
+            print_utf8("first output")
+            print_utf8(output)
+
         #answer_prompt = f".\nTherefore, the answer is: If {example1} is like {example2}, then {target1} is like"
         # Remove the "A:" in the initial prompt and output to distinguish from final answer
-        #prompt = prompt.replace ("A:", "") 
-        #output = output.replace ("A:", "") 
+        #prompt = prompt.replace ("A:", "")
+        #output = output.replace ("A:", "")
 
-        answer_prompt = f".\nTherefore, this is the final answer: If {example1} is like {example2} then {target1} is like "
+        answer_prompt = f".\nTherefore, the final answer is A: If {example1} is like {example2} then {target1} is like "
 
         #new_prompt = output + ".\nTherefore, the answer is: "
+
+        if add_dots:
+            if not output.endswith(".") or output.endswith("\n") or output.endswith("</s>") or output.endswith("<s>"):
+                output = output +"..."
         new_prompt = prompt + output + answer_prompt
-        #print("second prompt")
-        #print(new_prompt)
+
+        if add_print:
+            print_utf8("second prompt")
+            print_utf8(new_prompt)
         if cot:
             if cot_format == 'kojima':
                 reasoning = output
                 output = test_prompt(model, tokenizer, new_prompt, 15, 1)
-                #print("final output")
-                #print(output)
+                if add_print:
+                    print_utf8("final output")
+                    print_utf8(output)
 
         alternatives = []
         if use_alts:
@@ -192,17 +219,18 @@ def test_model(data_path, output_path,
 
         special_chars = ["</s>, <s>"]
         answer_list = []
-        for word in answer_split: 
+        for word in answer_split:
             word = word.replace('<s>', '').replace('</s>', '')
             answer_list.append(word.translate(table).lower())
-            
 
-            
+
+
         answer = " ".join(answer_list)
-        #print("final answer")
-        #print(answer)
-        #print("label") 
-        #print(target2)
+        if add_print:
+            print_utf8("final answer")
+            print_utf8(answer)
+            print_utf8("label")
+            print_utf8(target2)
 
         results_summary = {"prompt": prompt,
                            "category": analogy_type,
@@ -249,7 +277,7 @@ if __name__ == "__main__":
     argParser.add_argument("--cot_prompt", help="Sentence to use to prompt cot",
                            type=str, default="Let's think step by step. \n")
     argParser.add_argument("--cot_format", help="How to join cot prompt with the input prompt",
-                           type=str, choices=['kojima', 'naive'], default='naive')
+                           type=str, choices=['kojima', 'naive'], default='kojima')
 
 
     # other params
@@ -262,6 +290,10 @@ if __name__ == "__main__":
                            action="store_true")
     argParser.add_argument("--debug", help="Debug mode", action="store_true")
     argParser.add_argument("--timing", help="Print time of each loop iteration", action="store_true")
+    argParser.add_argument("--print", help="Add prints for debugging", action="store_true")
+    argParser.add_argument("--add_dots", help="adds '...' to the end of reasoning generated for final answer extraction in cot", action="store_true")
+    argParser.add_argument("--add_format_demo", help="Adds format demonstration in cot question 'If A is like B then C is like D'", action="store_true")
+
 
     args = argParser.parse_args()
 
@@ -314,7 +346,10 @@ if __name__ == "__main__":
         'use_alts': args.use_alts,
         'reverse_analogy': args.reverse_analogy,
         'debug': args.debug,
-        'timing': args.timing
+        'timing': args.timing,
+        'add_print': args.print,
+        'add_dots': args.add_dots,
+        'add_format_demo': args.add_format_demo
     }
 
     test_model(args.dataset, args.output,
