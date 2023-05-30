@@ -53,8 +53,10 @@ def load_model(cfg_ckpt, weights_ckpt, no_split):
 
 
 if __name__ == "__main__":
+    # script needs to be run from root of repo
+
     # LLAMA 13B
-    cfg_ckpt = '~/uva-atcs-project/cot-analogy-resolution/pretrained/llama-13b'
+    cfg_ckpt = 'pretrained/llama-13b'
     model_params = {
         "cfg_ckpt": cfg_ckpt,
         "weights_ckpt": cfg_ckpt,
