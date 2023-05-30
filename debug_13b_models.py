@@ -56,7 +56,7 @@ def load_model(cfg_ckpt, weights_ckpt, no_split):
 
 if __name__ == "__main__":
     # LLAMA 13B
-    cfg_ckpt = '/home/lcur1680/uva-atcs-project/cot-analogy-resolution/pretrained/7B'
+    cfg_ckpt = '/home/lcur1680/uva-atcs-project/cot-analogy-resolution/pretrained/llama-13b/LLaMA-13B-4bit-128g'
     model_params = {
         "cfg_ckpt": cfg_ckpt,
         "weights_ckpt": cfg_ckpt,
