@@ -1,10 +1,12 @@
 import time
+import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, AutoConfig
 from accelerate import load_checkpoint_and_dispatch, init_empty_weights
 
 
 def test_prompt(model, tokenizer, prompt, max_tokens=50, min_tokens=3):
     # Move prompt to gpu
+    print(f'Cuda available: {torch.cuda.is_available()}')
     input = tokenizer(prompt, return_tensors="pt").to(0)
 
     # Get the length of the input tensor (how many tokens are in the prompt)
@@ -53,8 +55,6 @@ def load_model(cfg_ckpt, weights_ckpt, no_split):
 
 
 if __name__ == "__main__":
-    # script needs to be run from root of repo
-
     # LLAMA 13B
     cfg_ckpt = '/home/lcur1680/uva-atcs-project/cot-analogy-resolution/pretrained/7B'
     model_params = {
