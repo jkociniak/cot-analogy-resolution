@@ -107,8 +107,8 @@ def evaluate_answer(answer, target, alternatives):
         for j in range(i, len(answer_split)):
             answer_set.append(' '.join(answer_split[i:j+1]))
 
-    print("Answer set")
-    print(answer_set)
+    #print("Answer set")
+    #print(answer_set)
     correct = False
     for word in targets:
         if word in answer_set:
