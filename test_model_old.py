@@ -141,7 +141,7 @@ def test_model(data_path, output_path,
         if add_demos:
             assert n_demos > 0
             possible_demos = df[~df.index.isin([index])]
-            add_demonstrations(prompt, possible_demos, filter_demos, n_demos, analogy_type)
+            prompt = add_demonstrations(prompt, possible_demos, filter_demos, n_demos, analogy_type)
         else:
             n_demos = 0
 
